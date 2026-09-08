@@ -1,0 +1,17 @@
+# This folder is the site at https://pykapp.github.io/. It is not built from
+# here: .github/workflows/pages.yml copies it into pykapp/pykapp.github.io on
+# every merge to main, and GitHub Pages builds that repository's root. The
+# three policy documents are the site; the store copy beside them is not
+# published.
+title: people you know
+description: Private photo sharing with the people you actually know.
+theme: minima
+exclude:
+  - store
+  - README.md
+minima:
+  skin: classic
+header_pages:
+  - policies/terms.md
+  - policies/privacy.md
+  - policies/moderation.md
