@@ -3,8 +3,6 @@ title: Terms of use
 permalink: /terms/
 ---
 
-# Terms of use
-
 *people you know* is a private photo-sharing app. These are the terms for
 using it during the closed beta. They are short on purpose.
 

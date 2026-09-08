@@ -3,8 +3,6 @@ title: Privacy policy
 permalink: /privacy/
 ---
 
-# Privacy policy
-
 *people you know* is a private photo-sharing app for the people you actually
 know. This page says what we hold about you, what we cannot see, and what
 happens when you leave. It is written to be read, not skimmed; it is short

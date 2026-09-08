@@ -3,8 +3,6 @@ title: Moderation policy
 permalink: /moderation/
 ---
 
-# Moderation policy
-
 *people you know* is end-to-end encrypted. This page says what that means
 for moderation, plainly, because it is not what most apps mean.
 
