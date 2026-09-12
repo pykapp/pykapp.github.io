@@ -109,7 +109,8 @@ more than any other way of sending a photo can.
 ## Deleting your account
 
 *settings → delete my account*. Deleting is immediate and it is not
-reversible:
+reversible. If you no longer have the app, [this page](/delete-account/) is how
+to ask without it:
 
 - every key that let anybody open your posts is destroyed at once, and so are
   the keys that let you open theirs;

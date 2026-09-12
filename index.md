@@ -10,3 +10,4 @@ and names are encrypted on your phone with keys we never hold.
 - [Terms of use](terms/)
 - [Privacy policy](privacy/)
 - [Moderation policy](moderation/)
+- [Deleting your account](delete-account/)
