@@ -1,8 +1,9 @@
 # This folder is the site at https://pykapp.github.io/. It is not built from
 # here: .github/workflows/pages.yml copies it into pykapp/pykapp.github.io on
 # every merge to main, and GitHub Pages builds that repository's root. The
-# three policy documents are the site; the store copy beside them is not
-# published.
+# three policy documents and the guide under guide/ are the site; the store copy
+# beside them is not published. Adding a page here publishes it, which is what
+# scripts/site-links-resolve.sh is for.
 title: people you know
 description: Private photo sharing with the people you actually know.
 theme: minima
@@ -12,6 +13,7 @@ exclude:
 minima:
   skin: classic
 header_pages:
+  - guide/index.md
   - policies/terms.md
   - policies/privacy.md
   - policies/moderation.md

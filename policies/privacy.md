@@ -51,8 +51,8 @@ To deliver a photo to the right people we hold, in the clear:
   we have to be able to read it;
 - the text of any bug report you send, and the one line shown to you before
   you send it: the version of the app, the version of Android and the model
-  of your phone. Nothing else goes with it—no screenshot, no log, no file—
-  and the app has no way to attach one;
+  of your phone. Nothing else goes with it—no screenshot, no log, no
+  file—and the app has no way to attach one;
 - push tokens for phones you have signed in on;
 - the moment you confirmed you were 18 or older (never your date of birth);
 - counts of what your phone could and could not open, added to a total the
