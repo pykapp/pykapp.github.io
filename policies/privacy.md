@@ -8,7 +8,7 @@ know. This page says what we hold about you, what we cannot see, and what
 happens when you leave. It is written to be read, not skimmed; it is short
 because there is not much to say.
 
-**Last updated:** 7 September 2026. This policy covers the closed beta.
+**Last updated:** 8 September 2026. This policy covers the closed beta.
 
 ## The one-sentence version
 
@@ -49,13 +49,20 @@ To deliver a photo to the right people we hold, in the clear:
   single emoji from a known set cannot be meaningfully encrypted;
 - the text of any report you file, because a report is a message to us and
   we have to be able to read it;
+- the text of any bug report you send, and the one line shown to you before
+  you send it: the version of the app, the version of Android and the model
+  of your phone. Nothing else goes with it—no screenshot, no log, no file—
+  and the app has no way to attach one;
 - push tokens for phones you have signed in on;
-- the moment you confirmed you were 18 or older (never your date of birth).
+- the moment you confirmed you were 18 or older (never your date of birth);
+- counts of what your phone could and could not open, added to a total the
+  moment they arrive and not kept against your account.
 
 This is the honest boundary of the claim. It is metadata, and metadata
 reveals who talks to whom. We keep it because the app cannot work without it,
 we keep as little of it as we can, and we keep our access logs for 30 days
-and no longer.
+and no longer. Those logs record which kind of request was made and when, and
+not who made it: no address of yours, no identifier, no page you asked for.
 
 ## Who else sees anything
 
@@ -77,9 +84,17 @@ more than any other way of sending a photo can.
 - We do not scan content, because we cannot see it.
 - We do not send you engagement notifications: there is no "you haven't
   posted in a while", no digest, no streak.
-- We do not collect analytics about what you look at. Crash reports, if you
-  turn them on, are scrubbed of content and keys before they leave your
-  phone.
+- We do not collect analytics about what you look at, and the app contains
+  no crash-reporting or analytics library. If your phone is set to share
+  usage and diagnostics with Google, Google tells us that the app crashed
+  and where in our code; that report is Google's and contains none of your
+  content.
+- Your phone tells us how many photographs, captions, comments and album
+  names it could or could not open since it last told us, and which version
+  of the app and of Android it runs. Never which ones, and never whose. This
+  is how we find out that something is broken before you would think to
+  write to us, and it is on for everybody because it carries nothing that
+  could be turned off.
 
 ## Third parties we use
 
@@ -88,7 +103,8 @@ more than any other way of sending a photo can.
 - **Push notifications**, through Google's Firebase Cloud Messaging, when you
   allow them. A push carries a type and nothing else: no names, no captions,
   no post identifiers.
-- **Email or SMS** to send you a one-time sign-in code.
+- **Email** to send you a one-time sign-in code. The provider sees the
+  address and the code, and nothing else about you.
 
 ## Deleting your account
 
