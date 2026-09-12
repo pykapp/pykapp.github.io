@@ -37,7 +37,7 @@ this is deliberate: there is no copy that is ours to hand back.
 
 To deliver a photo to the right people we hold, in the clear:
 
-- your handle, and the email address or phone number you signed up with;
+- your handle, and the email address you signed up with;
 - who you are connected to, and when you connected;
 - add requests you send and receive, and blocks you place;
 - which of your groups a person is in (never shown to that person);
@@ -67,10 +67,10 @@ not who made it: no address of yours, no identifier, no page you asked for.
 ## Who else sees anything
 
 Nobody, unless you share it with them. Only people you have both agreed to
-connect with can see what you post, and only the people you address a post to
-receive it. There is no public profile, no search by name, no suggestions,
-and no way for a stranger to find you unless they already know your exact
-handle, email address or phone number, and you have allowed requests from
+connect with can see what you post, and only the people you address a post
+to receive it. There is no public profile, no search by name, no
+suggestions, and no way for a stranger to find you unless they already know
+your exact handle or email address, and you have allowed requests from
 people with no mutual in common.
 
 What you share with someone, they can keep. The app does not stop screenshots
@@ -119,7 +119,7 @@ to ask without it:
 - albums you made are closed, and the people in them keep what they already
   had from each other;
 - every phone you were signed in on is signed out;
-- your handle and your email address or phone number are freed.
+- your handle and your email address are freed.
 
 Eight days later the encrypted files are removed from storage. Those eight
 days are not an undo: the keys were destroyed at the tap and nothing can
