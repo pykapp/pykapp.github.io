@@ -1,6 +1,7 @@
 ---
 title: people you know
 permalink: /
+layout: home-doc
 ---
 
 *people you know* is a private photo-sharing app for the people you actually

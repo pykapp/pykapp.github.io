@@ -1,0 +1,65 @@
+---
+layout: null
+permalink: /sitemap.xml
+---
+{%- comment -%}
+  hreflang lives here rather than in <head>, because reaching <head> means
+  shadowing minima's `_includes/head.html`: a frozen copy of somebody else's
+  eleven lines, with no test, that misses every later change to the original.
+  Google documents the sitemap form as equivalent to the head tags, and a
+  chained layout cannot reach <head> anyway—its output lands in `{{ content }}`,
+  which is inside <body>.
+
+  RECIPROCITY IS BY CONSTRUCTION, which is the whole reason the family is
+  derived from the path rather than declared per page. Google's rule is blunt:
+  if two pages do not both point at each other the annotations are ignored,
+  silently, with nothing in a Jekyll build or a Pages build status able to see
+  it. Every member of a family computes the identical list, itself included, so
+  an asymmetric annotation is unsayable here. The anti-pattern is a per-page
+  list of translations: six hand-maintained links at three languages and ninety
+  at ten, any one of which voids the cluster.
+
+  `layout: null` in front matter beats the `layout: doc` default, which is what
+  keeps HTML off an XML file. `absolute_url` and `xml_escape` are core Jekyll
+  filters, not plugin-provided, so they survive Pages' safe mode; they need the
+  `url` and `baseurl` that _config.yml now sets.
+{%- endcomment -%}
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+{%- for p in site.pages -%}
+{%- unless p.url contains '.xml' or p.url contains '.txt' %}
+  <url>
+    <loc>{{ p.url | absolute_url | xml_escape }}</loc>
+{%- assign stem = p.path -%}
+{%- for l in site.languages -%}
+  {%- if l.code == p.lang and l.dir != "" -%}
+    {%- assign under = l.dir | append: "/" -%}
+    {%- assign stem = p.path | remove_first: under -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign family = 0 -%}
+{%- for l in site.languages -%}
+  {%- if l.dir == "" -%}{%- assign want = stem -%}
+  {%- else -%}{%- assign want = l.dir | append: "/" | append: stem -%}{%- endif -%}
+  {%- assign v = site.pages | where: "path", want | first -%}
+  {%- if v -%}{%- assign family = family | plus: 1 -%}{%- endif -%}
+{%- endfor -%}
+{%- if family > 1 -%}
+{%- for l in site.languages -%}
+  {%- if l.dir == "" -%}{%- assign want = stem -%}
+  {%- else -%}{%- assign want = l.dir | append: "/" | append: stem -%}{%- endif -%}
+  {%- assign v = site.pages | where: "path", want | first -%}
+  {%- if v %}
+    <xhtml:link rel="alternate" hreflang="{{ l.code }}" href="{{ v.url | absolute_url | xml_escape }}"/>
+  {%- endif -%}
+{%- endfor -%}
+{%- assign x = site.pages | where: "path", stem | first -%}
+{%- if x %}
+    <xhtml:link rel="alternate" hreflang="x-default" href="{{ x.url | absolute_url | xml_escape }}"/>
+{%- endif -%}
+{%- endif %}
+  </url>
+{%- endunless -%}
+{%- endfor %}
+</urlset>

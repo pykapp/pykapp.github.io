@@ -61,10 +61,10 @@ nothing, because your request is already on its way to them.
 
 ## Finding somebody
 
-By exact handle, exact email address or exact phone number, and no other way.
-The field's label is *handle, email or phone*, the line under it reads *Search
-finds people by their exact handle, email or phone.*, and at most one person
-comes back. A partial handle finds nobody. So does a near miss.
+By exact handle or exact email address, and no other way. The field's label is
+*handle or email*, the line under it reads *Search finds people by their exact
+handle or email.*, and at most one person comes back. A partial handle finds
+nobody. So does a near miss.
 
 There is no directory to page through, no suggestions, no "people you may
 know", no friend-of-friend list, no ranked near-matches and no browsing of any
@@ -93,8 +93,11 @@ your handle*. The old one is not held for you: people who knew it will not
 find you afterwards, and somebody else may take it.
 
 Sign-in codes go to an email address at the moment, because we can send an
-email and cannot yet send a text message. Searching by phone number still
-works—finding somebody and being sent a code were never the same question.
+email and cannot yet send a text message. Search lost that address at the same
+moment, and for one reason rather than two: an account only ever came to hold a
+number by verifying one at signup, and a signup can no longer reach one. No row
+holds one, so the field was offering a key that could never match and charging
+a search attempt for the miss.
 
 ## Asking to add somebody
 

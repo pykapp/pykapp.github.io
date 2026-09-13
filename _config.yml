@@ -4,14 +4,127 @@
 # three policy documents and the guide under guide/ are the site; the store copy
 # beside them is not published. Adding a page here publishes it, which is what
 # scripts/site-links-resolve.sh is for.
+#
+# It speaks the languages the app speaks, which is not a courtesy: the app has
+# had a language row since the seventh interlude after M12, and a French phone
+# that follows `Links.TERMS` has always landed on English. The set is the app's
+# and is held to it by scripts/site-speaks-what-the-app-speaks.sh, because two
+# lists of languages in two trees drift the first time one of them grows.
 title: people you know
 description: Private photo sharing with the people you actually know.
 theme: minima
+
+# English by a decision of this repository rather than by minima's last resort.
+# There was no `lang` key here until the site learned a second language, so all
+# fourteen pages were served `lang="en"` out of the theme's own default
+# (`_layouts/default.html`: `page.lang | default: site.lang | default: "en"`),
+# which is the feed tabs being Material's purple one surface over—correct, and
+# nobody's choice. `url` and `baseurl` are here because hreflang needs absolute
+# addresses and `absolute_url` reads them; nothing else on the site did.
+lang: en
+url: https://pykapp.github.io
+baseurl: ""
+
+# One entry adds a language, and nothing else on the site is edited to add one.
+#
+# `code` is the BCP-47 primary subtag and is the app's: `Spoken.subtag` in
+# shared/.../usecases/Language.kt is the oracle, and CI compares them, because
+# `code` is the only field here a browser, a screen reader or a crawler reads.
+# `spoken` names the `Spoken` case, which is what makes that comparison a set
+# check in both directions. `name` is the word the app's own dialog uses, in
+# that language and never translated (§14): `English` keeps its capital because
+# it is a proper noun in English, `français` does not because it is not one in
+# French, and the ground for the rule is reachability—somebody who reads only
+# French has to find their language on a page they cannot otherwise read.
+# `incise` is the dash that language sets an aside with, and the two differ.
+# English closes an em dash against the words (CLAUDE.md: word—word, never
+# word — word). French sets a demi-cadratin with ordinary spaces either side,
+# which is the commonest modern French incise and is a DIFFERENT CHARACTER, so
+# the em dash rule is untouched rather than excepted. Each page is held to its
+# own language's dash and to no other's, which is what catches the English
+# habit being carried into French prose by somebody translating quickly.
+# `label` is that row's name for a screen reader, in that language for the same
+# reason `name` is: a hard-coded English `aria-label` on a French page is the
+# one word on it nobody translated. `dir` is the URL prefix, empty for the language that holds the root. English
+# holds it for Language.kt's own reason: it is the fallback rather than a
+# preference, so it is the one that is certainly complete—and `Links.TERMS` is
+# compiled into every binary ever shipped, so moving English under a prefix
+# would strand them while `/fr/` strands nothing. `complete` says whether the
+# translation is finished; false permits any subset, and flipping it to true is
+# the one line that turns the mirror check on.
+languages:
+  - code: en
+    spoken: English
+    name: English
+    label: language
+    incise: "—"
+    dir: ""
+    complete: true
+  - code: fr
+    spoken: French
+    name: français
+    label: langue
+    incise: "–"
+    dir: fr
+    complete: true
+
+# THE SCOPE IS MATCHED AGAINST THE SOURCE PATH, which is worth writing down
+# because `Page#dir` is the URL directory and reads like the answer. It is not
+# the one used: `Page#initialize` sets `data.default_proc` to
+# `frontmatter_defaults.find(relative_path, ...)`, and `relative_path` is
+# `join(@dir, @name)` over the @dir the page was CONSTRUCTED with, which is
+# where the file lives. So `path: "fr"` catches docs/fr/index.md because of the
+# directory it is in, and a page's language follows the folder rather than the
+# address. (Read out of jekyll/page.rb and frontmatter_defaults.rb at v4.3.3;
+# no Jekyll runs in this repository, so it is sourced rather than observed.)
+#
+# The sharp consequence, and what site-links-resolve.sh guards: a French page
+# that lives OUTSIDE docs/fr/ while being published under /fr/ renders
+# `lang="en"` with a French address, green all the way. The rule that the
+# directory and the permalink agree is what makes the folder and the URL say
+# the same thing.
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: doc
+      lang: en
+  - scope:
+      path: "fr"
+    values:
+      lang: fr
+
+# Documents that exist in the default language and in no other, because they are
+# DRAFTED rather than translated: a policy is a legal document whose wording is
+# the thing that binds. CI asserts each exists in the default language AND IN NO
+# OTHER, since nothing goes red on its own when somebody publishes an unreviewed
+# translation of a document people agree to.
+#
+# The list is empty, and that is a decision rather than an oversight. All four
+# documents exist in both languages, and neither version calls itself a
+# courtesy: the terms say plainly that the French is the version binding a
+# consumer in Québec, which is what Québec's French-first rule for a contract of
+# adhesion requires, and `Links` in the app resolves to the French document when
+# the app is in French so that the version that binds is the one remitted.
+#
+# What that costs is on the open register and not hidden here: the French was
+# TRANSLATED and not DRAFTED, so the text binding a Québec consumer was written
+# by somebody without a licence. One review before release covers both
+# languages, which is why it sits with the LLC rather than after launch.
+drafted_not_translated:
 exclude:
   - store
   - README.md
 minima:
   skin: classic
+# Minima renders ONE masthead for the whole site, so these five English entries
+# are the nav on a French page too. That is a real cost and it is the least bad
+# of three: `[]` makes minima list every page on the site in every language,
+# because Liquid's `default` filter fires on anything answering `empty?` and
+# header.html falls back to `site.pages | map: "path"`; and the only clean fix
+# is shadowing `_includes/header.html`, a frozen copy of somebody else's file
+# with no test, which is refused here for the reason head.html is. Named in
+# design/90-decisions-on-record/1670 rather than hidden.
 header_pages:
   - guide/index.md
   - policies/terms.md

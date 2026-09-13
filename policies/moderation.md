@@ -6,7 +6,7 @@ permalink: /moderation/
 *people you know* is end-to-end encrypted. This page says what that means
 for moderation, plainly, because it is not what most apps mean.
 
-**Last updated:** 7 September 2026.
+**Last updated:** 13 September 2026.
 
 ## What we cannot do
 

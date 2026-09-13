@@ -1,0 +1,61 @@
+{%- comment -%}
+  The language row: the language names, and nothing else.
+
+  Above the prose for §14's own reason one surface over—somebody who reads only
+  French has to be able to find their language on a page they cannot otherwise
+  read—and each name is written in its own language and never translated, which
+  is why the control itself never needs translating. Only re-linking.
+
+  No label, no separator glyph, no arrow. A label is a word that would itself
+  have to be translated, and §14's rule is that a supporting line appears where
+  a label does not say enough and nowhere else.
+
+  THE FAMILY IS DERIVED FROM THE PATH, never from a front-matter key:
+  `fr/guide/people.md` minus its language directory IS `guide/people.md`, so
+  there is nothing per page to forget. A shared key was the alternative and is
+  the documented Liquid trap—`where: "tr"` with `page.tr` undefined matches
+  every page whose key is also undefined, so one omission makes every
+  untranslated page a translation of every other and nothing goes red.
+
+  `remove_first` strips the first occurrence anywhere rather than a prefix, so
+  `guide/fr/x.md` would be mangled. scripts/site-links-resolve.sh refuses a
+  language directory anywhere but the top of the tree, which is what makes this
+  exact rather than lucky.
+
+  THE LOOP IS OVER `site.languages` AND NOT OVER THE FAMILY, so a language can
+  never silently fall off the row. A document that has no version in a language
+  keeps its name and links to THAT LANGUAGE'S HOME, carrying no `hreflang`
+  because it is not an alternate of this document. That arm is what scales: a
+  sentence per absent language would be three sentences above the terms of use
+  at four languages and nine at ten, permanently, because the four drafted
+  documents will never leave that state. The inventory is said once per
+  language, on that language's own home page, in that language.
+{%- endcomment -%}
+{%- assign stem = page.path -%}
+{%- for l in site.languages -%}
+  {%- if l.code == page.lang and l.dir != "" -%}
+    {%- assign under = l.dir | append: "/" -%}
+    {%- assign stem = page.path | remove_first: under -%}
+  {%- endif -%}
+  {%- if l.code == page.lang -%}{%- assign here = l -%}{%- endif -%}
+{%- endfor -%}
+<nav class="languages" aria-label="{{ here.label }}" lang="{{ here.code }}">
+  {%- for l in site.languages -%}
+    {%- if l.dir == "" -%}
+      {%- assign want = stem -%}
+      {%- assign home_path = "index.md" -%}
+    {%- else -%}
+      {%- assign want = l.dir | append: "/" | append: stem -%}
+      {%- assign home_path = l.dir | append: "/index.md" -%}
+    {%- endif -%}
+    {%- assign version = site.pages | where: "path", want | first -%}
+    {%- if l.code == page.lang -%}
+      <span lang="{{ l.code }}" aria-current="page">{{ l.name }}</span>
+    {%- elsif version -%}
+      <a lang="{{ l.code }}" hreflang="{{ l.code }}" href="{{ version.url | relative_url }}">{{ l.name }}</a>
+    {%- else -%}
+      {%- assign home = site.pages | where: "path", home_path | first -%}
+      <a lang="{{ l.code }}" href="{{ home.url | relative_url }}">{{ l.name }}</a>
+    {%- endif -%}
+  {%- endfor -%}
+</nav>

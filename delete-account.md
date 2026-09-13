@@ -8,7 +8,7 @@ than only a screen in the app because you may not have the app any more: an
 uninstalled app, a lost phone or an address you can no longer read are all
 reasons to be asking, and none of them should stand in the way.
 
-**Last updated:** 12 September 2026. This page covers the closed beta.
+**Last updated:** 13 September 2026. This page covers the closed beta.
 
 ## In the app
 

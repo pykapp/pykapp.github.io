@@ -8,7 +8,17 @@ know. This page says what we hold about you, what we cannot see, and what
 happens when you leave. It is written to be read, not skimmed; it is short
 because there is not much to say.
 
-**Last updated:** 8 September 2026. This policy covers the closed beta.
+**Last updated:** 13 September 2026. This policy covers the closed beta.
+
+## Who is responsible, and where this applies
+
+We decide what is collected and why, which makes us responsible for it, and the
+way to reach us about anything on this page is **pykapp+privacy@proton.me**.
+
+The app is offered in the United States and in Canada. Canadian federal privacy
+law (PIPEDA) and, for people in Québec, Québec's Law 25 apply to what we do with
+your information, alongside the law of the US state you live in if you live in
+one.
 
 ## The one-sentence version
 
@@ -63,6 +73,67 @@ reveals who talks to whom. We keep it because the app cannot work without it,
 we keep as little of it as we can, and we keep our access logs for 30 days
 and no longer. Those logs record which kind of request was made and when, and
 not who made it: no address of yours, no identifier, no page you asked for.
+
+## Where it is held, and for how long
+
+Our servers and our database are in the United States, and the encrypted files
+are in object storage run by a provider that holds ciphertext and never a key.
+
+**If you are in Canada, your information is held outside Canada**, and while it
+is there it is subject to United States law, including lawful requests by US
+authorities. We are telling you because Québec's Law 25 requires it and because
+it is the kind of thing you should be able to find out without asking. What such
+a request could reach is what this page already says we hold: the encrypted
+files, which we cannot open, and the metadata. There is no key of yours anywhere
+for anybody to compel out of us, which is the point of the whole arrangement
+rather than a happy accident.
+
+We keep what is above for as long as your account exists, and then:
+
+- when you delete your account, the keys go at once and the encrypted files
+  leave storage eight days later;
+- access logs are kept 30 days;
+- the counts your phone sends are added to a total on arrival and are never
+  stored against your account, so there is nothing to keep;
+- one-time sign-in codes and the record of a search are swept once they can no
+  longer change any decision, which is the window each is rate-limited over;
+- after deletion we keep only the record described under *Deleting your
+  account* below.
+
+## What you can ask for
+
+- **See it.** *settings → export my data* writes your posts, captions,
+  comments and the handles of your connections to your phone, decrypted there
+  because we hold nothing readable to give you. If you no longer have the
+  phone, write to us and we will send what we hold within 30 days.
+- **Correct it.** Your handle and your display name are yours to change in the
+  app. There is very little else we hold that you could correct, because we
+  hold very little.
+- **Delete it.** *settings → delete my account*, or [this
+  page](/delete-account/) if you cannot reach the app. Immediate, and not
+  reversible.
+- **Take it elsewhere.** Ask and we will send what we hold in a structured,
+  commonly used machine-readable format. The export above already is one.
+- **Complain.** Write to us first. If you are not satisfied: in Canada, the
+  Office of the Privacy Commissioner of Canada, and in Québec the Commission
+  d'accès à l'information du Québec; in the United States, your state attorney
+  general.
+
+We do not charge for any of this, we will not make you justify asking, and we
+answer within 30 days.
+
+## If something goes wrong
+
+If personal information we hold is lost or reaches somebody it should not, and
+there is a real risk of serious harm to you, we will tell you and the regulators
+that have to be told, promptly and in plain words: what happened, what it
+reached, and what you can do. We will keep a record of such incidents whether or
+not they reach that bar, because Québec's Law 25 requires one and because an
+incident nobody wrote down is one nobody learns from.
+
+What we cannot do is tell you that your photographs were read, because they
+cannot be: what an attacker who took everything we have would hold is
+ciphertext and the metadata this page lists.
 
 ## Who else sees anything
 

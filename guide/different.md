@@ -253,11 +253,10 @@ from you. [Connecting with people](/how-it-works/people/).
 
 ## Search is exact, and it is rationed
 
-Type three letters and you get nothing. Search takes a whole handle, a whole
-email address or a whole phone number, and returns at most one person. There
-are no near matches, no suggestions and no "people you may know", and the
-field says so under it: *Search finds people by their exact handle, email or
-phone.*
+Type three letters and you get nothing. Search takes a whole handle or a whole
+email address, and returns at most one person. There are no near matches, no
+suggestions and no "people you may know", and the field says so under it:
+*Search finds people by their exact handle or email.*
 
 It is also limited to 32 tries an hour, counted whether or not they find
 anybody, because a surface on which strangers can be discovered is a surface
@@ -409,10 +408,10 @@ say the same thing in fewer words.
 
 The app is Android only: there is no iPhone app, no web version and no desktop
 version, so there is nothing to sign into in a browser. It takes photographs,
-and not video. Signing in is by email address, and codes go there; you can
-still find somebody by their phone number, because finding somebody and being
-sent a code were never the same question. Invitations are issued by hand
-during the closed beta, so there is no invite link to send anybody.
+and not video. Signing in is by email address, and codes go there; search no
+longer takes a number either, because an account cannot come to hold one for it
+to match. Invitations are issued by hand during the closed beta, so there is no
+invite link to send anybody.
 
 If something here is not what you expected, [how it works](/how-it-works/) has
 the longer version of each of these.
