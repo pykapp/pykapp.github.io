@@ -201,12 +201,16 @@ phone cannot name renders as the plain word *someone* and goes nowhere. In an
 have no connection to, because the album's membership is the audience: the row
 names them, and the name is not a link, because there is no profile behind it.
 
-A row in the feed always opens its photographs at the first one, including
-when it scrolls out of view and back: a row that came back on the second could
-never satisfy the seen rule, and the post would sit in your queue for ever.
-The post screen behaves differently: a post you open resumes at the photograph
-you were last looking at. Tapping a particular photograph in the feed beats
-both and opens the post at that one.
+A post always opens at its first photograph, wherever you open it from—a feed
+row, your archive, somebody's profile, an album, the activity tab. A feed row
+does this even when it scrolls out of view and comes back: a row that came back
+on the second photograph could never satisfy the seen rule, and the post would
+sit in your queue for ever.
+
+The one thing that changes where a post opens is tapping a particular
+photograph in the feed, which opens the post at that one. That is not the app
+remembering anything; it is the photograph that was under your thumb a moment
+earlier. Nothing records which photographs you looked at.
 
 ## The activity tab
 

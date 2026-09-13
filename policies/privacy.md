@@ -50,8 +50,8 @@ To deliver a photo to the right people we hold, in the clear:
 - the text of any report you file, because a report is a message to us and
   we have to be able to read it;
 - the text of any bug report you send, and the one line shown to you before
-  you send it: the version of the app, the version of Android and the model
-  of your phone. Nothing else goes with it—no screenshot, no log, no
+  you send it: the version of the app, the version of Android or iOS and the
+  model of your phone. Nothing else goes with it—no screenshot, no log, no
   file—and the app has no way to attach one;
 - push tokens for phones you have signed in on;
 - the moment you confirmed you were 18 or older (never your date of birth);
@@ -86,12 +86,12 @@ more than any other way of sending a photo can.
   posted in a while", no digest, no streak.
 - We do not collect analytics about what you look at, and the app contains
   no crash-reporting or analytics library. If your phone is set to share
-  usage and diagnostics with Google, Google tells us that the app crashed
-  and where in our code; that report is Google's and contains none of your
-  content.
+  usage and diagnostics with Google or Apple, they tell us that the app
+  crashed and where in our code; that report is theirs and contains none of
+  your content.
 - Your phone tells us how many photographs, captions, comments and album
   names it could or could not open since it last told us, and which version
-  of the app and of Android it runs. Never which ones, and never whose. This
+  of the app and of Android or iOS it runs. Never which ones, and never whose. This
   is how we find out that something is broken before you would think to
   write to us, and it is on for everybody because it carries nothing that
   could be turned off.
@@ -100,9 +100,10 @@ more than any other way of sending a photo can.
 
 - **Object storage** for the encrypted files. The provider holds ciphertext
   and never a key.
-- **Push notifications**, through Google's Firebase Cloud Messaging, when you
-  allow them. A push carries a type and nothing else: no names, no captions,
-  no post identifiers.
+- **Push notifications**, through Google's Firebase Cloud Messaging on
+  Android and Apple's Push Notification service on iPhone, when you allow
+  them. A push carries a type and nothing else: no names, no captions, no
+  post identifiers; the words you see are written by your phone.
 - **Email** to send you a one-time sign-in code. The provider sees the
   address and the code, and nothing else about you.
 
