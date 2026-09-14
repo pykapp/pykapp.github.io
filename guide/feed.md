@@ -169,6 +169,19 @@ of the queue as new, and your activity tab says who put it there.
 every feed at once, and disconnecting from somebody empties your feed of their
 posts, because what goes is the key rather than a permission.
 
+**Anybody you have muted.** A mute is a switch on somebody's profile and it
+does exactly one thing: their posts stop arriving here, and stop being counted
+on your tabs. Nothing is taken away—every photograph they have sent you is
+still on their profile, and turning the switch off puts the queue back,
+including whatever arrived while it was on. It is the one thing on this page
+that hides a post rather than removing it, and it is yours alone: they are
+never told. See [connecting with people](/how-it-works/people/).
+
+Muting somebody rebuilds the queue the next time you look at it, exactly as
+pulling the feed down does. That is deliberate: the first thing anybody does
+after muting is check, and finding the feed exactly as it was would read as
+the switch having done nothing.
+
 ## What a row shows
 
 A row is the author's picture and name, the date it was posted, the

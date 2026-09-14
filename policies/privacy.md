@@ -49,7 +49,9 @@ To deliver a photo to the right people we hold, in the clear:
 
 - your handle, and the email address you signed up with;
 - who you are connected to, and when you connected;
-- add requests you send and receive, and blocks you place;
+- add requests you send and receive, blocks you place, and anybody whose
+  posts you have muted (a mute is yours alone; the other person is never
+  told);
 - which of your groups a person is in (never shown to that person);
 - who is in each album you are in;
 - for every post: who made it, when, who it was addressed to, how many

@@ -189,6 +189,21 @@ quitte tous les accueils d'un coup, et rompre une relation vide votre accueil
 des publications de cette personne, parce que ce qui part est la clé plutôt
 qu'une permission.
 
+**Toute personne que vous avez masquée.** Masquer est un interrupteur sur le
+profil de quelqu'un et cela fait exactement une chose&#160;: ses publications
+cessent d'arriver ici, et cessent d'être comptées sur vos onglets. Rien n'est
+enlevé – chaque photo qu'elle vous a envoyée est toujours sur son profil, et
+désactiver l'interrupteur remet la file en place, y compris ce qui est arrivé
+pendant. C'est la seule chose sur cette page qui cache une publication au lieu
+de la reprendre, et elle n'appartient qu'à vous&#160;: la personne n'en est
+jamais informée. Voir
+[entrer en relation](/fr/ajouter-des-relations/).
+
+Masquer quelqu'un reconstruit la file la prochaine fois que vous la regardez,
+exactement comme tirer l'accueil vers le bas. C'est voulu&#160;: la première
+chose que l'on fait après avoir masqué quelqu'un, c'est vérifier, et retrouver
+l'accueil tel quel donnerait l'impression que l'interrupteur n'a rien fait.
+
 ## Ce qu'une ligne montre
 
 Une ligne, c'est la photo et le nom de l'auteur, la date de publication, les

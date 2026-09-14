@@ -61,8 +61,9 @@ Pour livrer une photo aux bonnes personnes, nous détenons, en clair&#160;:
 - votre pseudo, et l'adresse de courriel avec laquelle vous vous êtes
   inscrit&#160;;
 - avec qui vous êtes en relation, et depuis quand&#160;;
-- les demandes d'ajout que vous envoyez et recevez, et les blocages que vous
-  posez&#160;;
+- les demandes d'ajout que vous envoyez et recevez, les blocages que vous
+  posez, et toute personne dont vous avez masqué les publications (un masquage
+  n'appartient qu'à vous&#160;; la personne n'en est jamais informée)&#160;;
 - dans lesquels de vos groupes une personne se trouve (jamais montré à cette
   personne)&#160;;
 - qui est dans chaque album où vous êtes&#160;;

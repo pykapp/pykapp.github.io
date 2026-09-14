@@ -326,6 +326,64 @@ dire&#160;: *Cette personne ne peut pas avoir plus de relations.*
 - **Elle est à 128.** Vous ne l'apprenez jamais en demandant. Seule la personne
   qui accepte l'apprend, à propos de son propre compte.
 
+## Masquer quelqu'un
+
+Un interrupteur sur son profil, sous *me prévenir quand elle publie*&#160;:
+**masquer anna**. Il fait une seule chose – ses publications cessent d'arriver
+dans votre accueil – et c'est la seule chose que vous puissiez faire à un lien,
+dans cette application, qui ne détruit rien.
+
+*Cette personne n'en sera pas informée. Ses publications restent sur ce profil
+et quittent votre accueil.* Cette phrase est sous l'interrupteur parce que ce
+sont les deux choses que l'étiquette ne peut pas dire, et ce sont les deux qui
+comptent&#160;: masquer est silencieux, comme retirer et bloquer, et
+contrairement à l'un et à l'autre cela n'enlève rien.
+
+Ce que cela change, exactement&#160;:
+
+- ses publications ne sont plus dans votre accueil, ni dans le compte de vos
+  onglets&#160;;
+- la notification *me prévenir quand elle publie*, si vous l'aviez activée,
+  s'éteint – l'interrupteur juste au-dessus, sous vos yeux, au moment du
+  geste&#160;;
+- c'est tout.
+
+Ce que cela laisse intact, c'est le reste, et cette liste-ci est plus longue que
+la précédente à dessein&#160;:
+
+- chaque photo qu'elle vous a envoyée reste à vous d'ouvrir, depuis son profil,
+  là où elle a toujours été – rien n'est révoqué, aucune clé n'est
+  détruite&#160;;
+- *publications déjà vues* garde ce que vous avez regardé&#160;: masquer n'est
+  pas dé-voir&#160;;
+- un album que vous partagez ne change pas. Son écran montre ses contributions
+  et sa propre pastille les compte, parce qu'un album est une pièce où vous avez
+  choisi d'être et que son compte doit s'accorder avec ce qu'il s'apprête à vous
+  montrer. Seul votre accueil est plus calme&#160;;
+- commentaires, réactions, groupes, le lien lui-même&#160;: intacts.
+
+Désactiver l'interrupteur remet la file en place, y compris ce qui est arrivé
+pendant. La notification, elle, reste éteinte&#160;: c'est une préférence, et
+elle est à un geste.
+
+**Une photo que quelqu'un d'autre a repartagée arrive quand même.** Si carla est
+masquée et que bruno repartage une de ses photos, vous la voyez&#160;: c'est
+bruno qui a choisi de vous la mettre sous les yeux, et la ligne est la sienne.
+Masquer bruno la fait disparaître.
+
+**Personne n'est informé, et rien ne peut l'informer.** Aucune route ne comporte
+de champ qui le rapporte, dans un sens ou dans l'autre. De son côté, masquée et
+non masquée sont le même compte. Sa ligne sur l'écran des personnes indique
+*publications masquées* sous l'identifiant, pour vous et pour personne
+d'autre&#160;: tout l'effet d'un masquage est que quelque chose cesse
+d'apparaître, il lui faut donc un endroit qui le dise.
+
+**Masquer n'est pas bloquer en plus léger.** Bloquer concerne la sécurité et
+fait beaucoup&#160;: cela retire, détruit les clés dans les deux sens, sort vos
+mots des pièces de l'autre et refuse toute demande future. Masquer concerne
+votre propre accueil un mardi. Si quelqu'un se comporte mal avec vous,
+bloquez-le.
+
 ## Retirer quelqu'un
 
 Depuis sa ligne sur l'écran des personnes, à côté de *bloquer*. C'est la seule

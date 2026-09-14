@@ -286,6 +286,55 @@ the full one, the accepter is told: "They cannot take any more mutuals."
 - **They are at 128.** You are never told when you ask. Only the person
   accepting learns it, about their own count.
 
+## Muting somebody
+
+A switch on their profile, under *tell me when they post*: **mute anna**. It
+does one thing—their posts stop arriving in your feed—and it is the only thing
+in this app you can do to a connection that destroys nothing.
+
+*They will not be told. Their posts stay on this profile and leave your feed.*
+That sentence sits under the switch because those are the two things the label
+cannot say, and they are the two things that matter: a mute is silent, like a
+removal and a block, and unlike either it takes nothing away.
+
+What it changes, exactly:
+
+- their posts are not in your feed, and not in the count on any of your tabs;
+- the per-person *tell me when they post* notification, if you had it on, goes
+  off—the switch above it, visibly, as you tap;
+- that is all.
+
+What it leaves alone is everything else, and the list is longer than the one
+above on purpose:
+
+- every photograph they have ever sent you is still yours to open, from their
+  profile, where it always was—nothing is revoked, no key is destroyed;
+- *posts you've seen* still holds what you looked at: muting is not unseeing;
+- an album you are both in is unchanged. Its screen shows their contributions
+  and its own badge counts them, because an album is a room you chose to be in
+  and its count has to agree with what it is about to show you. Only your feed
+  is quieter;
+- comments, reactions, groups, the connection itself: untouched.
+
+Turning it off puts the queue back, including whatever arrived while it was on.
+The notification switch stays off, because that is a preference and it is one
+tap away.
+
+**A photograph somebody else passed on still arrives.** If Carla is muted and
+Bruno reshares a photograph of hers, you see it: Bruno is who chose to put it in
+front of you, and the row is his. Muting Bruno takes it away.
+
+**Nobody is told, and nothing can tell them.** There is no field on any route
+that reports it, in either direction. From their side, muted and not muted are
+the same account. The people screen's row for them reads *muted* under the
+handle, for you and nobody else—a mute's whole effect is that something stops
+appearing, so it needs one place that says why.
+
+**A mute is not a lighter block.** A block is about safety and does a great
+deal: it removes, destroys keys both ways, takes your words out of each other's
+rooms and refuses future requests. A mute is about your own feed on a Tuesday.
+If somebody is being unpleasant to you, block them.
+
 ## Removing somebody
 
 From their row on the people screen, beside *block*. That is the only door: a
