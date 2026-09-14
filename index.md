@@ -15,4 +15,5 @@ places it behaves differently from the apps it is a reaction to.
 - [Terms of use](terms/)
 - [Privacy policy](privacy/)
 - [Moderation policy](moderation/)
+- [Child safety standards](child-safety/)
 - [Deleting your account](delete-account/)

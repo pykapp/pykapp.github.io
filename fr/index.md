@@ -13,6 +13,7 @@ chiffrés sur votre téléphone avec des clés que nous ne détenons jamais.
 - [Conditions d'utilisation](/fr/conditions/)
 - [Politique de confidentialité](/fr/politique-de-confidentialite/)
 - [Politique de modération](/fr/politique-de-moderation/)
+- [Normes de protection des enfants](/fr/protection-des-enfants/)
 - [Supprimer votre compte](/fr/supprimer-votre-compte/)
 
 L'application est proposée aux États-Unis et au Canada. Si vous êtes un
