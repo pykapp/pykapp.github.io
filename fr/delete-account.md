@@ -16,9 +16,9 @@ poser la question, et aucune ne doit y faire obstacle.
 **Dernière mise à jour&#160;:** 13 septembre 2026. Cette page décrit la bêta
 fermée.
 
-Si ce que vous voulez, c'est faire disparaître une photo ou un commentaire
-plutôt que tout le compte, [c'est plus bas](#retirer-une-seule-chose-au-lieu-du-compte)
-et cela ne passe pas du tout par nous.
+Si vous voulez seulement supprimer une photo, ou un commentaire, [c'est plus
+bas](#supprimer-une-publication-un-commentaire-ou-une-photo) et cela ne passe
+pas du tout par nous.
 
 ## Dans l'application
 
@@ -61,11 +61,11 @@ les blocages que vous avez posés ou qui ont été posés contre vous, et les
 signalements que vous avez déposés, sans votre nom, votre adresse ni vos clés
 sur aucun d'eux.
 
-## Retirer une seule chose au lieu du compte
+## Supprimer une publication, un commentaire ou une photo
 
-Vous n'avez pas besoin de partir pour reprendre quelque chose. Rien de ceci
-n'est une demande adressée à nous&#160;: cela se fait quand vous le touchez,
-pour tout le monde, et rien de tout cela ne peut être annulé.
+Vous n'avez pas besoin de supprimer votre compte pour supprimer une seule
+chose. Chacune de celles-ci se fait au moment où vous la touchez, pour tout le
+monde, et aucune ne peut être annulée.
 
 - Une publication&#160;: *options → supprimer pour tout le monde*. Chaque clé
   qui permettait à quiconque de l'ouvrir est détruite à ce moment-là, la vôtre

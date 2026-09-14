@@ -10,9 +10,8 @@ reasons to be asking, and none of them should stand in the way.
 
 **Last updated:** 13 September 2026. This page covers the closed beta.
 
-If what you want is one photograph or one comment gone rather than the whole
-account, [that is further down](#removing-one-thing-rather-than-the-account) and
-it does not need us at all.
+If you only want to delete one photograph, or one comment, [that is further
+down](#deleting-a-post-a-comment-or-a-picture) and it does not need us at all.
 
 ## In the app
 
@@ -51,10 +50,10 @@ Afterwards we keep a record that an account with that identifier existed, blocks
 you placed or that were placed against you, and reports you filed, with your
 name, address and keys on none of it.
 
-## Removing one thing rather than the account
+## Deleting a post, a comment or a picture
 
-You do not have to leave to take something back. None of this is a request to
-us: it happens when you tap it, for everybody, and none of it can be undone.
+You do not have to delete your account to delete one thing. Each of these
+happens the moment you tap it, for everybody, and none of them can be undone.
 
 - A post: *more → delete for everyone*. Every key that let anybody open it is
   destroyed at that moment, yours and every recipient's. The encrypted files
