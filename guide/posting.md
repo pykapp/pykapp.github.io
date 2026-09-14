@@ -93,10 +93,10 @@ typing indicator and no inbox anywhere in the app.
 
 ### Everybody is the one box that combines with nothing
 
-This is the rule most people meet first and find strange. Everybody's
-supporting line normally reads *everyone you are mutuals with, always*. Tick
-any group or any person and Everybody clears, its box goes dead, and its line
-changes to *everyone, so nothing else with it*.
+This is the rule most people meet first and find strange. Tick any group or any
+person and Everybody clears: its box goes pale and stops answering to a tap.
+Its line is the same either way, the count of everyone you are mutuals with,
+because every row in that list answers with a count.
 
 The reason is arithmetic. Everybody resolves to every mutual you have, so
 Family is inside it and Ana is inside it. Ticking Family alongside Everybody

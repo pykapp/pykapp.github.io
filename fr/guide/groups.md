@@ -184,9 +184,9 @@ relations, et ce groupe ne peut être ni renommé, ni supprimé, ni modifié.
 
 Dans l'écran de publication, il se comporte autrement que toutes les autres
 cases. Cocher un groupe ou une personne vide *tout le monde*, et tant que
-quelque chose de plus étroit est coché sa case est vide et ne peut pas être
-touchée, et la ligne dessous passe de *toutes vos relations, toujours* à *tout
-le monde, donc rien d'autre avec*.
+quelque chose de plus étroit est coché sa case est vide, pâle et ne peut pas
+être touchée. La ligne dessous affiche le nombre de vos relations, comme
+chaque autre ligne affiche le sien.
 
 La raison est que *tout le monde* contient déjà *family*, et contient déjà Ana.
 Cocher l'un ou l'autre à côté n'atteint personne de nouveau. Les deux cases

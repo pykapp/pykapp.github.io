@@ -161,8 +161,8 @@ everyone you are mutuals with. It cannot be renamed, deleted, or edited."
 
 In the composer it behaves unlike every other box. Ticking any group or any
 person clears *everybody*, and while anything narrower is ticked its box is
-empty and cannot be tapped, and the line under it changes from *everyone you
-are mutuals with, always* to *everyone, so nothing else with it*.
+empty, pale and cannot be tapped. The line under it is the count of everyone
+you are mutuals with, the same as every other row in the list.
 
 The reason is that *everybody* already contains *family*, and it already
 contains Ana. Ticking either one beside it reaches nobody new. Both boxes

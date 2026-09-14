@@ -143,8 +143,8 @@ provider that is the shape of your graph, handed to somebody else.
 
 In the composer, *everybody* is the one row that combines with nothing. Tick
 any group or any person and it clears; while anything narrower is ticked its
-box stays empty and dead, and its line changes from *everyone you are mutuals
-with, always* to *everyone, so nothing else with it*. Naming somebody in the
+box stays empty, pale and dead, and its line goes on showing the count it shows
+the rest of the time. Naming somebody in the
 photograph is the standing exception: their box is ticked and held while the
 name stands, *everybody* stays available beside it, and ticking *everybody*
 clears their box rather than being blocked by it, because the name keeps them

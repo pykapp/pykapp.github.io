@@ -159,9 +159,8 @@ c'est la forme de votre graphe, remise à quelqu'un d'autre.
 
 Dans l'écran de publication, *tout le monde* est la seule ligne qui ne se
 combine avec rien. Cochez un groupe ou une personne et elle se vide&#160;; tant
-que quelque chose de plus étroit est coché, sa case reste vide et inerte, et sa
-ligne passe de *toutes vos relations, toujours* à *tout le monde, donc rien
-d'autre avec*. Identifier quelqu'un sur la photo est l'exception qui
+que quelque chose de plus étroit est coché, sa case reste vide, pâle et inerte,
+et sa ligne continue d'afficher son compte, comme toutes les autres lignes. Identifier quelqu'un sur la photo est l'exception qui
 tient&#160;: sa case est cochée et maintenue tant que le nom est là, *tout le
 monde* reste disponible à côté, et cocher *tout le monde* vide sa case plutôt
 que d'en être empêché, parce que le nom le garde destinataire de toute façon.

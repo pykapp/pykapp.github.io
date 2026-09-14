@@ -104,10 +104,10 @@ boîte de réception nulle part dans l'application.
 ### Tout le monde est la seule case qui ne se combine avec rien
 
 C'est la règle que la plupart des gens rencontrent en premier et trouvent
-étrange. La ligne d'appui de Tout le monde lit normalement *toutes vos
-relations, toujours*. Cochez un groupe ou une personne et Tout le monde se
-vide, sa case devient inerte, et sa ligne passe à *tout le monde, donc rien
-d'autre avec*.
+étrange. Cochez un groupe ou une personne et Tout le monde se vide&#160;: sa
+case devient pâle et ne répond plus au toucher. Sa ligne ne change pas pour
+autant, c'est le nombre de vos relations, parce que chaque ligne de cette liste
+répond par un nombre.
 
 La raison est arithmétique. Tout le monde se résout en toutes vos relations,
 donc Famille est dedans et Ana est dedans. Cocher Famille à côté de Tout le
