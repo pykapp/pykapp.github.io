@@ -63,9 +63,9 @@ sur aucun d'eux.
 
 ## Supprimer une publication, un commentaire ou une photo
 
-Vous n'avez pas besoin de supprimer votre compte pour supprimer une seule
-chose. Chacune de celles-ci se fait au moment où vous la touchez, pour tout le
-monde, et aucune ne peut être annulée.
+Chacune de ces actions se fait dans l'application, au moment où vous la
+touchez. Elle prend effet pour tout le monde d'un coup, et aucune ne peut être
+annulée.
 
 - Une publication&#160;: *options → supprimer pour tout le monde*. Chaque clé
   qui permettait à quiconque de l'ouvrir est détruite à ce moment-là, la vôtre

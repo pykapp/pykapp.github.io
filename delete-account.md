@@ -52,8 +52,8 @@ name, address and keys on none of it.
 
 ## Deleting a post, a comment or a picture
 
-You do not have to delete your account to delete one thing. Each of these
-happens the moment you tap it, for everybody, and none of them can be undone.
+Each of these happens in the app, the moment you tap it. It takes effect for
+everybody at once, and none of it can be undone.
 
 - A post: *more → delete for everyone*. Every key that let anybody open it is
   destroyed at that moment, yours and every recipient's. The encrypted files
