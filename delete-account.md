@@ -10,6 +10,10 @@ reasons to be asking, and none of them should stand in the way.
 
 **Last updated:** 13 September 2026. This page covers the closed beta.
 
+If what you want is one photograph or one comment gone rather than the whole
+account, [that is further down](#removing-one-thing-rather-than-the-account) and
+it does not need us at all.
+
 ## In the app
 
 *settings → delete my account*. It asks once, and then it is done. Deleting is
@@ -46,5 +50,28 @@ account.
 Afterwards we keep a record that an account with that identifier existed, blocks
 you placed or that were placed against you, and reports you filed, with your
 name, address and keys on none of it.
+
+## Removing one thing rather than the account
+
+You do not have to leave to take something back. None of this is a request to
+us: it happens when you tap it, for everybody, and none of it can be undone.
+
+- A post: *more → delete for everyone*. Every key that let anybody open it is
+  destroyed at that moment, yours and every recipient's. The encrypted files
+  are removed from storage eight days later, as they are when an account goes.
+- A comment: *delete*, beside your own words. It stops being shown to anyone on
+  that post. The sealed text stays until the post itself goes, unreadable to us
+  the whole time.
+- A reaction: tap it again and it is removed outright.
+- Your name on somebody else's post: *more → remove my tag*. That also takes
+  back the name and picture the tag let them see.
+- Your profile picture: *remove*, on your own profile. Nobody can fetch it from
+  that moment, and the file itself goes on the next sweep, within the hour.
+- Everything you have shared with one person: remove them, or block them, and
+  every key between the two of you is destroyed in both directions.
+
+What none of this reaches is a copy somebody already saved to their own phone.
+That is true of anything you share with anybody, here or elsewhere, and no
+setting can change it.
 
 The [privacy policy](/privacy/) says what we hold while the account is alive.

@@ -16,6 +16,10 @@ poser la question, et aucune ne doit y faire obstacle.
 **Dernière mise à jour&#160;:** 13 septembre 2026. Cette page décrit la bêta
 fermée.
 
+Si ce que vous voulez, c'est faire disparaître une photo ou un commentaire
+plutôt que tout le compte, [c'est plus bas](#retirer-une-seule-chose-au-lieu-du-compte)
+et cela ne passe pas du tout par nous.
+
 ## Dans l'application
 
 *paramètres → supprimer mon compte*. Elle demande une fois, et puis c'est fait.
@@ -56,6 +60,35 @@ Ensuite nous gardons la trace qu'un compte portant cet identifiant a existé,
 les blocages que vous avez posés ou qui ont été posés contre vous, et les
 signalements que vous avez déposés, sans votre nom, votre adresse ni vos clés
 sur aucun d'eux.
+
+## Retirer une seule chose au lieu du compte
+
+Vous n'avez pas besoin de partir pour reprendre quelque chose. Rien de ceci
+n'est une demande adressée à nous&#160;: cela se fait quand vous le touchez,
+pour tout le monde, et rien de tout cela ne peut être annulé.
+
+- Une publication&#160;: *options → supprimer pour tout le monde*. Chaque clé
+  qui permettait à quiconque de l'ouvrir est détruite à ce moment-là, la vôtre
+  et celle de chaque destinataire. Les fichiers chiffrés sont retirés du
+  stockage huit jours plus tard, comme lorsqu'un compte s'en va.
+- Un commentaire&#160;: *supprimer*, à côté de vos propres mots. Il cesse
+  d'être montré à qui que ce soit sous cette publication. Le texte scellé reste
+  jusqu'à ce que la publication elle-même s'en aille, illisible pour nous
+  pendant tout ce temps.
+- Une réaction&#160;: touchez-la de nouveau et elle est retirée purement et
+  simplement.
+- Votre nom sur la publication de quelqu'un d'autre&#160;: *options → retirer
+  mon identification*. Cela reprend aussi le nom et la photo que cette
+  identification lui laissait voir.
+- Votre photo de profil&#160;: *retirer*, sur votre propre profil. Personne ne
+  peut plus la récupérer à partir de ce moment, et le fichier lui-même s'en va
+  au prochain balayage, dans l'heure.
+- Tout ce que vous avez partagé avec une personne&#160;: retirez-la, ou
+  bloquez-la, et chaque clé entre vous deux est détruite dans les deux sens.
+
+Ce que rien de tout cela n'atteint, c'est une copie que quelqu'un a déjà
+enregistrée sur son propre téléphone. C'est vrai de tout ce que vous partagez
+avec qui que ce soit, ici ou ailleurs, et aucun réglage n'y change rien.
 
 La [politique de confidentialité](/fr/politique-de-confidentialite/) dit ce que
 nous détenons pendant que le compte est vivant.
