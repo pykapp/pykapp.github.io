@@ -146,13 +146,77 @@ connaissent aussi l'auteur&#160;: divulguer un graphe pour en cacher un, et
 jusqu'à 128 enveloppes pour une phrase. La fuite que l'on ferme n'a jamais été
 cryptographique. C'était un pseudo dans une liste.
 
+## Répondre à un commentaire
+
+*répondre* se trouve à côté d'un commentaire, et ce que vous écrivez va en
+dessous, décalé d'un cran. La boîte en bas de la publication est la même
+boîte&#160;; pendant que vous répondez elle dit à qui, et *annuler* la remet sur
+la photo sans jeter ce que vous avez tapé.
+
+**On ne répond pas à une réponse.** Un seul niveau, et c'est tout&#160;: il n'y a
+pas de fil ici, seulement une conversation sous une phrase. Vous ne trouverez
+aucun message qui le dise&#160;: *répondre* n'est simplement pas là sur une
+réponse.
+
+**Vous ne pouvez répondre qu'à ce que vous entendez**, ce qui découle de la
+règle en haut de cette page et ne coûte rien&#160;: les personnes dont les
+commentaires vous parviennent sont exactement celles que vous pouviez déjà
+nommer avec `@`.
+
+**Et une réponse ne s'entend que là où s'entend le commentaire auquel elle
+répond.** Si Bruno n'entend pas Carla, il n'entend pas non plus la réponse
+d'Ana à Carla – même s'il entend parfaitement Ana partout ailleurs sous cette
+photo. Une réponse sans rien devant n'est pas ce que quelqu'un a écrit. Le
+raté va dans le sens du reste de cette page&#160;: moins de gens l'ont lue que
+vous ne le pensiez, jamais plus.
+
+**Supprimer un commentaire emporte les réponses qui lui sont faites.** C'est le
+seul endroit de l'application où reprendre vos mots reprend ceux de quelqu'un
+d'autre, et cela mérite d'être dit clairement. Rien d'autre ici ne laisse de
+trace en partant, donc l'autre solution – un marqueur *supprimé* sous lequel la
+conversation continuerait – aurait fait de la reprise une annonce. L'application
+demande d'abord quand il y a quelque chose à perdre, et dit combien de réponses
+partent avec.
+
+La personne qui a écrit le commentaire apprend que vous y avez répondu, par une
+ligne dans son onglet activité. La notification est le même interrupteur que
+celle d'un commentaire&#160;: *paramètres → quand quelqu'un commente ma
+publication*, désactivée jusqu'à ce que vous l'activiez. Ce n'est
+délibérément **pas** l'interrupteur *laisser mes relations m'identifier*, qui
+porte sur le droit de mettre votre nom sur quelque chose – une réponse ne met
+votre nom nulle part.
+
+## Nommer quelqu'un dans un commentaire
+
+Tapez `@` et les noms que vous pouvez utiliser apparaissent au-dessus de la
+boîte&#160;: la personne dont c'est la photo, plus les gens que vous et elle
+connaissez tous les deux. Touchez-en un, ou écrivez-le. Un nom qui ne vous a
+pas été proposé ne fait rien du tout.
+
+Les noms proposés ne sont pas l'ensemble des gens qui vous entendront –
+l'audience d'une publication appartient à qui l'a faite, et lister la part que
+vous en connaissez serait la liste des vues déguisée en sélecteur. Un nom peut
+donc n'atteindre personne, et rien ne vous dit lequel&#160;: une réponse qui le
+dirait serait une façon de demander, un nom à la fois, qui se trouve dans
+l'audience de quelqu'un d'autre. Huit noms au plus dans un commentaire&#160;;
+au-delà, une phrase est une liste de diffusion.
+
+La personne nommée l'apprend, une fois, dans son onglet activité, et par une
+notification si son interrupteur *laisser mes relations m'identifier* est
+activé – le même qui permet de mettre votre nom sur une photo, parce qu'une
+légende et un mot dans une phrase sont le même geste à deux tailles. Votre nom
+dans un commentaire est à l'intérieur du texte scellé, donc il n'y a rien que
+nous puissions retirer ensuite&#160;: désactiver l'interrupteur arrête le
+suivant.
+
 ## Ce qu'est un commentaire
 
-- Plat et dans l'ordre où il a été écrit. Pas de fils, pas de réponses, pas de
-  mentions, pas de citations.
+- Dans l'ordre où il a été écrit, chaque réponse sous le commentaire auquel
+  elle répond.
 - Scellé sur votre téléphone sous la clé de la publication, et lié à la
-  publication, à vous et à ce seul commentaire – donc personne ne peut déplacer
-  vos mots sous le nom de quelqu'un d'autre.
+  publication, à vous, à ce seul commentaire – et, pour une réponse, au
+  commentaire auquel elle répond – donc personne ne peut déplacer vos mots sous
+  le nom de quelqu'un d'autre, ni sous une autre phrase.
 - À vous de le modifier, et à vous de le supprimer. La personne dont c'est la
   publication peut aussi le supprimer&#160;: modifier change ce que quelqu'un a
   dit et elle seule peut le faire&#160;; supprimer le retire, et la personne
@@ -163,18 +227,25 @@ cryptographique. C'était un pseudo dans une liste.
   commentaire que personne n'a touché, à propos d'un corps que nous ne pouvons
   pas lire.
 - Un commentaire supprimé ne laisse rien derrière. Il n'y a pas de trace
-  «&#160;ceci a été supprimé&#160;».
+  «&#160;ceci a été supprimé&#160;» – et les réponses qui lui étaient faites
+  partent au même instant, pour la même raison.
 - Un commentaire qui ne se déchiffre pas est montré comme *Ceci n'a pas pu être
   ouvert sur ce téléphone.* plutôt que d'être écarté en silence. Un commentaire
   qui disparaît simplement est la panne que personne ne signale, et c'est aussi
   à quoi ressemblerait un commentaire fabriqué.
-- Seule la personne dont c'est la publication est prévenue, par une ligne dans
-  son onglet activité. Une notification pour cela est désactivée jusqu'à ce que
-  vous l'activiez, à *paramètres → quand quelqu'un commente ma publication*.
-  Personne d'autre dans la conversation n'apprend jamais quoi que ce soit.
-- Il n'y a de compteur de commentaires nulle part. Rien n'en calcule un, donc
-  rien ne peut en dessiner un&#160;: les commentaires sont la liste, et leur
-  nombre est celui qu'il y a à l'écran.
+- La personne dont c'est la publication est prévenue, par une ligne dans son
+  onglet activité&#160;; celle à qui vous avez répondu aussi, et toute personne
+  que vous avez nommée. Jamais plus d'une fois pour un même
+  commentaire&#160;: être nommé dit le plus, se faire répondre dit plus que
+  «&#160;quelqu'un a commenté&#160;», et chacun remplace celui d'en dessous.
+  Une notification est désactivée jusqu'à ce que vous l'activiez, à *paramètres
+  → quand quelqu'un commente ma publication*. Personne d'autre dans la
+  conversation n'apprend jamais quoi que ce soit.
+- Il n'y a de compteur de commentaires nulle part, ni de compteur de réponses.
+  Rien n'en calcule un, donc rien ne peut en dessiner un&#160;: les
+  commentaires sont la liste, et leur nombre est celui qu'il y a à l'écran. Le
+  seul nombre au sujet des réponses est dans la question posée avant de
+  supprimer un commentaire qui en a, et il compte ce que ce geste va emporter.
 - *signaler* se trouve à côté du commentaire de quelqu'un d'autre et jamais à
   côté du vôtre, que vous pouvez simplement supprimer. Ce que nous recevons est
   un pointeur et ce que vous tapez&#160;; voir la [politique de

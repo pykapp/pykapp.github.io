@@ -130,13 +130,67 @@ disclosing a graph in order to hide one, and up to 128 wrappings for one
 sentence. The leak being closed was never a cryptographic one. It was a handle
 in a list.
 
+## Answering a comment
+
+*reply* sits beside a comment, and what you write goes under it, one step in.
+The box at the bottom of the post is the same box; while you are answering it
+says who you are answering, and *cancel* puts it back to the photograph
+without throwing away what you have typed.
+
+**A reply cannot be answered.** One level, and that is the whole of it: there
+is no thread here, only a conversation under a sentence. You will not find a
+message saying so—*reply* simply is not there on a reply.
+
+**You can only answer something you can hear**, which follows from the rule at
+the top of this page and costs nothing: the people whose comments reach you
+are exactly the people you could already have named with `@`.
+
+**And a reply is heard only where the comment it answers is.** If Bruno cannot
+hear Carla, he does not hear Ana's answer to her either—even though he hears
+Ana perfectly well everywhere else on that photograph. An answer with nothing
+in front of it is not what anybody wrote. The failure runs the way the rest of
+this page runs: fewer people read it than you assumed, never more.
+
+**Deleting a comment takes the answers to it.** That is the one place in the
+app where taking back your own words takes somebody else's, and it is worth
+being plain about. Nothing else here leaves a mark when it goes, so the
+alternative—a *deleted* placeholder with the conversation reading on under
+it—would have turned taking something back into an announcement that you had.
+The app asks first when there is anything to lose, and says how many replies
+go with it.
+
+Whoever wrote the comment is told you answered it, as a row in their activity
+tab. A notification for it is the same switch as a comment's: *settings → when
+somebody comments on my post*, off until you turn it on. It is deliberately
+**not** the *let mutuals tag me* switch, which is about whether somebody may
+put your name on something—a reply puts your name nowhere.
+
+## Naming somebody in a comment
+
+Type `@` and the names you may use appear above the box: the person whose
+photograph it is, plus the people you and they both know. Tap one, or type it
+out. A name you were not offered does nothing at all.
+
+The names you are offered are not the same set as the people who will hear
+you—the audience of a post belongs to whoever made it, and listing the part of
+it you happen to know would be the viewer list wearing a picker. So a name may
+quietly reach nobody, and nothing tells you which: a reply that said would be
+a way of asking, one name at a time, who is in somebody else's audience. At
+most eight names in one comment; past that, a sentence is a mailing list.
+
+Whoever you name is told, once, in their activity tab, and by a notification
+if their *let mutuals tag me* switch is on—the same switch that lets somebody
+put your name on a photograph, because a caption and a word in a sentence are
+the same act at two sizes. Your name in a comment is inside the sealed text,
+so there is nothing for us to take down later: turning the switch off stops
+the next one.
+
 ## What a comment is
 
-- Flat and in the order written. No threads, no replies, no mentions, no
-  quoting.
-- Sealed on your phone under the post's key, and bound to the post, to you and
-  to that one comment—so nobody can move your words under somebody else's
-  name.
+- In the order written, with each answer under the comment it answers.
+- Sealed on your phone under the post's key, and bound to the post, to you,
+  to that one comment—and, for a reply, to the comment it answers—so nobody can
+  move your words under somebody else's name, or under a different sentence.
 - Yours to edit, and yours to delete. The person whose post it is may delete
   it as well: editing changes what somebody said and only they may do that;
   deleting removes it, and the person whose photograph is being talked under
@@ -145,18 +199,23 @@ in a list.
   does. There is no column for it, and adding one would mean showing you a
   mark we could set on a comment nobody touched, about a body we cannot read.
 - A deleted comment leaves nothing behind. There is no "this was deleted"
-  placeholder.
+  placeholder—and the answers to it go at the same moment, for the same
+  reason.
 - A comment that will not decrypt is shown as *This could not be opened on
   this phone.* rather than dropped quietly. A comment that simply vanishes is
   the failure nobody reports, and it is also what a forged one would look
   like.
-- Only the person whose post it is is told, as a row in their activity tab. A
-  notification for it is off until you turn it on, at *settings → when
-  somebody comments on my post*. Nobody else in the conversation is told
-  anything, ever.
-- There is no comment count anywhere. Nothing computes one, so nothing can
-  draw one: the comments are the list, and their number is however many are on
-  the screen.
+- The person whose post it is is told, as a row in their activity tab; so is
+  whoever you answered, and so is anybody you named. Never more than once
+  about one comment: being named says the most, being answered says more than
+  "somebody commented", and each replaces the one below it. A notification is
+  off until you turn it on, at *settings → when somebody comments on my post*.
+  Nobody else in the conversation is told anything, ever.
+- There is no comment count anywhere, and no reply count either. Nothing
+  computes one, so nothing can draw one: the comments are the list, and their
+  number is however many are on the screen. The one number about replies is in
+  the question the app asks before you delete a comment that has some, and it
+  counts what that tap is about to take.
 - *report* sits beside somebody else's comment and never beside your own,
   which you can simply delete. What we receive is a pointer and what you type;
   see the [moderation policy](/moderation/).
