@@ -395,6 +395,23 @@ copy that is ours to hand back, which is the same sentence as "we cannot read
 them" said from the other side.
 [How the privacy works](/how-it-works/privacy/).
 
+The six words are the key, and the email address is the door. They are two
+different things to lose, and for a long while only one of them was written
+down here. A code goes to that address every time you sign in on a phone that
+is not already signed in, so an address you can no longer read is an account
+you can no longer open, whatever you wrote down at signup. That is a far more
+ordinary thing to happen than losing a piece of paper: you leave a job, you
+change provider, an old free account locks itself.
+
+So the address can be moved, from *settings → your email*, while you are still
+signed in. You type the new one, we send a code there, and you type it
+back—the same pair of steps as signing in, pointed at the address instead of
+at the app. Nothing but a code delivered to that mailbox will move it, and we send a
+note to the old address to say it changed, so that a phone somebody else picked
+up cannot move your account quietly. If the address is *already* gone and you
+are still signed in somewhere, do this now rather than later; if it is gone and
+you are signed out, write to us and we will help you prove who you are.
+
 ## The app does not stop screenshots
 
 It sets nothing that would prevent one, on any screen, including the one that

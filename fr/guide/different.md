@@ -441,6 +441,26 @@ pour vous la rendre, ce qui est la même phrase que «&#160;nous ne pouvons pas
 les lire&#160;» dite de l'autre côté. [Comment marche la
 confidentialité](/how-it-works/privacy/).
 
+Les six mots sont la clé, et l'adresse de courriel est la porte. Ce sont deux
+choses différentes à perdre, et pendant longtemps une seule des deux était
+écrite ici. Un code part vers cette adresse chaque fois que vous vous connectez
+sur un téléphone qui ne l'est pas déjà&#160;: une adresse que vous ne pouvez
+plus lire est donc un compte que vous ne pouvez plus ouvrir, quoi que vous ayez
+noté à l'inscription. Cela arrive bien plus couramment que de perdre un bout de
+papier&#160;: on quitte un emploi, on change de fournisseur, un vieux compte
+gratuit se verrouille tout seul.
+
+L'adresse peut donc être changée, depuis *paramètres → votre e-mail*, tant que
+vous êtes encore connecté. Vous tapez la nouvelle, nous y envoyons un code, et
+vous le retapez&#160;: les mêmes deux étapes que pour se connecter, pointées
+vers l'adresse plutôt que vers l'application. Rien d'autre qu'un code reçu dans
+cette boîte ne la déplacera, et nous envoyons un mot à l'ancienne adresse pour
+l'en informer, afin qu'un téléphone ramassé par quelqu'un d'autre ne puisse pas
+déplacer votre compte en silence. Si l'adresse est *déjà* perdue et que vous
+êtes encore connecté quelque part, faites-le maintenant plutôt que plus
+tard&#160;; si elle est perdue et que vous êtes déconnecté, écrivez-nous et
+nous vous aiderons à prouver qui vous êtes.
+
 ## L'application n'empêche pas les captures d'écran
 
 Elle ne règle rien qui en empêcherait une, sur aucun écran, y compris celui qui
