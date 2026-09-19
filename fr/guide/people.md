@@ -442,6 +442,17 @@ Tout ce que fait un retrait, et ensuite&#160;:
   seul acte qui atteint une pièce faite par quelqu'un d'autre&#160;: ses photos
   cessent d'arriver par l'album de Carla, et plus rien de l'un ni de l'autre
   n'est jamais enveloppé pour l'autre.
+- **Votre visage disparaît des photos des autres, pour l'un comme pour
+  l'autre.** Quand une relation [vous nomme sur une photo](/fr/publier/), son
+  téléphone enveloppe une copie de votre clé de profil pour chaque personne
+  que la photo atteint&#160;: c'est ainsi
+  que quelqu'un qui ne vous connaît pas voit un nom et un visage à côté. Toute
+  copie de ce genre détenue par la personne que vous avez bloquée est détruite,
+  et toute copie de la sienne que vous déteniez. Et comme le téléphone de cette
+  relation ne sait rien du blocage et en enveloppera une autre à la prochaine
+  photo, nous refusons aussi de remettre à l'un l'image ou la fiche de personne
+  de l'autre tant que le blocage tient, quelles que soient les copies qui
+  existent.
 - **Vos mots sortent des publications de l'autre, dans les deux sens.**
   Réactions supprimées, commentaires retirés, définitivement. Après un blocage
   aucun des deux ne peut atteindre les publications de l'autre, donc un
@@ -458,14 +469,27 @@ la pièce plutôt que sur vous deux, et un blocage n'est pas un pouvoir sur
 l'album de quelqu'un d'autre. Les deux noms restent sur sa liste de membres –
 mais plus aucune photo ne passe entre vous là-bas.
 
+Il ne retire pas non plus votre nom d'une photo publiée par une tierce
+personne. Si une relation que vous avez en commun vous y a nommé, la photo est
+la sienne, elle reste dans le fil de la personne bloquée, et votre pseudo
+reste dessous. Ce qui s'en va, c'est tout ce que ce pseudo ouvrait. Votre
+propre nom, vous pouvez toujours le retirer vous-même, depuis *options* sur la
+photo, sans la permission de personne et sans blocage.
+
 ### Ce que la personne bloquée voit
 
 Un «&#160;introuvable&#160;», partout. La recherche, l'envoi d'une demande,
 votre profil, une de vos publications, l'adresse d'une photo, votre clé, votre
 image, votre fiche de personne&#160;: chacun répond exactement ce qu'il répond
-pour un compte qui n'existe pas, et rien de ce qu'elle peut récupérer ne
-contient quoi que ce soit qui vous identifie. Elle ne peut pas distinguer un
-blocage d'un compte qui n'a jamais été créé, et c'est le but.
+pour un compte qui n'existe pas, et rien de ce que ces portes lui remettent ne
+vous identifie. À partir de ce qui vous concerne, elle ne peut donc pas
+distinguer un blocage d'un compte qui n'a jamais été créé, et c'est le but.
+
+La limite honnête est celle du paragraphe précédent&#160;: une pièce qui
+appartient à quelqu'un d'autre dit toujours ce qu'elle disait. Votre pseudo
+reste sur la liste de membres de l'album d'une tierce personne et sur une
+photo à elle qui vous nomme, et un nom qui ouvrait une fiche et qui ouvre
+maintenant un «&#160;introuvable&#160;», quelqu'un pourrait le remarquer.
 
 ### Défaire un blocage
 

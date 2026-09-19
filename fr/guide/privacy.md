@@ -450,7 +450,10 @@ que quelqu'un d'autre a partagée&#160;: tant qu'une personne que vous avez
 retirée voit encore une photo sur laquelle une relation vous a identifié, ou
 l'une des vôtres qu'une relation lui a repartagée, la copie de votre clé sur
 cette photo continue de lui ouvrir votre nom et votre visage, jusqu'à ce que
-votre identification, le repartage ou sa copie de la photo disparaisse.
+votre identification, le repartage ou sa copie de la photo disparaisse. Un
+[blocage](/fr/ajouter-des-relations/#bloquer-quelquun), lui, l'atteint&#160;:
+cette copie est détruite avec le reste, et nous lui refusons votre photo et
+votre fiche tant que le blocage tient.
 
 ## Un nom et un visage voyagent par clé aussi
 

@@ -402,7 +402,10 @@ hand them over. And a removal does not reach a photograph somebody else shared:
 while a person you removed can still see a photograph a mutual named you on, or
 one of yours that a mutual reshared to them, the copy of your key on that
 photograph goes on opening your name and face for them, until your tag, the
-reshare or their copy of the photograph goes.
+reshare or their copy of the photograph goes. A
+[block](/how-it-works/people/#blocking-somebody) does reach it: that copy is
+destroyed with the rest, and we refuse them your picture and your card for as
+long as the block stands.
 
 ## A name and a face travel by key as well
 

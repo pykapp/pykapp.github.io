@@ -388,6 +388,15 @@ Everything a removal does, and then:
   one act that reaches into a room somebody else made: their photographs stop
   arriving through Carla's album, and nothing of either of yours is ever
   wrapped for the other again.
+- **Your face comes off other people's photographs, for each other.** When a
+  mutual [names you on a photograph](/how-it-works/posting/) their phone wraps
+  a copy of your profile key for everybody the photograph reaches, which is how
+  somebody who does not know you sees a name and a face beside it. Any such
+  copy held by the person you blocked is destroyed, and any of theirs held by
+  you. And because that mutual's phone knows nothing about the block and will
+  wrap another one on the next photograph, we also refuse to hand either of
+  you the other's picture or person card for as long as the block stands,
+  whatever copies exist.
 - **Your words come out of each other's posts, both ways.** Reactions deleted,
   comments taken down, permanently. After a block neither of you can reach the
   other's posts, so a comment left there would be a comment its own author can
@@ -402,14 +411,25 @@ rather than about the two of you, and a block is not a power over somebody
 else's album. Both names stay on its member list—but no photograph passes
 between you there any more.
 
+Nor does it take your name off a photograph a third person posted. If a mutual
+of you both named you on one, the photograph is theirs, it stays in the blocked
+person's feed, and your handle stays under it. What goes is everything that
+handle used to open. Your own name is always yours to take off, from *more* on
+the photograph, and that needs nobody's permission and no block.
+
 ### What the blocked person sees
 
 One not-found, everywhere. Search, sending a request, your profile, a post of
 yours, a photograph's address, your key, your picture, your person card: every
 one of them answers exactly what it answers for an account that does not
-exist, and nothing they can fetch contains anything identifying you. They
-cannot tell a block from an account that was never made, and that is the
-point.
+exist, and nothing those doors hand back identifies you. So from anything that
+is about you, they cannot tell a block from an account that was never made,
+and that is the point.
+
+The honest limit is the one above: a room that belongs to somebody else still
+says what it said. Your handle stays on a third person's album list and on a
+photograph of theirs that names you, and a name that used to open a card and
+now opens a not-found is something a person could notice.
 
 ### Undoing one
 
