@@ -425,10 +425,10 @@ say the same thing in fewer words.
 
 The app is Android only: there is no iPhone app, no web version and no desktop
 version, so there is nothing to sign into in a browser. It takes photographs,
-and not video. Signing in is by email address, and codes go there; search no
-longer takes a number either, because an account cannot come to hold one for it
-to match. Invitations are issued by hand during the closed beta, so there is no
-invite link to send anybody.
+and videos of about a minute. Signing in is by email address, and codes go
+there; search no longer takes a number either, because an account cannot come
+to hold one for it to match. Invitations are issued by hand during the closed
+beta, so there is no invite link to send anybody.
 
 If something here is not what you expected, [how it works](/how-it-works/) has
 the longer version of each of these.

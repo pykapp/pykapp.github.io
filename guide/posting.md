@@ -10,30 +10,31 @@ know* is delivered to people, not published to a place. There is no page it
 sits on for somebody to come across, no web address for it, and no setting
 that would make one. There is no such thing as a public post here.
 
-**Last updated:** 12 September 2026. This page covers the closed beta.
+**Last updated:** 18 September 2026. This page covers the closed beta.
 
-## Choosing the photos
+## Choosing the photos and videos
 
 The rightmost mark on the bar at the bottom opens the composer. Its label is
 *post*, which is also the title of the screen it opens and the word on the
 link that publishes.
 
-Photographs come from Android's own photo picker. *people you know* has no
-permission to read your photo library and never asks for one: the picker hands
-the app the photographs you chose and nothing else. The app asks the phone for
+Photographs and videos come from Android's own photo picker. *people you know*
+has no permission to read your photo library and never asks for one: the
+picker hands the app what you chose and nothing else. The app asks the phone for
 the internet, for notifications, and, on Android 9 and older only, for
 permission to write a saved photograph into your gallery. That is the whole
 list.
 
-Photographs only, for now. Video is not built.
-
-One post holds up to 32 of them. *choose photos* becomes *add more* once
-something is picked, and the number beside it reads *1 photo* or *4 photos*.
+One post holds up to 32 of them, photographs and videos together in any
+order. *choose photos and videos* becomes *add more* once something is picked,
+and the number beside it names what you have: *1 photo*, *4 photos*, *1
+video*, or *3 photos and 1 video*.
 Each row is a small square of the photograph itself with *remove* beside it
 and a *=* handle that drags it into a new position; the order of the rows is
 the order the photographs appear in the post. Picking the same photograph
 twice adds it once. The limit is mentioned only when you actually reach it,
-and then it says so plainly: *That is the most photos one post can hold (32).*
+and then it says so plainly: *That is the most photos and videos one post can
+hold (32).*
 
 There is no crop tool, no filter, no rotation and no markup. What you pick is
 what is posted, and nothing you post is ever cropped. The only cropped picture
@@ -55,6 +56,53 @@ JPEG would mean putting a decrypted photograph on disk for the length of the
 write. Nothing in this pipeline writes a readable photograph anywhere but
 memory. The one deliberate exception is *save photo*, further down, which is
 the entire point of saving.
+
+## Posting a video
+
+A video's row shows a still of it with a small mark that says it plays, and
+otherwise it is a row like any other: *remove*, the *=* handle, and its place
+in the order.
+
+### A video longer than a minute keeps one minute of it
+
+A video can run to about a minute. A longer one is not refused. Its row
+carries *choose which minute*, which opens a still of the video with a slider
+under it. Moving the slider moves where the kept minute starts, and the still
+follows it, so you find the part you meant by looking at it rather than by
+reading times. There are no times anywhere and no second handle, because the
+length is always the same minute; dragging to the end keeps the last one. If
+you choose nothing, the first minute is kept.
+
+### What happens to a video
+
+It is converted on your phone before it is sealed: to the format every phone
+plays, no larger than 1080 pixels on its short side, and small enough that a
+minute of it can travel on a phone's connection. Like a photograph, it keeps
+nothing of the original file but its pictures and its sound. The location, the
+device and every other tag are gone, and the moment it was recorded rides
+inside the sealed metadata, as a photograph's does. What you see on the row is
+a still of the converted video, and so is what everybody else sees before they
+tap it.
+
+The conversion is the one moment this app writes something you are posting to
+your phone's storage in the clear. A converter writes a file, so the converted
+copy sits in the app's own cache, which nothing backs up, for as long as it
+takes to seal, and it is deleted the moment it is sealed. It is a smaller copy
+of a video that is already in your library. Everything that leaves the phone is
+sealed under the post's key, a piece at a time.
+
+### How a video plays
+
+Nothing plays until you ask it to. In the feed a video is a still with the
+mark over it, and tapping it opens the post and plays it. On the post and in
+the full-screen viewer, a tap plays it, a second tap pauses it, and at the end
+it goes back to its still. It plays with its sound, at your phone's volume.
+There is no sound switch in the app, because nothing plays that you did not
+tap. Swiping to another photograph stops it.
+
+A video you receive is never written to your phone unless you save it: it
+plays straight out of its sealed copy, a piece at a time, and nothing readable
+is left behind when it stops.
 
 ## The caption
 
@@ -223,7 +271,10 @@ other people sent you; your posts live on your profile.
   The refusal never states the number, and never which of the ceilings it was.
 
 A photograph the phone cannot decode fails the publish with a sentence, and
-nothing is sent.
+nothing is sent. So does a video: *A video in that post could not be read. Try
+choosing it again.* A video whose conversion comes out too large is converted
+again, smaller, and only when two more tries have not made it fit does the post
+say *A video in that post came out too large to share. Try a shorter one.*
 
 Two more refusals live on our server and are backstops rather than sentences
 you should ever read: more than 32 photographs, and a single file too large
@@ -327,7 +378,9 @@ am I saving is not a question that should lag behind your thumb. It always
 fetches the full-size copy, even when the smaller one is already on screen.
 
 Files land in *Pictures/people you know/* on Android 10 and later, and in the
-gallery without that folder on Android 9 and older. The confirmation is a
+gallery without that folder on Android 9 and older. A video is saved the same
+way, from *more → save video*, into *Movies/people you know/*: the minute that
+was posted, as it was converted, and not the file it was made from. The confirmation is a
 snackbar reading *saved to your photos*. The capture time is put back as the
 file's date, so a photograph from 2019 sorts where it belongs in your gallery
 rather than at the top dated today. Everything else that was on the original
@@ -387,7 +440,10 @@ Worth stating plainly, because several of these are standard elsewhere:
 - Find out who looked at a post, or how many people received it. Nobody is
   told who looked at anything here, including you about your own posts.
 - Crop, filter, rotate or edit a photograph you are posting.
-- Post a video, a text post or a link.
+- Post a text post or a link, or a video longer than about a minute; a longer
+  one keeps the minute you choose.
+- Play a video without tapping it, or turn its sound down anywhere but on the
+  phone itself.
 
 The [rest of the guide](/how-it-works/) covers the other halves of this: who
 can hear a [comment](/how-it-works/comments/) on a post, what a

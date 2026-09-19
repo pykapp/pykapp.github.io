@@ -474,12 +474,13 @@ décider de ce que cette personne en fait ensuite. Les
 ## Ce qui n'est pas là
 
 L'application est sur Android seulement&#160;: pas d'application iPhone, pas de
-version web et pas de version bureau, donc il n'y a rien où se connecter dans un
-navigateur. Elle prend des photos, et pas de vidéo. La connexion se fait par
-adresse de courriel, et les codes y vont&#160;; la recherche ne prend plus de
-numéro non plus, parce qu'un compte ne peut plus venir à en détenir un pour
-qu'elle corresponde. Les invitations sont délivrées à la main pendant la bêta
-fermée, donc il n'y a pas de lien d'invitation à envoyer à qui que ce soit.
+version web et pas de version bureau, donc il n'y a rien où se connecter dans
+un navigateur. Elle prend des photos, et des vidéos d'environ une minute. La
+connexion se fait par adresse de courriel, et les codes y vont&#160;; la
+recherche ne prend plus de numéro non plus, parce qu'un compte ne peut plus
+venir à en détenir un pour qu'elle corresponde. Les invitations sont délivrées
+à la main pendant la bêta fermée, donc il n'y a pas de lien d'invitation à
+envoyer à qui que ce soit.
 
 Si quelque chose ici n'est pas ce que vous attendiez, [comment ça
 marche](/fr/comment-ca-marche/) a la version longue de chacun de ces points.

@@ -11,32 +11,32 @@ généralement derrière&#160;: dans *people you know*, une publication est livr
 que quelqu'un tombe dessus, pas d'adresse web pour elle, et aucun réglage qui
 en créerait une. La publication publique n'existe pas ici.
 
-**Dernière mise à jour&#160;:** 12 septembre 2026. Cette page décrit la bêta
+**Dernière mise à jour&#160;:** 18 septembre 2026. Cette page décrit la bêta
 fermée.
 
-## Choisir les photos
+## Choisir les photos et les vidéos
 
 La marque la plus à droite de la barre du bas ouvre l'écran de publication. Son
 libellé est *publier*, qui est aussi le titre de l'écran qu'elle ouvre et le mot
 du lien qui publie.
 
-Les photos viennent du sélecteur d'Android lui-même. *people you know* n'a
-aucune permission de lire votre photothèque et n'en demande jamais&#160;: le
-sélecteur remet à l'application les photos que vous avez choisies et rien
-d'autre. L'application demande au téléphone l'accès à internet, les
+Les photos et les vidéos viennent du sélecteur d'Android lui-même. *people you
+know* n'a aucune permission de lire votre photothèque et n'en demande
+jamais&#160;: le sélecteur remet à l'application ce que vous avez choisi et
+rien d'autre. L'application demande au téléphone l'accès à internet, les
 notifications, et, sur Android 9 et antérieur seulement, la permission d'écrire
 une photo enregistrée dans votre galerie. C'est toute la liste.
 
-Des photos seulement, pour l'instant. La vidéo n'est pas construite.
-
-Une publication en contient jusqu'à 32. *choisir des photos* devient *en
-ajouter* une fois que quelque chose est choisi, et le nombre à côté lit *1
-photo* ou *4 photos*. Chaque ligne est un petit carré de la photo elle-même
-avec *retirer* à côté et une poignée *=* qui la fait glisser à une nouvelle
-place&#160;; l'ordre des lignes est l'ordre des photos dans la publication.
-Choisir deux fois la même photo ne l'ajoute qu'une fois. La limite n'est
-mentionnée que lorsque vous l'atteignez vraiment, et elle le dit alors
-franchement&#160;: *C'est le maximum de photos pour une publication (32).*
+Une publication en contient jusqu'à 32, photos et vidéos ensemble dans
+n'importe quel ordre. *choisir des photos et des vidéos* devient *en ajouter*
+une fois que quelque chose est choisi, et le nombre à côté dit ce que vous
+avez&#160;: *1 photo*, *4 photos*, *1 vidéo*, ou *3 photos et 1 vidéo*. Chaque
+ligne est un petit carré de la photo elle-même avec *retirer* à côté et une
+poignée *=* qui la fait glisser à une nouvelle place&#160;; l'ordre des lignes
+est l'ordre des photos dans la publication. Choisir deux fois la même photo ne
+l'ajoute qu'une fois. La limite n'est mentionnée que lorsque vous l'atteignez
+vraiment, et elle le dit alors franchement&#160;: *C'est le maximum de photos
+et de vidéos pour une publication (32).*
 
 Il n'y a pas d'outil de recadrage, pas de filtre, pas de rotation et pas
 d'annotation. Ce que vous choisissez est ce qui est publié, et rien de ce que
@@ -60,6 +60,56 @@ une donnée sur un JPEG voudrait dire poser une photo déchiffrée sur le disque
 le temps de l'écriture. Rien dans cette chaîne n'écrit de photo lisible
 ailleurs que dans la mémoire. La seule exception délibérée est *enregistrer la
 photo*, plus bas, qui est tout l'intérêt d'enregistrer.
+
+## Publier une vidéo
+
+La ligne d'une vidéo montre une image fixe de la vidéo avec une petite marque
+qui dit qu'elle se lit, et pour le reste c'est une ligne comme les
+autres&#160;: *retirer*, la poignée *=*, et sa place dans l'ordre.
+
+### Une vidéo de plus d'une minute en garde une minute
+
+Une vidéo peut durer environ une minute. Une plus longue n'est pas refusée. Sa
+ligne porte *choisir quelle minute*, qui ouvre une image fixe de la vidéo avec
+un curseur dessous. Déplacer le curseur déplace le début de la minute gardée,
+et l'image suit, pour que vous trouviez le passage voulu en le regardant plutôt
+qu'en lisant des temps. Il n'y a de temps nulle part, et pas de seconde
+poignée, parce que la durée est toujours la même minute&#160;; aller jusqu'au
+bout garde la dernière. Si vous ne choisissez rien, la première minute est
+gardée.
+
+### Ce qui arrive à une vidéo
+
+Elle est convertie sur votre téléphone avant d'être scellée&#160;: dans le
+format que tous les téléphones lisent, pas plus de 1080 pixels sur son petit
+côté, et assez légère pour qu'une minute voyage sur la connexion d'un
+téléphone. Comme une photo, elle ne garde du fichier d'origine que ses images
+et son son. Le lieu, l'appareil et toutes les autres données sont partis, et le
+moment où elle a été filmée voyage à l'intérieur des données scellées, comme
+celui d'une photo. Ce que vous voyez sur la ligne est une image fixe de la
+vidéo convertie, et c'est aussi ce que tout le monde voit avant de la toucher.
+
+La conversion est le seul moment où cette application écrit en clair, sur le
+stockage de votre téléphone, quelque chose que vous publiez. Un convertisseur
+écrit un fichier, donc la copie convertie reste dans le cache de l'application,
+que rien ne sauvegarde, le temps de la sceller, et elle est supprimée dès
+qu'elle est scellée. C'est une copie plus petite d'une vidéo qui est déjà dans
+votre photothèque. Tout ce qui quitte le téléphone est scellé sous la clé de la
+publication, un morceau à la fois.
+
+### Comment une vidéo se lit
+
+Rien ne se lit tant que vous ne le demandez pas. Dans l'accueil, une vidéo est
+une image fixe avec la marque par-dessus, et la toucher ouvre la publication et
+la lit. Sur la publication et dans la visionneuse plein écran, un toucher la
+lit, un second la met en pause, et à la fin elle revient à son image fixe. Elle
+se lit avec son son, au volume de votre téléphone. Il n'y a pas de réglage du
+son dans l'application, parce que rien ne s'y lit sans que vous l'ayez touché.
+Passer à une autre photo l'arrête.
+
+Une vidéo que vous recevez n'est jamais écrite sur votre téléphone, sauf si
+vous l'enregistrez&#160;: elle se lit directement depuis sa copie scellée, un
+morceau à la fois, et rien de lisible ne reste quand elle s'arrête.
 
 ## La légende
 
@@ -254,7 +304,12 @@ ont envoyé&#160;; vos publications vivent sur votre profil.
   limites c'était.
 
 Une photo que le téléphone ne peut pas décoder fait échouer la publication avec
-une phrase, et rien n'est envoyé.
+une phrase, et rien n'est envoyé. Une vidéo aussi&#160;: *Une vidéo de cette
+publication n'a pas pu être lue. Essayez de la choisir à nouveau.* Une vidéo
+dont la conversion sort trop lourde est convertie à nouveau, plus légère, et
+c'est seulement quand deux essais de plus n'ont pas suffi que la publication
+dit *Une vidéo de cette publication est trop lourde pour être partagée.
+Essayez-en une plus courte.*
 
 Deux autres refus vivent sur notre serveur et sont des filets plutôt que des
 phrases que vous devriez jamais lire&#160;: plus de 32 photos, et un fichier
@@ -369,7 +424,10 @@ pouce. Cela récupère toujours la copie pleine taille, même quand la plus peti
 est déjà à l'écran.
 
 Les fichiers atterrissent dans *Pictures/people you know/* sur Android 10 et
-suivants, et dans la galerie sans ce dossier sur Android 9 et antérieur. La
+suivants, et dans la galerie sans ce dossier sur Android 9 et antérieur. Une
+vidéo s'enregistre de la même façon, depuis *options → enregistrer la vidéo*,
+dans *Movies/people you know/*&#160;: la minute qui a été publiée, telle
+qu'elle a été convertie, et non le fichier dont elle a été faite. La
 confirmation est un bandeau qui lit *enregistrée dans vos photos*. L'heure de
 prise de vue est remise comme date du fichier, pour qu'une photo de 2019 se
 range où elle doit dans votre galerie plutôt qu'en haut datée d'aujourd'hui.
@@ -438,7 +496,10 @@ courantes ailleurs&#160;:
   Personne n'apprend ici qui a regardé quoi que ce soit, y compris vous pour
   vos propres publications.
 - Recadrer, filtrer, tourner ou retoucher une photo que vous publiez.
-- Publier une vidéo, un texte seul ou un lien.
+- Publier un texte seul ou un lien, ou une vidéo de plus d'une minute
+  environ&#160;; une plus longue garde la minute que vous choisissez.
+- Lire une vidéo sans la toucher, ou en baisser le son ailleurs que sur le
+  téléphone lui-même.
 
 Le [reste du guide](/fr/comment-ca-marche/) couvre les autres moitiés de
 ceci&#160;: qui peut entendre un [commentaire](/how-it-works/comments/) sur une
