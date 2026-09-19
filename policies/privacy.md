@@ -140,6 +140,8 @@ We keep what is above for as long as your account exists, and then:
   deleted account's included, can survive in those for that long and no
   longer;
 - access logs are kept 30 days;
+- the database's own log of errors is kept 30 days, and it can name the handle
+  or the email address an error was about;
 - the counts your phone sends are added to a total on arrival and are never
   stored against your account, so there is nothing to keep;
 - the record of a search is swept after the hour it is rate-limited over, and

@@ -170,6 +170,9 @@ puis&#160;:
   une ligne supprimée aujourd'hui, celle d'un compte supprimé comprise, peut y
   survivre aussi longtemps et pas plus&#160;;
 - les journaux d'accès sont gardés 30 jours&#160;;
+- le journal d'erreurs de la base de données est gardé 30 jours, et il peut
+  nommer le pseudo ou l'adresse de courriel sur lesquels portait une
+  erreur&#160;;
 - les comptes que votre téléphone envoie sont ajoutés à un total à l'arrivée et
   ne sont jamais stockés à côté de votre compte, donc il n'y a rien à
   garder&#160;;
