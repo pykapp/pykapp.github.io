@@ -391,9 +391,10 @@ bloquez-le.
 
 ## Retirer quelqu'un
 
-Depuis *options* sur sa ligne dans l'écran des personnes, à côté de *bloquer*
-et *signaler*. C'est la seule porte&#160;: le *options* d'un profil contient
-*bloquer* et *signaler*, et rien d'autre. Un dialogue, et il dit ce qui va se passer plutôt que de demander si
+Depuis *options* sur son profil, à côté de *bloquer* et *signaler*. C'est la
+seule porte, et l'écran des personnes n'en a aucune&#160;: chaque ligne y mène
+à la personne, et ce que vous pouvez faire à son sujet est sur l'écran qui lui
+est consacré. Un dialogue, et il dit ce qui va se passer plutôt que de demander si
 vous êtes sûr&#160;: *Cette personne n'en sera pas informée. Vous cesserez tous
 les deux de voir ce que l'autre a partagé.*
 
@@ -430,8 +431,8 @@ entre cela et un blocage.
 
 ## Bloquer quelqu'un
 
-Accessible sous *options* sur sa ligne, à côté de *retirer*&#160;; sous
-*options* sur son profil&#160;; et sous *options* sur une demande reçue – parce qu'un simple refus laisse la
+Accessible sous *options* sur son profil, à côté de *retirer* et de
+*signaler*&#160;; et sous *options* sur une demande reçue – parce qu'un simple refus laisse la
 possibilité de redemander. Un inconnu peut être bloqué, et rien ne s'oppose
 jamais à ce que vous bloquiez quelqu'un.
 
@@ -509,8 +510,7 @@ ce serait le signal que l'«&#160;introuvable&#160;» existe pour retenir.
 
 ## Signaler quelqu'un
 
-*options → signaler*, sur un profil, sur sa ligne dans l'écran des personnes,
-ou sur la ligne d'une demande reçue. Nous
+*options → signaler*, sur un profil ou sur la ligne d'une demande reçue. Nous
 ne détenons que du chiffré et ne pouvons voir ni la photo ni les mots, donc ce
 qui nous parvient est un pointeur et le paragraphe que vous écrivez, qui voyage
 en clair – le dialogue le dit. La personne signalée n'apprend jamais qu'un

@@ -342,9 +342,9 @@ If somebody is being unpleasant to you, block them.
 
 ## Removing somebody
 
-From *more* on their row on the people screen, beside *block* and *report*.
-That is the only door: a profile's *more* holds *block* and *report*, and
-nothing else. One dialog, and
+From *more* on their profile, beside *block* and *report*. That is the only
+door, and the people screen has none: each row there is the way to the person,
+and what you can do about them is on the screen about them. One dialog, and
 it says what will happen rather than asking whether you are sure: *They will
 not be told. You will both stop seeing anything the other has shared.*
 
@@ -377,8 +377,8 @@ block.
 
 ## Blocking somebody
 
-Reachable under *more* on their row, beside *remove*; under *more* on their
-profile; and under *more* on an incoming request—because a decline alone lets somebody ask
+Reachable under *more* on their profile, beside *remove* and *report*; and
+under *more* on an incoming request—because a decline alone lets somebody ask
 again. A stranger can be blocked, and nothing ever stands in the way of
 blocking somebody.
 
@@ -448,8 +448,7 @@ signal the 404 exists to withhold.
 
 ## Reporting somebody
 
-*more → report*, on a profile, on their row on the people screen, or on an
-incoming request row. We hold
+*more → report*, on a profile or on an incoming request row. We hold
 ciphertext and cannot see the photograph or the words, so what reaches us is a
 pointer and the paragraph you write, which travels in the clear—the dialog
 says so. The person reported is never told that a report exists or who filed
