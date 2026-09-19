@@ -16,7 +16,7 @@ section.
 
 ## Ce qui est scellé, et ce qui ne l'est pas
 
-Scellé sur votre téléphone, avec des clés que nous ne détenons jamais&#160;:
+Scellé sur votre téléphone, avec des clés que nous ne voyons jamais&#160;:
 
 - les photos, à chaque taille où nous les stockons&#160;;
 - les légendes&#160;;
@@ -36,8 +36,8 @@ En clair, parce que livrer quoi que ce soit l'exige&#160;:
 - qui est dans chaque album où vous êtes&#160;;
 - pour chaque publication&#160;: qui l'a faite, quand, à qui elle a été
   adressée, combien d'images elle contient, quelle est la taille des fichiers
-  chiffrés, et, pour chaque destinataire, quelles images il a regardées et
-  quand&#160;;
+  chiffrés, et, pour chaque destinataire, s'il l'a vue et quand il l'a vue pour
+  la première fois&#160;;
 - les réactions, qui sont un émoji chacune&#160;;
 - le pointeur qui nomme le fichier chiffré où se trouve votre photo de profil,
   qui est ce qui nous permet de signer le lien qui la sert&#160;;
@@ -280,18 +280,24 @@ et l'enverrait. Donc si la clé d'une personne a changé, la publication échoue
 avant qu'un seul octet soit envoyé, et vous voyez ceci&#160;:
 
 > La clé qu'on nous a donnée pour anna n'est pas celle que ce téléphone a vue
-> auparavant. Cela arrive quand quelqu'un réinstalle l'application ou change de
-> téléphone. Cela arrive aussi quand quelqu'un intercepte vos messages, et
-> d'ici nous ne pouvons pas faire la différence. Vérifiez auprès d'elle par un
-> autre moyen avant de partager quoi que ce soit.
+> auparavant. Ici, changer de téléphone ou réinstaller l'application ne change
+> pas une clé, donc cela ne devrait pas arriver tout seul. Cela peut vouloir
+> dire que quelqu'un intercepte ce que vous partagez avec cette personne.
+> Vérifiez avec elle par un autre moyen avant de partager quoi que ce soit.
 
 Les réponses sont *j'ai vérifié, c'est bien eux* et *pas maintenant*. Le texte
-ne devine délibérément pas laquelle des explications est la bonne, et il n'y a
-pas de «&#160;continuer quand même&#160;» formulé pour être le chemin facile.
-Une réinstallation et une interception se ressemblent exactement d'ici, et
-adoucir le texte pour le cas courant est ainsi qu'une alerte de sécurité
-devient un dialogue que les gens écartent sans lire. L'effacer est une décision
-distincte que quelqu'un a prise, pas une nouvelle tentative.
+n'offre aucune explication ordinaire parce qu'ici il n'y en a pas&#160;:
+restaurer à partir des six mots ramène la même clé, et rien dans l'application
+n'en publie une nouvelle. Il n'y a pas non plus de «&#160;continuer quand
+même&#160;» formulé pour être le chemin facile, parce que c'est en adoucissant
+une alerte de sécurité qu'on en fait un dialogue que les gens écartent sans
+lire. L'effacer est une décision distincte que quelqu'un a prise, pas une
+nouvelle tentative.
+
+Ce que l'alarme ne peut pas encore faire, c'est vous montrer les deux clés,
+pour que la personne à l'autre bout puisse lire la sienne à voix haute et
+trancher. Cela va avec la comparaison des clés, plus bas, et ce n'est pas
+construit.
 
 ### Où vivent les clés notées
 
@@ -310,18 +316,41 @@ et doit prendre ce qu'on lui donne.
 
 ### Ce que l'affirmation est, exactement
 
-Nous ne pouvons rien lire de ce qui a déjà été envoyé, et nous ne pouvons pas
-*commencer* à intercepter sans que chaque téléphone concerné lève cette alarme.
-Ce qui n'est pas encore couvert, c'est le tout premier bonjour entre deux
-personnes qui n'ont jamais échangé de clé&#160;: un téléphone qui n'a rien noté
-prend ce qu'on lui donne.
+Une fois que votre téléphone a noté une clé pour un compte, nous ne pouvons pas
+remplacer cette clé par une des nôtres sans que votre téléphone refuse de
+sceller quoi que ce soit pour elle et lève cette alarme. Et ce qui a été scellé
+pour de vraies clés nous reste fermé&#160;: chaque copie de clé que nous
+détenons est verrouillée de façon que nous ne puissions pas nous en servir, et
+seul un téléphone qui détient déjà la clé d'une publication peut la transmettre
+à quelqu'un de nouveau.
 
+C'est une affirmation sur une clé qui *change*, et elle est plus étroite que
+«&#160;nous ne pouvons pas commencer à intercepter&#160;». Deux choses restent
+en dehors.
+
+La première est le tout premier bonjour entre deux personnes qui n'ont jamais
+échangé de clé&#160;: un téléphone qui n'a rien noté prend ce qu'on lui donne.
 Refermer cela veut dire comparer les clés hors bande – se lire à voix haute un
 code court, ou scanner un carré – et **ce n'est pas construit**. Ce qui existe
 aujourd'hui est l'empreinte de votre propre clé dans *paramètres → votre clé*,
 24 caractères en six groupes de quatre, qui est ce que deux personnes se
-liraient une fois que cela existera. L'écart est petit et universel au
-chiffrement de bout en bout, et il est écrit ici plutôt que passé sous
+liraient une fois que cela existera.
+
+La seconde est la liste elle-même. Votre téléphone nous demande qui sont vos
+relations, qui est dans un groupe et qui est dans un album, et le redemande au
+moment où vous publiez. Il scelle pour la liste qu'on lui donne, et il ne tient
+aucune liste à lui des personnes à qui vous avez demandé ou que vous avez
+acceptées. Un compte qu'il n'a jamais vu est un premier bonjour, noté sans un
+mot. Un serveur malhonnête pourrait donc *ajouter* un lecteur à lui plutôt que
+remplacer l'un des vôtres, et aucun téléphone ne lèverait d'alarme. Comparer
+les clés avec une personne ne change rien à un compte en trop&#160;; ce qui le
+ferait, c'est que le téléphone tienne sa propre liste, et **ce n'est pas
+construit non plus**. La clé notée est aussi tenue en regard du compte et non
+du nom à l'écran, donc un nouveau compte portant un nom familier est lui aussi
+un premier bonjour.
+
+Tout système chiffré de bout en bout a la première de ces deux limites. La
+seconde est la nôtre, et les deux sont écrites ici plutôt que passées sous
 silence.
 
 ### Un cadenas n'est remis que là où quelque chose va lui être verrouillé
@@ -353,7 +382,10 @@ publication ordinaire, et sort chacun de vous des albums que l'autre a faits,
 avec les clés qui allaient avec. Il ne reste rien à vérifier, parce qu'il ne
 reste aucune clé contre laquelle vérifier. C'est de l'arithmétique plutôt
 qu'une règle, ce qui est pourquoi [retirer quelqu'un](/fr/ajouter-des-relations/)
-est silencieux et total.
+est silencieux et total. La seule chose en dehors de cette arithmétique est une
+sauvegarde de notre base de données, qui garde une ligne supprimée jusqu'à 35
+jours, comme le dit la [politique de confidentialité](/privacy/), et que rien
+dans le produit ne relit.
 
 Ce qu'un retrait n'atteint délibérément pas, c'est un album fait par une tierce
 personne. Une livraison là-bas repose sur le fait d'être dans cette pièce
@@ -376,11 +408,14 @@ La même forme, partout où elle apparaît&#160;:
   les membres qui existent à ce moment-là.
 - [Supprimer votre compte](/delete-account/) détruit chaque clé qu'il détient
   et chaque clé qu'il a distribuée, en une transaction.
-- Révoquer qui peut lire votre nom et voir votre visage est une ligne
-  supprimée, parce que votre clé de profil est enveloppée par personne plutôt
-  qu'intégrée à quoi que ce soit.
+- Retirer ou bloquer quelqu'un, ou une demande refusée, annulée ou expirée,
+  supprime la copie de votre clé de profil qui était enveloppée pour cette
+  personne, et avec elle le motif pour lequel nous lui servions votre nom et
+  votre photo scellés. La clé elle-même ne change pas, et une copie portée par
+  la photo de quelqu'un d'autre est un motif distinct&#160;; les deux sont la
+  troisième limite ci-dessous.
 
-### Les deux choses que cela ne fait pas
+### Les trois choses que cela ne fait pas
 
 **Tout ce qui a déjà été téléchargé sur le téléphone de quelqu'un lui
 appartient.** Détruire la clé empêche toute nouveauté de s'ouvrir&#160;; cela
@@ -391,15 +426,31 @@ même ligne&#160;: il contient ce que vous avez fait, pas les photos des autres,
 même si votre téléphone détient une clé pour chacune d'elles.
 
 **Un commentaire caché l'est par un filtre, pas par une clé détruite.** C'est
-la seule exception du produit, et elle vaut la peine d'être comprise. Un
+l'un des deux endroits du produit où reprendre quelque chose est un filtre, et
+il vaut la peine d'être compris. Un
 commentaire est scellé sous la clé de la publication, que chaque destinataire
 détient déjà, donc quand quelqu'un sort du groupe de ceux qui peuvent [entendre
 un commentaire](/fr/commentaires/), ce qui change est à qui les mots sont
 montrés plutôt que qui pourrait en principe les ouvrir. La correction évidente
-serait d'enveloper chaque commentaire pour exactement les bonnes personnes, et
+serait d'envelopper chaque commentaire pour exactement les bonnes personnes, et
 elle est pire&#160;: il faudrait dire au téléphone de celui qui écrit
 lesquelles de ses relations connaissent l'auteur, ce qui divulgue un graphe
 pour en cacher un.
+
+**Un nom et un visage sont retenus par nous, pas par une nouvelle clé.** C'est
+l'autre endroit. Votre clé de profil est dérivée de votre clé d'identité, donc
+elle ne change jamais, et un nouveau nom ou une nouvelle photo sont scellés sous
+la même. Retirer quelqu'un supprime la copie que nous détenions enveloppée pour
+cette personne, l'application ne garde jamais la clé désenveloppée, et nous
+cessons de lui servir votre nom et votre photo scellés. Mais un téléphone
+modifié pour garder cette clé pourrait ouvrir un nom ou une photo ultérieurs
+s'il pouvait obtenir les octets scellés, et la seule chose qui l'en empêche est
+que notre serveur refuse de les remettre. Et un retrait n'atteint pas une photo
+que quelqu'un d'autre a partagée&#160;: tant qu'une personne que vous avez
+retirée voit encore une photo sur laquelle une relation vous a identifié, ou
+l'une des vôtres qu'une relation lui a repartagée, la copie de votre clé sur
+cette photo continue de lui ouvrir votre nom et votre visage, jusqu'à ce que
+votre identification, le repartage ou sa copie de la photo disparaisse.
 
 ## Un nom et un visage voyagent par clé aussi
 
@@ -417,9 +468,13 @@ vous avez demandé ne vous montre rien jusqu'à ce qu'il accepte. C'est aussi
 pourquoi nous ne pouvons pas composer une notification&#160;: nous détenons le
 nom sous forme chiffrée.
 
-Il y a un endroit où une clé est remise à quelqu'un par une tierce personne, et
-c'est assez inhabituel pour être nommé. Quand une relation met votre nom sur
-une photo, les gens qui voient cette photo peuvent n'avoir aucun lien avec vous
+Il y a deux endroits où votre clé de profil est remise à quelqu'un par une
+tierce personne, et ils sont assez inhabituels pour être nommés. Le second est
+le repartage&#160;: quelqu'un que vous avez identifié sur une de vos photos, là
+où vous l'avez permis, transmet la clé de la publication et votre clé de profil
+aux personnes qu'il a choisies, et cette copie repose sur la copie du repartage
+que détient chaque spectateur. Le premier est l'identification elle-même. Quand
+une relation met votre nom sur une photo, les gens qui voient cette photo peuvent n'avoir aucun lien avec vous
 et ne pourraient ouvrir ni votre nom ni votre visage. Alors la personne qui
 vous a identifié réenveloppe votre clé de profil sur cette publication, depuis
 son propre téléphone, pour chacun de ces spectateurs. Nous détenons les copies
@@ -529,10 +584,10 @@ L'affirmation ci-dessus est plus étroite que «&#160;privé&#160;», et voici s
 bords.
 
 - **Les métadonnées.** Nous savons avec qui vous êtes en relation, à qui vous
-  avez envoyé une publication et quand, et quelles images chacun a regardées.
-  C'est ce dont le serveur a besoin pour livrer quoi que ce soit, et cela
-  révèle qui parle à qui. La [politique de confidentialité](/privacy/) le liste
-  en entier.
+  avez envoyé une publication et quand, et si chacun l'a vue et quand il l'a vue
+  pour la première fois. C'est ce dont le serveur a besoin pour livrer quoi que
+  ce soit, et cela révèle qui parle à qui. La [politique de
+  confidentialité](/privacy/) le liste en entier.
 - **Ce qu'un destinataire garde.** Tout ce qui est déjà sur le téléphone de
   quelqu'un lui appartient. L'application n'empêche pas les captures d'écran et
   ne peut pas rappeler une photo d'un téléphone qui l'a déjà téléchargée.
@@ -541,6 +596,29 @@ bords.
 - **Le premier bonjour.** Comparer les clés en personne n'est pas encore
   construit, donc un serveur qui aurait été malhonnête au tout premier échange
   entre deux personnes n'est pas détectable par elles aujourd'hui.
+- **Pour qui une publication est scellée.** La liste des personnes pour qui
+  votre téléphone scelle une publication vient de nous, redemandée au moment où
+  vous publiez, et votre téléphone ne tient aucune liste à lui pour la vérifier.
+  Un serveur malhonnête pourrait ajouter à cette liste un compte à lui et
+  recevoir une copie de la clé de la publication, sans alarme sur aucun
+  téléphone et sans que rien à l'écran ait à le montrer. Si *partager les
+  anciennes publications avec les nouvelles relations* est réglé sur *toujours*,
+  ce qui n'est pas le réglage de départ, un tel compte recevrait aussi ce que
+  vous aviez déjà partagé avec tout le monde. Nous pourrions aussi mettre une
+  vraie relation dans un groupe où vous ne l'avez pas mise.
+- **De qui vient une publication.** Rien dans une publication ne prouve qui l'a
+  faite&#160;: rien n'est signé, et le nom au-dessus d'une publication est un
+  champ que nous remplissons. Un serveur malhonnête pourrait sceller pour votre
+  clé une photo de son choix et la livrer sous le nom d'une relation, ou mettre
+  le nom d'une relation sur une publication qu'une autre a envoyée. Ce qu'il ne
+  peut pas faire, c'est ouvrir une vraie publication ou y écrire quoi que ce
+  soit de nouveau&#160;; il peut continuer de servir une version antérieure
+  d'une légende ou d'un commentaire après que son auteur l'a modifié, parce que
+  rien de scellé ne dit quelle version est la dernière. Un commentaire est lié au compte de son auteur au moment où il
+  est scellé, donc nous ne pouvons pas déplacer les mots d'une personne sous le
+  nom d'une autre sans détenir d'abord la clé de la publication. Les réactions
+  ne sont pas scellées du tout, donc celles-là, nous pourrions les écrire
+  nous-mêmes.
 - **La rétention.** Nous pouvons refuser de rendre la sauvegarde scellée de
   votre clé, ou en rendre une plus ancienne. Les deux vous coûtent une
   restauration&#160;; aucun ne lit une photo.

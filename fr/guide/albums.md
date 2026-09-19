@@ -19,7 +19,7 @@ d'autre. La phrase en haut de l'écran d'un album est toute la promesse&#160;:
 Vos albums sont une ligne sur votre propre profil, sous *vos relations*&#160;:
 *profil → albums*. *nouvel album* demande un nom et en crée un, qui à ce moment
 est un album avec une personne dedans. Le nom est scellé sur votre téléphone
-sous une clé que nous ne détenons jamais, donc nous ne pouvons pas le lire, et
+sous une clé que nous ne voyons jamais, donc nous ne pouvons pas le lire, et
 il ne peut pas être changé ensuite.
 
 Vous pouvez détenir 32 albums ouverts à la fois. En fermer un fait de la place,
@@ -279,8 +279,9 @@ ses commentaires. Tout cela est scellé sur les téléphones qui l'ont fait.
 Nous détenons bien ce qu'il faut pour livrer une photo aux bonnes
 personnes&#160;: qui est dans chaque album où vous êtes, qui l'a fait, quand
 chaque personne y a été ajoutée, s'il est fermé, qui a versé quoi et quand,
-quelle est la taille des fichiers chiffrés, et si chaque destinataire a regardé
-une photo. Personne n'est jamais informé de ce dernier point. La [politique de
+quelle est la taille des fichiers chiffrés, et si chaque destinataire a vu une
+contribution et quand il l'a vue pour la première fois. Personne n'est jamais
+informé de ce dernier point. La [politique de
 confidentialité](/privacy/) dit la même chose pour le reste de l'application.
 
 Deux conséquences plus petites. Un signalement porte sur une publication, un

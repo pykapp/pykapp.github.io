@@ -78,10 +78,10 @@ dans l'accueil.
 
 **Personne n'apprend que vous avez regardé.** Il n'y a nulle part dans
 l'application de liste de personnes ayant vu, de compteur de vues ni d'accusé
-de lecture. L'application enregistre bien que vous avez vu une publication,
-parce que c'est ainsi que votre file se vide et qu'un ensemble de photos rouvre
-là où vous l'aviez laissé, et il n'existe ni écran, ni route, ni champ qui le
-rapporte à la personne qui a publié. Une version avec la liste des personnes
+de lecture. L'application enregistre bien que vous avez vu une publication, et
+quand vous l'avez vue pour la première fois, parce que c'est ainsi que votre
+file se vide, et il n'existe ni écran, ni route, ni champ qui le rapporte à la
+personne qui a publié. Une version avec la liste des personnes
 ayant vu a été construite une fois puis retirée&#160;: un accusé de lecture par
 personne fait du fait de regarder une photo un acte qui est rapporté, ce qui
 est précisément ce dont ce produit veut être une échappatoire.
@@ -240,13 +240,18 @@ avec qui vous n'avez aucune relation, parce que les membres de l'album en sont
 les destinataires&#160;: la ligne le nomme, et le nom n'est pas un lien, parce
 qu'il n'y a pas de profil derrière.
 
-Une ligne de l'accueil ouvre toujours ses photos à la première, y compris quand
-elle sort de l'écran et y revient&#160;: une ligne revenue à la deuxième ne
+Une publication s'ouvre toujours à sa première photo, d'où que vous
+l'ouvriez&#160;: une ligne de l'accueil, vos archives, le profil de quelqu'un,
+un album, l'onglet activité. Une ligne de l'accueil le fait même quand elle
+sort de l'écran et y revient&#160;: une ligne revenue à la deuxième photo ne
 pourrait jamais satisfaire la règle du vu, et la publication resterait dans
-votre file pour toujours. L'écran d'une publication se comporte
-différemment&#160;: une publication que vous ouvrez reprend à la photo que vous
-regardiez en dernier. Toucher une photo précise dans l'accueil l'emporte sur
-les deux et ouvre la publication à celle-là.
+votre file pour toujours.
+
+La seule chose qui change l'endroit où une publication s'ouvre est de toucher
+une photo précise dans l'accueil, ce qui ouvre la publication à celle-là. Ce
+n'est pas l'application qui se souvient de quoi que ce soit&#160;: c'est la
+photo qui était sous votre pouce un instant plus tôt. Rien n'enregistre quelles
+photos vous avez regardées.
 
 ## L'onglet activité
 

@@ -188,8 +188,11 @@ balayée plutôt que seulement filtrée, pour qu'une demande que personne n'a
 jamais ouverte ne laisse pas votre profil déchiffrable par elle pour toujours.
 
 Une limite honnête, puisqu'il est facile de la lire comme plus forte qu'elle
-n'est&#160;: détruire cette clé arrête le déchiffrement futur. Cela ne fait pas
-oublier ce qui a déjà été montré.
+n'est&#160;: ce qui est détruit, c'est la copie de votre clé de profil qui était
+enveloppée pour cette personne, et la clé elle-même ne change pas. Nous cessons
+de lui servir votre nom et votre photo, et cela ne fait pas oublier ce qui a
+déjà été montré. [Comment marche la confidentialité](/fr/confidentialite/) dit
+ce que cela laisse ouvert.
 
 Si vous vous demandez l'un l'autre en même temps, les deux demandes restent là
 et la première acceptation crée le lien et efface les deux.
@@ -397,8 +400,11 @@ En une transaction, cela détruit le lien et, avec lui&#160;:
 - chaque clé enveloppée qui laissait l'un ou l'autre ouvrir les publications de
   l'autre, dans les deux sens – donc les photos cessent d'être lisibles plutôt
   que d'être cachées&#160;;
-- les deux autorisations de profil, donc aucun des deux ne peut plus ouvrir le
-  nom affiché ni la photo de l'autre&#160;;
+- les deux autorisations de profil, donc aucun des deux ne se voit plus servir
+  le nom affiché ni la photo de l'autre au titre de la relation. Une copie de
+  votre clé de profil portée par la photo d'une tierce personne qui vous
+  identifie, ou par un repartage d'une des vôtres, survit à un retrait, comme
+  le dit [Comment marche la confidentialité](/fr/confidentialite/)&#160;;
 - son appartenance à vos groupes, et la vôtre aux siens&#160;;
 - son appartenance à tout [album](/how-it-works/albums/) que vous avez créé, et
   ses copies des clés de tout ce qu'il contient – et les vôtres de tout album

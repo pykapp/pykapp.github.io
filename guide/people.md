@@ -163,8 +163,11 @@ other person's profile with no notification. Expiry is swept rather than only
 filtered, so a request nobody ever opened does not leave your profile
 decryptable by them for ever.
 
-One honest limit, since it is easy to read as stronger than it is: destroying
-that key stops future decryption. It does not unsee what was already shown.
+One honest limit, since it is easy to read as stronger than it is: what is
+destroyed is the copy of your profile key that was wrapped for them, and the
+key itself does not change. We stop serving them your name and picture, and it
+does not unsee what was already shown. [How the privacy
+works](/how-it-works/privacy/) says what that leaves open.
 
 If you each ask the other at the same time, both requests sit there and the
 first accept creates the connection and clears both.
@@ -346,8 +349,11 @@ In one transaction it destroys the connection and, with it:
 
 - every wrapped key that let either of you open the other's posts, in both
   directions—so the photographs stop being readable rather than being hidden;
-- both profile grants, so neither can open the other's display name or picture
-  any more;
+- both profile grants, so neither is served the other's display name or
+  picture on the strength of the connection any more. A copy of your profile
+  key riding on a third person's photograph that names you, or on a reshare
+  of yours, outlives a removal, as [How the privacy
+  works](/how-it-works/privacy/) says;
 - their membership of your groups, and yours of theirs;
 - their membership of any [album](/how-it-works/albums/) you created, and
   their copies of the keys for everything in it—and yours of any album they

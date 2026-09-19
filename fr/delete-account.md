@@ -53,13 +53,19 @@ est pire pour vous qu'une attente d'un jour ou deux.
 
 Huit jours plus tard, les fichiers chiffrés sont retirés du stockage. Ces huit
 jours ne sont pas un retour en arrière&#160;: les clés ont été détruites au
-moment de la touche et rien ne peut les restaurer. Se connecter pendant ce
-temps avec la même adresse crée un nouveau compte, vide.
+moment de la touche et rien dans le produit ne peut les restaurer. Une ligne
+supprimée peut survivre à la touche dans une sauvegarde de notre base de données
+ou dans la sortie de quelque chose que nous avons lancé à la main, pendant les
+35 et les 90 jours où celles-ci sont gardées. Se connecter pendant ce temps avec
+la même adresse crée un nouveau compte, vide.
 
-Ensuite nous gardons la trace qu'un compte portant cet identifiant a existé,
-les blocages que vous avez posés ou qui ont été posés contre vous, et les
-signalements que vous avez déposés, sans votre nom, votre adresse ni vos clés
-sur aucun d'eux.
+Ce que nous gardons ensuite ne porte ni votre nom, ni votre pseudo, ni votre
+adresse, ni vos clés, et la [politique de
+confidentialité](/fr/politique-de-confidentialite/) l'énumère en entier&#160;:
+le fait que le compte a existé, les blocages, les signalements, qui a invité
+qui, les demandes d'ajout que vous avez envoyées et reçues, quand vous vous êtes
+connecté, et les lignes de vos publications et de vos commentaires marquées
+supprimées.
 
 ## Supprimer une publication, un commentaire ou une photo
 

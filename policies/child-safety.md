@@ -43,7 +43,7 @@ This app has no mechanism by which a stranger reaches anybody:
 ## What we can and cannot see
 
 The app is end to end encrypted. Photographs, captions, comments and names are
-encrypted on the phone that made them, with keys we never hold. We therefore
+encrypted on the phone that made them, with keys we never see. We therefore
 do not scan content, filter it, or review it proactively, and we cannot: there
 is nothing for a scanner to read. Our [moderation policy](/moderation/) says
 the same at greater length.

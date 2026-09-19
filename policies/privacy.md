@@ -8,7 +8,7 @@ know. This page says what we hold about you, what we cannot see, and what
 happens when you leave. It is written to be read, not skimmed; it is short
 because there is not much to say.
 
-**Last updated:** 13 September 2026. This policy covers the closed beta.
+**Last updated:** 19 September 2026. This policy covers the closed beta.
 
 ## Who is responsible, and where this applies
 
@@ -23,14 +23,15 @@ one.
 ## The one-sentence version
 
 Your photos, captions, comments, names and bios are encrypted on your phone
-before they leave it, with keys we never have. We hold the encrypted files,
-the list of who you are connected to, and the bookkeeping needed to deliver
-things between you. We do not scan, read, rank, or sell any of it.
+before they leave it, with keys we never see. We hold the encrypted files,
+copies of those keys that are locked so that we cannot use them, the list of
+who you are connected to, and the bookkeeping needed to deliver things between
+you. We do not scan, read, rank, or sell any of it.
 
 ## What we cannot see
 
 Everything you would call content is sealed on your phone under keys that
-exist only on your phone and on the phones of the people you share with:
+only your phone and the phones of the people you share with can use:
 
 - photos, at every size we store them;
 - captions;
@@ -43,29 +44,66 @@ who obtains a copy of our servers. If you lose your recovery phrase and every
 phone that holds your key, your photos are gone. We cannot recover them, and
 this is deliberate: there is no copy that is ours to hand back.
 
+We also hold keys, every one of them locked before it reached us:
+
+- a copy of your own key, sealed on your phone under the six words of your
+  recovery phrase. It is how a new phone gets your key back. We never see the
+  six words, so we cannot open it; anybody who had both our copy and your six
+  words could, which is why the words are yours alone to keep;
+- a list of the keys your phone has been given for the people you have met
+  here, sealed under your own key, so that a new phone can notice if one of
+  them is ever swapped. We cannot open that either;
+- for each post, album and profile you can open, a copy of its key locked to
+  your public key, which only the key on your phone opens.
+
+Beside the first two we can read what it takes to store them and nothing more:
+the settings your phone needs to turn six words back into a key, a version
+number, and when each was last saved.
+
 ## What we can see
 
 To deliver a photo to the right people we hold, in the clear:
 
-- your handle, and the email address you signed up with;
+- your handle, and the email address you signed up with. If we were full when
+  you tried to join and you asked to be told when there is room, we hold that
+  address and when you asked, and nothing else, until we have written to it
+  about a place;
 - who you are connected to, and when you connected;
 - add requests you send and receive, blocks you place, and anybody whose
   posts you have muted (a mute is yours alone; the other person is never
   told);
-- which of your groups a person is in (never shown to that person);
+- who invited you, and who you invited;
+- the names of your groups, and which of your groups a person is in (never
+  shown to that person);
 - who is in each album you are in;
-- for every post: who made it, when, who it was addressed to, how many
-  frames it has, how large the encrypted files are, and whether each
-  recipient has looked at it;
+- for every post: who made it, when, whether and when it was edited, who it
+  was addressed to or which album it is in, who is named on it, whether it
+  shares somebody else's post again, how many frames it has, whether each is
+  a photograph or a video and how long a video says it runs, how large the
+  encrypted files are, and whether each recipient has seen it and when they
+  first did. That is one moment per person per post; nothing records which
+  photographs anybody looked at, and nobody is ever shown it;
+- for every comment: who wrote it, on which post, when, and which comment it
+  answers;
 - reactions, which are one emoji each and are stored in the clear because a
   single emoji from a known set cannot be meaningfully encrypted;
 - the text of any report you file, because a report is a message to us and
-  we have to be able to read it;
+  we have to be able to read it; and, if somebody reports you, that they did,
+  what they wrote, what we decided and when, and whether your account is
+  suspended;
 - the text of any bug report you send, and the one line shown to you before
   you send it: the version of the app, the version of Android or iOS and the
   model of your phone. Nothing else goes with it—no screenshot, no log, no
   file—and the app has no way to attach one;
-- push tokens for phones you have signed in on;
+- your activity list: what happened, who did it, on which post, when, and
+  when you read it. An entry is kept for 128 days;
+- whose posts you have asked to be told about, and the other switches in your
+  settings;
+- for each phone you have signed in on: its push token, whether it is an
+  Android phone or an iPhone, which build of the app it runs, and when you
+  signed in there and last used it;
+- your public key, which is the half that is meant to be handed out, and when
+  it was published;
 - the moment you confirmed you were 18 or older (never your date of birth);
 - counts of what your phone could and could not open, added to a total the
   moment they arrive and not kept against your account.
@@ -86,19 +124,27 @@ is there it is subject to United States law, including lawful requests by US
 authorities. We are telling you because Québec's Law 25 requires it and because
 it is the kind of thing you should be able to find out without asking. What such
 a request could reach is what this page already says we hold: the encrypted
-files, which we cannot open, and the metadata. There is no key of yours anywhere
-for anybody to compel out of us, which is the point of the whole arrangement
-rather than a happy accident.
+files and the locked keys, neither of which we can open, and the metadata. There
+is no key here that we can use, and so none that anybody can compel us to hand
+over or to use, which is the point of the whole arrangement rather than a happy
+accident. What a server made to act dishonestly from then on could do is a
+different question, and [how the privacy works](/how-it-works/privacy/) answers
+it under what this does not protect you from.
 
 We keep what is above for as long as your account exists, and then:
 
-- when you delete your account, the keys go at once and the encrypted files
-  leave storage eight days later;
+- when you delete your account, the keys go at once, the sealed copy of your
+  own key among them, and the encrypted files leave storage eight days later;
+- backups of our database are kept 35 days, and the output of anything we run
+  by hand against the database is kept 90 days, so a row deleted today, a
+  deleted account's included, can survive in those for that long and no
+  longer;
 - access logs are kept 30 days;
 - the counts your phone sends are added to a total on arrival and are never
   stored against your account, so there is nothing to keep;
-- one-time sign-in codes and the record of a search are swept once they can no
-  longer change any decision, which is the window each is rate-limited over;
+- the record of a search is swept after the hour it is rate-limited over, and
+  one-time sign-in codes, with the address they were sent to, after two days,
+  which is what the limit on wrong guesses needs to read;
 - after deletion we keep only the record described under *Deleting your
   account* below.
 
@@ -135,7 +181,8 @@ incident nobody wrote down is one nobody learns from.
 
 What we cannot do is tell you that your photographs were read, because they
 cannot be: what an attacker who took everything we have would hold is
-ciphertext and the metadata this page lists.
+ciphertext, keys locked so that they cannot be used, and the metadata this page
+lists.
 
 ## Who else sees anything
 
@@ -196,13 +243,23 @@ to ask without it:
 - your handle and your email address are freed.
 
 Eight days later the encrypted files are removed from storage. Those eight
-days are not an undo: the keys were destroyed at the tap and nothing can
-restore them. Signing in during that time with the same address starts a new,
+days are not an undo: the keys were destroyed at the tap and nothing in the
+product can restore them. A deleted row can outlive the tap in a backup of our
+database or in the output of something we ran by hand, for the 35 and 90 days
+those are kept. Signing in during that time with the same address starts a new,
 empty account.
 
-What we keep afterwards is a record that an account with that identifier
-existed, blocks you placed or that were placed against you, and reports you
-filed—without your name, address or key on any of it.
+What we keep afterwards is kept under an identifier that no longer carries
+your name, handle, address or key: that the account existed, when it was made,
+when it confirmed its age and when it was deleted; blocks you placed or that
+were placed against you; reports you filed or that were filed about you, and
+bug reports you sent; who invited you and who you invited; the add requests
+you sent and received, marked cancelled; when you signed in on each phone and
+last used it; and the rows of your posts and comments, marked deleted, which
+still say when each was made and, for a post, who it was addressed to. A
+deleted comment's sealed text stays in its row until the post it was on is
+removed, and we serve it to nobody. Entries about what you did in other
+people's activity lists go within 128 days.
 
 ## Exporting your data
 
@@ -213,9 +270,9 @@ because we could not produce it: we hold nothing readable to give you.
 
 If you no longer have the phone, write to pykapp+privacy@proton.me from the
 address on your account and we will send what we hold within a month: your
-account record, the handles of your connections, and the encrypted files if
-you want them. We cannot send readable photographs, because we cannot read
-them.
+account record, the handles of your connections, and the encrypted files and
+the locked keys if you want them. We cannot send readable photographs, because
+we cannot read them.
 
 ## Children
 

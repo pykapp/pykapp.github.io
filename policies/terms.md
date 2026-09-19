@@ -7,7 +7,7 @@ permalink: /terms/
 using it during the closed beta. They are short on purpose, and they are a
 contract: using the app means agreeing to them.
 
-**Last updated:** 13 September 2026.
+**Last updated:** 19 September 2026.
 
 ## Where this is offered
 
@@ -92,8 +92,8 @@ sending a photo.
 be uninterrupted, that it will not lose data, or that it is fit for any
 particular purpose, and we disclaim the implied warranties of merchantability,
 fitness for a particular purpose and non-infringement, so far as the law allows.
-This is a beta of an encrypted product where we hold no key: it is the wrong
-place for the only copy of a photograph that matters to you.
+This is a beta of an encrypted product where we hold no key we can use: it is
+the wrong place for the only copy of a photograph that matters to you.
 
 ## Liability
 
@@ -125,7 +125,7 @@ We may suspend or delete an account that breaks the rules above, as the
 moderation policy describes. If we delete your account for a reason other than
 your own breach, and you cannot reach your data, write to us and we will help
 so far as we are able, which for anything encrypted is limited by the fact that
-we hold no key.
+we hold no key we can use.
 
 ## Governing law
 

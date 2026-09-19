@@ -303,9 +303,9 @@ and didn't say anything" becomes available to everyone in the audience. That
 obligation is the thing this app is meant to be a rest from, and leaving the
 number off does not fix it.
 
-The app does record that a photograph was opened. That is how your feed
-empties and how a carousel reopens where you left it, and it is listed in the
-privacy policy as something we hold. What is gone is any way to ask for it.
+The app does record that you saw a post, and when you first did. That is how
+your feed empties, and it is listed in the privacy policy as something we
+hold. What is gone is any way to ask for it.
 
 ## Being named on a photograph
 

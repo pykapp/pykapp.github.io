@@ -11,7 +11,7 @@ permalink: /fr/conditions/
 conditions pour l'utiliser pendant la bêta fermée. Elles sont courtes exprès,
 et ce sont un contrat&#160;: utiliser l'application, c'est les accepter.
 
-**Dernière mise à jour&#160;:** 13 septembre 2026.
+**Dernière mise à jour&#160;:** 19 septembre 2026.
 
 ## Où ceci est proposé
 
@@ -105,8 +105,9 @@ qu'elle sera ininterrompue, ni qu'elle ne perdra pas de données, ni qu'elle
 convient à un usage particulier, et nous excluons les garanties implicites de
 qualité marchande, d'adéquation à un usage particulier et d'absence de
 contrefaçon, dans la mesure où la loi le permet. C'est une bêta d'un produit
-chiffré dont nous ne détenons aucune clé&#160;: ce n'est pas le bon endroit
-pour l'unique exemplaire d'une photo qui compte pour vous.
+chiffré où nous ne détenons aucune clé dont nous puissions nous servir&#160;:
+ce n'est pas le bon endroit pour l'unique exemplaire d'une photo qui compte pour
+vous.
 
 ## Responsabilité
 
@@ -145,7 +146,7 @@ ci-dessus, comme le décrit la politique de modération. Si nous supprimons votr
 compte pour une raison autre qu'un manquement de votre part, et que vous ne
 pouvez pas atteindre vos données, écrivez-nous et nous aiderons dans la mesure
 du possible – ce qui, pour tout ce qui est chiffré, est borné par le fait que
-nous ne détenons aucune clé.
+nous ne détenons aucune clé dont nous puissions nous servir.
 
 ## Droit applicable
 

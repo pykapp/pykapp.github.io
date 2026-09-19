@@ -71,9 +71,9 @@ queue. The row in the feed still has to be looked at.
 
 **Nobody is told that you looked.** There is no seen-by list, no viewer count
 and no read receipt anywhere in the app. The app does record that you saw a
-post, because that is how your queue empties and how a set of photographs
-reopens where you left it, and there is no screen, route or field that reports
-it to the person who posted it. A version with seen-by was built once and
+post, and when you first did, because that is how your queue empties, and
+there is no screen, route or field that reports it to the person who posted
+it. A version with seen-by was built once and
 taken out again: a per-person read receipt turns looking at a photograph into
 an act that gets reported, which is what this product is meant to be an escape
 from.

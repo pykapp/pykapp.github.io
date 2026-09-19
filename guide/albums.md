@@ -19,7 +19,7 @@ promise: "Only people in this album see these photos."
 Your albums are a row on your own profile, under *who you know*: *profile →
 albums*. *new album* asks for a name and makes one, which at that moment is an
 album with one person in it. The name is sealed on your phone under a key we
-never hold, so we cannot read it, and it cannot be changed afterwards.
+never see, so we cannot read it, and it cannot be changed afterwards.
 
 You can hold 32 open albums at a time. Closing one makes room, and the refusal
 says so: "You already have 32 open albums. Close one to make another."
@@ -257,9 +257,9 @@ All of those are sealed on the phones that made them.
 We do hold what is needed to deliver a photograph to the right people: who is
 in each album you are in, who made it, when each person was added, whether it
 is closed, who contributed what and when, how large the encrypted files are,
-and whether each recipient has looked at a photograph. Nobody is ever told
-that last one. The [privacy policy](/privacy/) says the same for the rest of
-the app.
+and whether each recipient has seen a contribution and when they first did.
+Nobody is ever told that last one. The [privacy policy](/privacy/) says the
+same for the rest of the app.
 
 Two smaller consequences. A report is about a post, a comment or a person, and
 never about an album, because we can act on an account and not on a room. And

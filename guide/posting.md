@@ -245,8 +245,10 @@ something is wrong becomes something you get past by carrying on.
 
 The post and every delivery are written together or not at all, and the
 audience is resolved again at that instant. Somebody you removed a moment
-earlier drops out; nobody outside the audience you chose can be reached, even
-by a phone that tried.
+earlier drops out, and our server delivers to nobody outside the audience your
+phone declared, even if a phone tried. That is our server checking a phone;
+what a phone can check of our server is narrower, and [how the privacy
+works](/how-it-works/privacy/) says where it stops.
 
 ### Where you land
 
@@ -401,9 +403,10 @@ cannot be brought back. The files come off our servers on 20 september.*
 
 At the tap, every wrapped copy of the post key is destroyed: the recipients'
 copies and your own. The comments were sealed under that same key, so they
-close with it. Eight days later the encrypted files come off storage, and with
-them the last legible trace of the post, which is the reactions: a reaction is
-a single emoji and was never encrypted.
+close with it. Eight days later the encrypted files come off storage, and the
+reactions go with them: a reaction is a single emoji and was never encrypted.
+What stays is the post's row, marked deleted, which still says when it was made
+and who it was addressed to; the [privacy policy](/privacy/) lists it.
 
 Those eight days are not a grace period and not an undo. Eight days on, the
 ciphertext is exactly as unreadable as it was on the first day; there is

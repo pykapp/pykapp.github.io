@@ -344,10 +344,10 @@ devient disponible pour tous les destinataires. Cette obligation est ce dont
 cette application veut être un repos, et enlever le nombre ne répare pas
 cela.
 
-L'application enregistre bien qu'une photo a été ouverte. C'est ainsi que votre
-accueil se vide et qu'un carrousel rouvre là où vous l'aviez laissé, et c'est
-listé dans la politique de confidentialité comme une chose que nous détenons.
-Ce qui a disparu, c'est tout moyen de le demander.
+L'application enregistre bien que vous avez vu une publication, et quand vous
+l'avez vue pour la première fois. C'est ainsi que votre accueil se vide, et
+c'est listé dans la politique de confidentialité comme une chose que nous
+détenons. Ce qui a disparu, c'est tout moyen de le demander.
 
 ## Être identifié sur une photo
 

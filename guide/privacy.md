@@ -14,7 +14,7 @@ a limit, the limit is here too, in the last section.
 
 ## What is sealed, and what is not
 
-Sealed on your phone, with keys we never hold:
+Sealed on your phone, with keys we never see:
 
 - photographs, at every size we store them;
 - captions;
@@ -31,8 +31,8 @@ In the clear, because delivering anything at all needs it:
 - the names of your groups, and which of your groups a person is in;
 - who is in each album you are in;
 - for each post: who made it, when, who it was addressed to, how many frames
-  it has, how large the encrypted files are, and, for each recipient, which
-  frames they looked at and when;
+  it has, how large the encrypted files are, and, for each recipient, whether
+  they have seen it and when they first did;
 - reactions, which are one emoji each;
 - the pointer naming the encrypted file your profile picture sits in, which
   is what lets us sign the link that serves it;
@@ -251,18 +251,21 @@ one that forgot would seal your photograph to the server's padlock and upload
 it. So if one person's key has changed, the publish fails before a single byte
 is uploaded, and you see this:
 
-> The key we were given for anna is not the one this phone saw before. That
-> happens when someone reinstalls the app or gets a new phone. It also happens
-> when someone is intercepting your messages, and we cannot tell the
-> difference from here. Check with them another way before you share anything
-> with them.
+> The key we were given for anna is not the one this phone saw before. A new
+> phone or a reinstall does not change a key here, so this should not happen on
+> its own. It can mean someone is intercepting what you share with them. Check
+> with them another way before you share anything with them.
 
-The answers are *i checked, it's them* and *not now*. The copy deliberately
-does not guess which explanation is the right one, and there is no "continue
-anyway" worded to be the easy path. A reinstall and an interception look
-identical from here, and softening the copy for the common case is how a
-security alert becomes a dialog people dismiss without reading. Clearing it is
-a separate decision somebody made, not a retry.
+The answers are *i checked, it's them* and *not now*. The copy offers no
+everyday explanation because here there is not one: restoring from the six
+words brings back the same key, and nothing in the app publishes a new one.
+There is no "continue anyway" worded to be the easy path either, because
+softening a security alert is how it becomes a dialog people dismiss without
+reading. Clearing it is a separate decision somebody made, not a retry.
+
+What the alarm cannot yet do is show you the two keys, so that the person at
+the other end could read theirs out and settle it. That belongs with comparing
+keys, below, and it is not built.
 
 ### Where the written-down keys live
 
@@ -280,17 +283,36 @@ against and must take what it is given.
 
 ### What the claim is, exactly
 
-We cannot read anything already sent, and we cannot *begin* intercepting
-without every affected phone raising that alarm. What is not yet covered is
-the very first hello between two people who have never exchanged a key: a
-phone with nothing written down takes what it is handed.
+Once your phone has written down a key for an account, we cannot swap that
+key for one of ours without your phone refusing to seal anything to it and
+raising that alarm. And what was sealed to genuine keys stays closed to us:
+every copy of a key we hold is locked so that we cannot use it, and only a
+phone that already holds a post's key can pass it on to somebody new.
 
-Closing that means comparing keys out of band—reading a short code to each
-other, or scanning a square—and **that is not built**. What exists today is
-the fingerprint of your own key in *settings → your key*, 24 characters in
-six groups of four, which is the thing two people would read to each other
-once that exists. The gap is small and universal to end-to-end encryption,
-and it is written down here rather than papered over.
+That is a claim about a key *changing*, and it is narrower than "we cannot
+begin intercepting". Two things sit outside it.
+
+The first is the very first hello between two people who have never exchanged
+a key: a phone with nothing written down takes what it is handed. Closing that
+means comparing keys out of band—reading a short code to each other, or
+scanning a square—and **that is not built**. What exists today is the
+fingerprint of your own key in *settings → your key*, 24 characters in six
+groups of four, which is the thing two people would read to each other once
+that exists.
+
+The second is the list itself. Your phone asks us who your mutuals are, who is
+in a group and who is in an album, and asks again at the moment you post. It
+seals to the list it is given, and it keeps no list of its own of the people
+you asked or accepted. An account it has never seen is a first hello, written
+down without a word. So a dishonest server could *add* a reader of its own
+rather than replace one of yours, and no phone would raise an alarm. Comparing
+keys with a person does nothing about an extra account; what would is the
+phone keeping its own list, and **that is not built either**. The written-down
+key is also kept against the account and not against the name on your screen,
+so a new account wearing a familiar name is a first hello as well.
+
+Every end-to-end encrypted system has the first of those. The second is ours,
+and both are written down here rather than papered over.
 
 ### A padlock is handed out only where something is about to be locked to it
 
@@ -317,7 +339,10 @@ directions in one transaction, for every ordinary post, and takes each of you
 out of the albums the other made, with the keys that went with them. There is
 nothing left to check, because there is no key left to check it against. It is
 arithmetic rather than a policy, which is why [removing
-somebody](/how-it-works/people/) is quiet and total.
+somebody](/how-it-works/people/) is quiet and total. The one thing outside that
+arithmetic is a backup of our database, which keeps a deleted row for up to 35
+days, as the [privacy policy](/privacy/) says, and which nothing in the product
+reads back.
 
 What a removal deliberately does not reach is an album a third person made. A
 delivery there rests on being in that room rather than on the connection
@@ -339,11 +364,13 @@ The same shape, everywhere it appears:
   members who exist at that moment.
 - [Deleting your account](/delete-account/) destroys every key it holds and
   every key it handed out, in one transaction.
-- Revoking who may read your name and see your face is one deleted row,
-  because your profile key is wrapped per person rather than baked into
-  anything.
+- Removing or blocking somebody, or a request being declined, cancelled or
+  expiring, deletes the copy of your profile key that was wrapped for them,
+  and with it the ground on which we served them your sealed name and
+  picture. The key itself does not change, and a copy riding on somebody
+  else's photograph is a separate ground; both are the third limit below.
 
-### The two things this does not do
+### The three things this does not do
 
 **Anything already downloaded to somebody's phone is theirs.** Destroying the
 key stops anything new from opening; it does not reach into a phone and take
@@ -354,7 +381,8 @@ people's photographs, even though your phone holds a key for every one of
 them.
 
 **A hidden comment is hidden by a filter, not by a destroyed key.** This is
-the one exception in the product, and it is worth understanding. A comment is
+one of two places in the product where taking something back is a filter, and
+it is worth understanding. A comment is
 sealed under the post key, which every recipient of the post already holds, so
 when somebody falls out of the group who may [hear a
 comment](/how-it-works/comments/) what changes is who is shown the words
@@ -362,6 +390,19 @@ rather than who could in principle open them. The obvious fix would be to wrap
 each comment to just the right people, and it is worse: the writer's phone
 would have to be told which of their mutuals know the poster, which discloses
 a graph in order to hide one.
+
+**A name and a face are withheld by us, not by a new key.** This is the other
+one. Your profile key is derived from your identity key, so it never changes,
+and a new name or a new picture is sealed under the same one. Removing
+somebody deletes the copy we held wrapped for them, the app never keeps the
+unwrapped key, and we stop serving them your sealed name and picture. But a
+phone altered to keep that key could open a later name or picture if it could
+get the sealed bytes, and the only thing in its way is our server declining to
+hand them over. And a removal does not reach a photograph somebody else shared:
+while a person you removed can still see a photograph a mutual named you on, or
+one of yours that a mutual reshared to them, the copy of your key on that
+photograph goes on opening your name and face for them, until your tag, the
+reshare or their copy of the photograph goes.
 
 ## A name and a face travel by key as well
 
@@ -376,8 +417,12 @@ you have sent a request to. It is why an incoming request shows you a face and
 a name while somebody you asked shows you nothing until they accept. It is
 also why we cannot compose a notification: we hold the name as ciphertext.
 
-There is one place a key is handed to somebody by a third party, and it is
-unusual enough to name. When a mutual puts your name on a photograph, the
+There are two places your profile key is handed to somebody by a third party,
+and they are unusual enough to name. The second is a reshare: somebody you
+named on a photograph of yours, where you allowed it, passes the post's key and
+your profile key on to the people they chose, and that copy rests on each
+viewer's copy of the reshare. The first is the tag itself. When a mutual puts
+your name on a photograph, the
 people who see that photograph may have no connection to you and could not
 open your name or your face. So the person who tagged you re-wraps your
 profile key onto that post, from their own phone, for each of those viewers.
@@ -473,9 +518,9 @@ fact about the network rather than a thing that goes red on its own.
 The claim above is narrower than "private", and these are its edges.
 
 - **Metadata.** We know who you are connected to, who you sent a post to and
-  when, and which frames each of them looked at. That is what the server
-  needs to deliver anything at all, and it reveals who talks to whom. The
-  [privacy policy](/privacy/) lists it in full.
+  when, and whether each of them has seen it and when they first did. That is
+  what the server needs to deliver anything at all, and it reveals who talks
+  to whom. The [privacy policy](/privacy/) lists it in full.
 - **What a recipient keeps.** Anything already on somebody's phone is theirs.
   The app does not stop screenshots and cannot recall a photograph from a
   phone that already downloaded it.
@@ -484,6 +529,25 @@ The claim above is narrower than "private", and these are its edges.
 - **The first hello.** Comparing keys in person is not built yet, so a server
   that was dishonest at the very first exchange between two people is not
   currently detectable by them.
+- **Who a post is sealed to.** The list of people your phone seals a post to
+  comes from us, asked for again at the moment you post, and your phone keeps
+  no list of its own to check it against. A dishonest server could add an
+  account of its own to that list and be handed a copy of the post's key, with
+  no alarm on any phone and nothing on your screen that need show it. If
+  *share past posts with new mutuals* is set to *always*, which is not how it
+  starts, such an account would be handed what you had already shared with
+  everybody as well. We could also put a real mutual into a group you did not
+  put them in.
+- **Who a post is from.** Nothing in a post proves who made it: nothing is
+  signed, and the name over a post is a field we fill in. A dishonest server
+  could seal a photograph of its own choosing to your key and deliver it under
+  a mutual's name, or put one mutual's name on a post another sent. What it
+  cannot do is open a genuine post or write anything new inside one; it can
+  go on serving an earlier version of a caption or a comment after its author
+  edited it, because nothing sealed says which version is the latest. A comment is
+  bound to its author's account as it is sealed, so we cannot move one
+  person's words under another's name without first holding the post's key.
+  Reactions are not sealed at all, so those are ours to write.
 - **Withholding.** We can refuse to hand back your sealed key backup, or hand
   back an older one. Both cost you a restore; neither reads a photograph.
 - **Length.** Ciphertext is about as long as what went into it, so we can tell

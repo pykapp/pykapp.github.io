@@ -50,7 +50,7 @@ aucun mécanisme par lequel un inconnu atteint qui que ce soit&#160;:
 
 L'application est chiffrée de bout en bout. Les photos, les légendes, les
 commentaires et les noms sont chiffrés sur le téléphone qui les a créés, avec
-des clés que nous ne détenons jamais. Nous n'analysons donc pas les contenus,
+des clés que nous ne voyons jamais. Nous n'analysons donc pas les contenus,
 nous ne les filtrons pas et nous ne les examinons pas de manière proactive, et
 nous ne le pouvons pas&#160;: il n'y a rien qu'un analyseur puisse lire. Notre
 [politique de modération](/fr/politique-de-moderation/) le dit plus longuement.

@@ -48,9 +48,9 @@ my photographs". [Comments and reactions](/how-it-works/comments/).
 ## Nobody is ever told who looked
 
 There are no read receipts, no seen-by list and no viewer list, anywhere. The
-app does record that you opened a photograph, because that is how your feed
-empties and how a carousel reopens where you left it, and the
-[privacy policy](/privacy/) says plainly that we hold that. What does not
+app does record that you saw a post, and when you first did, because that is
+how your feed empties, and the [privacy policy](/privacy/) says plainly that
+we hold that. What does not
 exist is any way to ask for it: no screen, no route, no field.
 
 Seen-by was built once and taken out again. A per-person read receipt makes
@@ -217,16 +217,17 @@ which takes every ordinary post of yours they hold rather than only this one.
 ## Taking something back destroys a key rather than setting a flag
 
 Removing a mutual, blocking somebody, or deleting a post does not mark a row
-hidden on a server that could be persuaded to unhide it. It deletes the only
-copies of the keys that opened those photographs, in both directions, in one
-go. There is no permission left to check because there is no key left to check
+hidden on a server that could be persuaded to unhide it. It deletes the copies
+of the keys that opened those photographs, in both directions, in one go. There is no permission left to check because there is no key left to check
 it against. Removing a mutual reaches your ordinary posts and leaves an album
 a third person made alone; blocking reaches into that room too, which is one
 of the differences described further down.
 
 Deleting a post is immediate for everybody. The encrypted files come off
 storage eight days later, and those eight days are not an undo: the keys went
-at the tap and nothing can restore them.
+at the tap and nothing in the product can restore them. The
+[privacy policy](/privacy/) says how long a deleted row can survive in a backup
+of our database.
 
 The honest limit is the one every way of sending a photograph has. Anything
 somebody already downloaded stays theirs, exactly as it would if you had

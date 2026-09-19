@@ -270,9 +270,11 @@ l'on dépasse en continuant.
 
 La publication et chaque livraison sont écrites ensemble ou pas du tout, et les
 destinataires sont résolus à nouveau à cet instant. Quelqu'un que vous avez
-retiré un instant plus tôt en sort&#160;; personne en dehors des destinataires
-que vous avez choisis ne peut être atteint, même par un téléphone qui
-essaierait.
+retiré un instant plus tôt en sort, et notre serveur ne livre à personne en
+dehors des destinataires que votre téléphone a déclarés, même si un téléphone
+essayait. C'est notre serveur qui vérifie un téléphone&#160;; ce qu'un téléphone
+peut vérifier de notre serveur est plus étroit, et [comment marche la
+confidentialité](/fr/confidentialite/) dit où cela s'arrête.
 
 ### Où vous atterrissez
 
@@ -449,9 +451,11 @@ récupérée.*, suivie de la date à laquelle les fichiers quittent nos serveurs
 À la touche, chaque copie enveloppée de la clé de la publication est
 détruite&#160;: celles des destinataires et la vôtre. Les commentaires étaient
 scellés sous cette même clé, donc ils se ferment avec elle. Huit jours plus
-tard, les fichiers chiffrés quittent le stockage, et avec eux la dernière trace
-lisible de la publication, qui est les réactions&#160;: une réaction est un
-seul émoji et n'a jamais été chiffrée.
+tard, les fichiers chiffrés quittent le stockage, et les réactions partent avec
+eux&#160;: une réaction est un seul émoji et n'a jamais été chiffrée. Ce qui
+reste est la ligne de la publication, marquée supprimée, qui dit encore quand
+elle a été faite et à qui elle était adressée&#160;; la [politique de
+confidentialité](/privacy/) l'énumère.
 
 Ces huit jours ne sont ni un délai de grâce ni un retour en arrière. Huit jours
 après, le chiffré est exactement aussi illisible qu'au premier jour&#160;; il

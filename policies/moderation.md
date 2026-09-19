@@ -11,7 +11,7 @@ for moderation, plainly, because it is not what most apps mean.
 ## What we cannot do
 
 We cannot see photos, captions, comments, names or album titles. They are
-encrypted on the phone that made them, with keys we never hold. So we do not
+encrypted on the phone that made them, with keys we never see. So we do not
 and cannot scan content, filter it, or review it. There is no automated
 system looking at your photographs, because there is nothing for one to look
 at. The same is true for a report: when you report a photo, we do not receive

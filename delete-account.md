@@ -42,13 +42,17 @@ delete by naming it is worse for you than a wait of a day or two.
 - Your handle and your email address are freed.
 
 Eight days later the encrypted files are removed from storage. Those eight days
-are not an undo: the keys were destroyed at the tap and nothing can restore
-them. Signing in during that time with the same address starts a new, empty
+are not an undo: the keys were destroyed at the tap and nothing in the product
+can restore them. A deleted row can outlive the tap in a backup of our database
+or in the output of something we ran by hand, for the 35 and 90 days those are
+kept. Signing in during that time with the same address starts a new, empty
 account.
 
-Afterwards we keep a record that an account with that identifier existed, blocks
-you placed or that were placed against you, and reports you filed, with your
-name, address and keys on none of it.
+What we keep afterwards carries your name, handle, address and keys on none of
+it, and the [privacy policy](/privacy/) lists all of it: that the account
+existed, blocks, reports, who invited whom, the add requests you sent and
+received, when you signed in, and the rows of your posts and comments marked
+deleted.
 
 ## Deleting a post, a comment or a picture
 

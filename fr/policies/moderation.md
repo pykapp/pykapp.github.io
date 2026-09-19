@@ -17,7 +17,7 @@ des applications entendent par là.
 
 Nous ne pouvons voir ni les photos, ni les légendes, ni les commentaires, ni les
 noms, ni les titres d'album. Ils sont chiffrés sur le téléphone qui les a faits,
-avec des clés que nous ne détenons jamais. Nous ne scannons donc pas le contenu,
+avec des clés que nous ne voyons jamais. Nous ne scannons donc pas le contenu,
 ne le filtrons pas et ne l'examinons pas, et nous ne le pouvons pas. Aucun
 système automatique ne regarde vos photos, parce qu'il n'y a rien à regarder. Il
 en va de même pour un signalement&#160;: quand vous signalez une photo, nous ne

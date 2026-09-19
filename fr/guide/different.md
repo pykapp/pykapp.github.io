@@ -53,10 +53,10 @@ réactions](/how-it-works/comments/).
 ## Personne n'est jamais informé de qui a regardé
 
 Il n'y a pas d'accusés de lecture, pas de liste de personnes ayant vu, nulle
-part. L'application enregistre bien que vous avez ouvert une photo, parce que
-c'est ainsi que votre accueil se vide et qu'un carrousel rouvre là où vous
-l'aviez laissé, et la [politique de confidentialité](/privacy/) dit clairement
-que nous le détenons. Ce qui n'existe pas, c'est le moyen de le demander&#160;:
+part. L'application enregistre bien que vous avez vu une publication, et quand
+vous l'avez vue pour la première fois, parce que c'est ainsi que votre accueil
+se vide, et la [politique de confidentialité](/privacy/) dit clairement que
+nous le détenons. Ce qui n'existe pas, c'est le moyen de le demander&#160;:
 pas d'écran, pas de route, pas de champ.
 
 La liste des personnes ayant vu a été construite une fois puis retirée. Un
@@ -240,7 +240,7 @@ toutes vos publications ordinaires qu'elle détient plutôt que celle-ci seule.
 
 Retirer une relation, bloquer quelqu'un ou supprimer une publication ne marque
 pas une ligne comme cachée sur un serveur que l'on pourrait convaincre de la
-remontrer. Cela supprime les seules copies des clés qui ouvraient ces photos,
+remontrer. Cela supprime les copies des clés qui ouvraient ces photos,
 dans les deux sens, d'un coup. Il ne reste aucune permission à vérifier parce
 qu'il ne reste aucune clé contre laquelle la vérifier. Retirer une relation
 atteint vos publications ordinaires et laisse intact un album fait par une
@@ -250,7 +250,9 @@ différences décrites plus bas.
 Supprimer une publication est immédiat pour tout le monde. Les fichiers
 chiffrés quittent le stockage huit jours plus tard, et ces huit jours ne sont
 pas un retour en arrière&#160;: les clés sont parties au moment de la touche et
-rien ne peut les restaurer.
+rien dans le produit ne peut les restaurer. La [politique de
+confidentialité](/privacy/) dit combien de temps une ligne supprimée peut
+survivre dans une sauvegarde de notre base de données.
 
 La limite honnête est celle de toutes les façons d'envoyer une photo. Ce que
 quelqu'un a déjà téléchargé lui appartient, exactement comme si vous la lui
