@@ -69,9 +69,12 @@ A video can run to about a minute. A longer one is not refused. Its row
 carries *choose which minute*, which opens a still of the video with a slider
 under it. Moving the slider moves where the kept minute starts, and the still
 follows it, so you find the part you meant by looking at it rather than by
-reading times. There are no times anywhere and no second handle, because the
-length is always the same minute; dragging to the end keeps the last one. If
-you choose nothing, the first minute is kept.
+reading times. The slider's handle is as long as the minute is in the whole
+video—a third of the line on a three-minute video, most of it on a
+seventy-second one—so you can see how much you keep and where it stops. There
+are no times anywhere and no second handle, because the length is always the
+same minute; dragging to the end keeps the last one. If you choose nothing,
+the first minute is kept.
 
 ### What happens to a video
 
