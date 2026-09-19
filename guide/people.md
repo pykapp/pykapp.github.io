@@ -121,11 +121,13 @@ else that interrupts you is something you asked for. The words are written by
 the receiving phone from a name only that phone can read; what we send is a
 single token saying what kind of thing happened.
 
-Their row shows your face, your name, *accept*, *decline* and *more*—which
-holds *block* and *report*, because a stranger's request is the one place
-abuse can arrive from somebody who is on no other screen, and declining alone
-lets them ask again. Under the row is *you both know anna, carla*, and then
-*expires on 17 september*.
+Their row shows your face and your name, with *expires on 17 september*
+under the name; then *you both know anna, carla*; then *accept*, *decline* and
+*more*—which holds *block* and *report*, because a stranger's request is the
+one place abuse can arrive from somebody who is on no other screen, and
+declining alone lets them ask again. Your name has the width of the row, and
+tapping your face or your name opens your card: the whole name, your handle,
+anything you wrote about yourself, and *accept*.
 
 ### What you see while you wait is almost nothing
 
@@ -340,8 +342,9 @@ If somebody is being unpleasant to you, block them.
 
 ## Removing somebody
 
-From their row on the people screen, beside *block*. That is the only door: a
-profile's *more* holds *block* and *report*, and nothing else. One dialog, and
+From *more* on their row on the people screen, beside *block* and *report*.
+That is the only door: a profile's *more* holds *block* and *report*, and
+nothing else. One dialog, and
 it says what will happen rather than asking whether you are sure: *They will
 not be told. You will both stop seeing anything the other has shared.*
 
@@ -374,8 +377,8 @@ block.
 
 ## Blocking somebody
 
-Reachable beside *remove* on their row, under *more* on their profile, and
-under *more* on an incoming request—because a decline alone lets somebody ask
+Reachable under *more* on their row, beside *remove*; under *more* on their
+profile; and under *more* on an incoming request—because a decline alone lets somebody ask
 again. A stranger can be blocked, and nothing ever stands in the way of
 blocking somebody.
 
@@ -445,7 +448,8 @@ signal the 404 exists to withhold.
 
 ## Reporting somebody
 
-*more → report*, on a profile or on an incoming request row. We hold
+*more → report*, on a profile, on their row on the people screen, or on an
+incoming request row. We hold
 ciphertext and cannot see the photograph or the words, so what reaches us is a
 pointer and the paragraph you write, which travels in the clear—the dialog
 says so. The person reported is never told that a report exists or who filed

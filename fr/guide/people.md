@@ -141,12 +141,14 @@ téléphone qui reçoit, à partir d'un nom que seul ce téléphone peut lire&#1
 ce que nous envoyons est un simple jeton disant quel genre de chose s'est
 produit.
 
-Sa ligne montre votre visage, votre nom, *accepter*, *refuser* et *options* –
-qui contient *bloquer* et *signaler*, parce que la demande d'un inconnu est le
-seul endroit d'où un abus peut arriver de quelqu'un qui n'est sur aucun autre
-écran, et que refuser seulement lui laisse la possibilité de redemander. Sous
-la ligne se trouve *vous connaissez tous les deux anna, carla*, puis *expire le
-17 septembre*.
+Sa ligne montre votre visage et votre nom, avec *expire le 17 septembre* sous
+le nom&#160;; puis *vous connaissez tous les deux anna, carla*&#160;; puis
+*accepter*, *refuser* et *options* – qui contient *bloquer* et *signaler*,
+parce que la demande d'un inconnu est le seul endroit d'où un abus peut arriver
+de quelqu'un qui n'est sur aucun autre écran, et que refuser seulement lui
+laisse la possibilité de redemander. Votre nom a toute la largeur de la ligne,
+et toucher votre visage ou votre nom ouvre votre fiche&#160;: le nom en entier,
+votre pseudo, ce que vous avez écrit sur vous, et *accepter*.
 
 ### Ce que vous voyez pendant que vous attendez est presque rien
 
@@ -389,9 +391,9 @@ bloquez-le.
 
 ## Retirer quelqu'un
 
-Depuis sa ligne sur l'écran des personnes, à côté de *bloquer*. C'est la seule
-porte&#160;: le *options* d'un profil contient *bloquer* et *signaler*, et rien
-d'autre. Un dialogue, et il dit ce qui va se passer plutôt que de demander si
+Depuis *options* sur sa ligne dans l'écran des personnes, à côté de *bloquer*
+et *signaler*. C'est la seule porte&#160;: le *options* d'un profil contient
+*bloquer* et *signaler*, et rien d'autre. Un dialogue, et il dit ce qui va se passer plutôt que de demander si
 vous êtes sûr&#160;: *Cette personne n'en sera pas informée. Vous cesserez tous
 les deux de voir ce que l'autre a partagé.*
 
@@ -428,8 +430,8 @@ entre cela et un blocage.
 
 ## Bloquer quelqu'un
 
-Accessible à côté de *retirer* sur sa ligne, sous *options* sur son profil, et
-sous *options* sur une demande reçue – parce qu'un simple refus laisse la
+Accessible sous *options* sur sa ligne, à côté de *retirer*&#160;; sous
+*options* sur son profil&#160;; et sous *options* sur une demande reçue – parce qu'un simple refus laisse la
 possibilité de redemander. Un inconnu peut être bloqué, et rien ne s'oppose
 jamais à ce que vous bloquiez quelqu'un.
 
@@ -507,7 +509,8 @@ ce serait le signal que l'«&#160;introuvable&#160;» existe pour retenir.
 
 ## Signaler quelqu'un
 
-*options → signaler*, sur un profil ou sur la ligne d'une demande reçue. Nous
+*options → signaler*, sur un profil, sur sa ligne dans l'écran des personnes,
+ou sur la ligne d'une demande reçue. Nous
 ne détenons que du chiffré et ne pouvons voir ni la photo ni les mots, donc ce
 qui nous parvient est un pointeur et le paragraphe que vous écrivez, qui voyage
 en clair – le dialogue le dit. La personne signalée n'apprend jamais qu'un
