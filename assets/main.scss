@@ -1,0 +1,185 @@
+---
+# Front matter, empty, because Jekyll only compiles a Sass file that has it.
+# This is minima's own documented override point and NOT a shadowed include:
+# the theme's copy of this file is the two dashes above and one `@import`, with
+# no logic in it to go stale on a theme bump. That is the whole difference from
+# `_includes/head.html`, which `_config.yml` refuses to shadow and which carries
+# `seo`, `feed_meta` and an analytics branch none of which this repository wrote.
+---
+
+// The site wears the app's face (DESIGN.md §14).
+//
+// Until this file the site was stock minima on a stock sans: no mark, no
+// wordmark, Jekyll's blue links and minima's near-white. Somebody arriving from
+// a store listing met a page with nothing on it that the app has, which is the
+// review of 19 September 2026's finding—the identity stopping at the app's
+// edge, at exactly the surface where a stranger decides.
+//
+// Four things, and no more than four. The mark and the cursive wordmark in the
+// masthead; the app's ground; the app's ink; the violet on a word that does
+// something. The prose keeps minima's system sans, deliberately: §14 gives the
+// cursive to the app's own short words, and a privacy policy set in a coding
+// face is harder to read for no gain.
+//
+// ### The colours are the app's, and a script holds them to it
+//
+// Every hex below is copied from a named line in the app's own sources, and
+// `scripts/the-site-wears-the-mark.py` compares them against those lines on
+// every CI run. Two palettes in two trees drift the first time one of them
+// moves, and nothing about a website goes red on its own.
+//
+//   ground   #FCFCFC / #121212   `background` in ui/Theme.kt
+//   ink      #1B1B1B / #E6E6E6   `onBackground` in ui/Theme.kt
+//   violet   #6750A4 / #A287E1   `violet` in LightQuadrants / DarkQuadrants,
+//                                ui/Palette.kt
+//
+// The dark violet is the one number here that is a decision rather than a copy,
+// and it is argued in design/90-decisions-on-record rather than left to be
+// noticed. Palette.kt derives it from the link violet by holding hue and chroma
+// and raising L* to 62, for a dark ground—which is the problem a dark page has;
+// its own comment says it is the quadrant and that nothing draws it yet, and
+// this is the first thing that does.
+
+// Set before the import, because minima declares its own with `!default`.
+$brand-color: #6750A4;
+$text-color: #1B1B1B;
+$background-color: #FCFCFC;
+
+@import "minima";
+
+// ---------------------------------------------------------------------------
+// The masthead
+//
+// minima renders one `<a class="site-title">people you know</a>` and this
+// replaces what it looks like without touching what it is: the text stays in
+// the DOM, so the accessible name and the link are the ones the theme wrote,
+// and it is pushed out of the box and clipped rather than hidden—`display:none`
+// and `visibility:hidden` would take it out of the accessibility tree with it.
+//
+// The box is stated in two numbers because CSS has no way to ask an image its
+// aspect and size the box from it. They are not left to rot: the check script
+// reads `viewBox` out of lockup.svg and holds this ratio to it.
+//
+// 40 and 7 make 54, which is minima's own masthead line-height and what
+// `.site-nav` beside it is set to, so the two sides of the header sit on one
+// baseline without the header being given a height of its own.
+$lockup-height: 40px;
+$lockup-width: 170px; // $lockup-height x the SVG's 425.99:100
+
+// No `:visited` arm, unlike the rule this replaces. A browser applies only
+// colour properties to `:visited`—it has done since the history-sniffing leak
+// was closed—so a background image declared there is dropped on the floor, and
+// the plain selector already covers a visited link.
+.site-title {
+  display: block;
+  width: $lockup-width;
+  height: $lockup-height;
+  margin: 7px 0;
+  background: url("/assets/lockup.svg") no-repeat left center;
+  background-size: contain;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+// The 5px rule minima puts across the top of every page, in the app's ink
+// rather than in the theme's grey: it is the one piece of chrome above the
+// mark, and a grey bar over the app's own colours read as somebody else's
+// furniture left behind.
+.site-header {
+  border-top-color: $text-color;
+}
+
+// ---------------------------------------------------------------------------
+// After dark
+//
+// minima 2.5.1 has no dark scheme, and a phone that has been dark since the app
+// was installed should not be handed a white page by the same product's own
+// terms link. The app has had both grounds since its first screen; this is that
+// pair, and nothing else changes—the mark keeps the icon's frozen quadrants, for
+// the reason the launcher's entry gives about a drawing that cannot follow the
+// theme, and only the wordmark's ink moves.
+//
+// minima derives its greys from `$grey-color` at compile time, so by the time
+// they are in the stylesheet they are literals and have to be restated rather
+// than re-derived. These are one step lighter than the light scheme's, for the
+// same distance from their ground.
+$dark-ground: #121212;
+$dark-ink: #E6E6E6;
+$dark-violet: #A287E1;
+$dark-grey: #9A9A9A;
+$dark-rule: #333333;
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: $dark-ink;
+    background-color: $dark-ground;
+  }
+
+  a {
+    color: $dark-violet;
+    &:visited { color: lighten($dark-violet, 8%); }
+    &:hover { color: $dark-ink; }
+  }
+
+  .site-title { background-image: url("/assets/lockup-dark.svg"); }
+
+  // The rule and not the ink, which is the one place the dark scheme is NOT
+  // the light one's mirror. minima's masthead rule is 5px, and 5px of near-white
+  // across the top of a dark page is a band that pulls the eye before the mark
+  // does—the same contrast as the light scheme's near-black on near-white, and
+  // nothing like the same weight. Looked at in a browser in both schemes before
+  // it was changed.
+  .site-header {
+    border-top-color: $dark-rule;
+    border-bottom-color: $dark-rule;
+  }
+  .site-nav .page-link { color: $dark-ink; }
+  .site-footer { border-top-color: $dark-rule; }
+  .footer-col-wrapper,
+  .post-meta { color: $dark-grey; }
+  .svg-icon { fill: $dark-grey; }
+
+  blockquote {
+    color: $dark-grey;
+    border-left-color: $dark-rule;
+  }
+
+  pre,
+  code {
+    background-color: #1C1C1C;
+    border-color: $dark-rule;
+  }
+
+  table {
+    color: $dark-ink;
+    border-color: $dark-rule;
+
+    th,
+    td { border-color: $dark-rule; }
+    th {
+      background-color: #1F1F1F;
+      border-bottom-color: #3A3A3A;
+    }
+    tr:nth-child(even) { background-color: #171717; }
+  }
+}
+
+// The masthead's own drop-down on a narrow screen, which minima draws as a
+// white card with a grey edge and which would otherwise be the one thing on the
+// page still in the light scheme.
+//
+// Written as one flat query with `$on-palm` interpolated rather than as
+// `@include media-query($on-palm)` inside the block above. Nesting two media
+// queries leaves the merge to the Sass implementation, and what has to come out
+// is `screen and (…) and (prefers-color-scheme: dark)`—a media TYPE first, or
+// the whole query is invalid and silently does nothing. The flat form says it
+// rather than trusting it.
+@media screen and (max-width: #{$on-palm}) and (prefers-color-scheme: dark) {
+  .site-nav {
+    background-color: $dark-ground;
+    border-color: $dark-rule;
+
+    .menu-icon > svg { fill: $dark-ink; }
+  }
+}

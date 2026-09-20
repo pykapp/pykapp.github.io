@@ -5,6 +5,12 @@
 # beside them is not published. Adding a page here publishes it, which is what
 # scripts/site-links-resolve.sh is for.
 #
+# What is not a page: assets/ and favicon.ico, which are generated from the
+# app's own drawables, palette and font by scripts/render-site-assets.sh and
+# held to them by scripts/the-site-wears-the-mark.py. assets/main.scss is
+# minima's own documented override point and is compiled to assets/main.css by
+# the front matter at the top of it; nothing else here is Sass.
+#
 # It speaks the languages the app speaks, which is not a courtesy: the app has
 # had a language row since the seventh interlude after M12, and a French phone
 # that follows `Links.TERMS` has always landed on English. The set is the app's
@@ -83,12 +89,26 @@ languages:
 # `lang="en"` with a French address, green all the way. The rule that the
 # directory and the permalink agree is what makes the folder and the URL say
 # the same thing.
+#
+# `image` is the Open Graph card, and it is a `defaults` value because
+# jekyll-seo-tag reads `page.image` and NOTHING ELSE—there is no `site.image`
+# fallback in 2.8.0 (`ImageDrop#image_hash` reads `page["image"]`, full stop),
+# so a key at the top of this file would be silently ignored and every link to
+# the site would unfurl as a bare title on a grey rectangle, which is what it
+# did until this line. Through `defaults` every page inherits it, including the
+# French ones: the stanza below overrides `lang` and nothing else. It is the
+# mark and the wordmark and no words, so it needs no translation.
+#
+# This is also why there is no `<link rel="icon">` anywhere: seo-tag emits
+# `og:image` into a head we do not write, and it emits no favicon. The site's
+# icon is docs/favicon.ico at the root, which every browser asks for unprompted.
 defaults:
   - scope:
       path: ""
     values:
       layout: doc
       lang: en
+      image: /assets/og.png
   - scope:
       path: "fr"
     values:
@@ -115,6 +135,13 @@ drafted_not_translated:
 exclude:
   - store
   - README.md
+# Inert at minima 2.5.1, which is what github-pages 232 ships and what this
+# site is built against: skins arrived in minima 3, and 2.5.1's `_sass/minima.scss`
+# imports `minima/base`, `minima/layout` and `minima/syntax-highlighting` with no
+# skin in the path at all. It is kept rather than deleted because `classic` is
+# what the site looks like today, so a Pages bump to minima 3 changes the theme
+# under us in every other respect but not this one. The site's own colours are
+# not here: they are in assets/main.scss, out of the app's sources.
 minima:
   skin: classic
 # Minima renders ONE masthead for the whole site, so these five English entries
