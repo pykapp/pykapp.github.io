@@ -373,8 +373,10 @@ all* beneath them; opening any of them shows the whole picture. The one real
 crop is your own profile picture, cut to a square on your phone, where you put
 the square.
 
-Nothing about an unfinished post is written to your phone either. Leaving the
-composer asks once and then it is gone. Everything the camera recorded beside
+Nothing about a post you have not sent is written to your phone either.
+Leaving the composer asks once and then it is gone. One you *have* sent is
+written down until it goes out, so that the app closing mid-upload cannot lose
+it in silence, and it is deleted the moment it lands. Everything the camera recorded beside
 the picture is gone too, and not because a filter stripped it: the photograph
 is decoded and re-encoded, and what comes out has nowhere for a location or a
 device serial number to be. One thing is kept on purpose—when the photograph

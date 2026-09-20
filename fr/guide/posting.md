@@ -350,9 +350,9 @@ l'original&#160;»&#160;: il ne promettra pas une chose que nous ne gardons pas.
 
 ## Il n'y a pas de brouillons
 
-Rien d'une publication inachevée n'est écrit sur votre téléphone. Les photos
-que vous avez choisies, la légende que vous avez tapée et les cases que vous
-avez cochées vivent dans l'écran et partent avec lui.
+Rien d'une publication que vous n'avez pas envoyée n'est écrit sur votre
+téléphone. Les photos que vous avez choisies, la légende que vous avez tapée et
+les cases que vous avez cochées vivent dans l'écran et partent avec lui.
 
 Quitter demande donc, une fois, si vous avez choisi ou tapé quelque chose. Le
 dialogue s'intitule *abandonner* et dit&#160;: *Rien ne sera publié, et ce que
@@ -361,8 +361,25 @@ système passent tous deux par cette même question, ce qui n'a pas toujours ét
 vrai&#160;: le geste passait juste à côté, et une garde qu'une des deux sorties
 ignore n'est pas une garde.
 
-Une publication qui échoue laisse l'écran exactement tel qu'il était, donc une
-connexion perdue ne vous coûte rien de ce que vous avez tapé.
+### Une publication envoyée est écrite jusqu'à ce qu'elle parte
+
+Dès que vous touchez *publier*, l'application vous a dit qu'elle l'envoyait, et
+elle tient parole même si elle se ferme. Une publication en route – et elle
+seule – est donc écrite sur votre téléphone&#160;: la légende, pour qui elle
+est, et une copie de chaque photo et de chaque vidéo, dans l'espace propre à
+l'application, qu'aucune sauvegarde ne copie et que rien d'autre sur le
+téléphone ne peut lire. Tout est supprimé dès que la publication part, et dès
+que vous l'abandonnez.
+
+Si l'application se ferme avant qu'elle parte – vous l'avez balayée, elle a
+planté, votre téléphone avait besoin de la mémoire pour autre chose – la
+publication vous attend au prochain démarrage, en haut de votre profil, avec
+cette phrase&#160;: *Cette publication n'est pas partie. Rien n'a été publié.*
+En dessous se trouvent les deux mêmes choses que porte toute publication
+arrêtée&#160;: *réessayer*, qui envoie cette même publication et non une
+seconde copie, et *abandonner*, qui la jette et supprime les copies avec elle.
+Rien n'est jamais renvoyé tout seul. Une publication composée mardi ne part pas
+jeudi parce que vous avez ouvert l'application.
 
 ## Partager une publication à plus de gens ensuite
 

@@ -313,9 +313,9 @@ promise something we do not keep.
 
 ## There are no drafts
 
-Nothing about an unfinished post is written to your phone. The photographs you
-picked, the caption you typed and the boxes you ticked live in the screen and
-go with it.
+Nothing about a post you have not sent is written to your phone. The
+photographs you picked, the caption you typed and the boxes you ticked live in
+the screen and go with it.
 
 So leaving asks, once, if you have chosen or typed anything. The dialog is
 titled *discard* and says: *Nothing will be posted, and what you have chosen
@@ -324,8 +324,23 @@ through that same question, which was not always true: the gesture used to
 walk straight past it, and a guard one of the two ways out ignores is not a
 guard.
 
-A publish that fails leaves the composer exactly as it was, so a lost
-connection costs you nothing you typed.
+### A post you have sent is written down until it goes
+
+The moment you tap *post*, the app has told you it is sending, and it keeps
+that word even if it closes. So a post that is on its way—and only one that
+is—is written to your phone: the caption, who it is for, and a copy of each
+photograph and video, in the app's own storage, which no backup copies and
+nothing else on the phone can read. All of it is deleted the moment the post
+goes out, and the moment you discard it.
+
+If the app closes before it goes—you swiped it away, it crashed, your phone
+needed the memory for something else—the post is waiting for you at the next
+launch, at the top of your profile, saying *This post did not go out. Nothing
+was posted.* Under it are the same two things any post that stopped carries:
+*try again*, which sends that same post rather than a second copy of it, and
+*discard*, which throws it away and deletes the copies with it. Nothing is
+ever sent again on its own. A post you composed on Tuesday does not go out on
+Thursday because you happened to open the app.
 
 ## Sharing a post with more people afterwards
 

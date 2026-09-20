@@ -417,8 +417,11 @@ dessous&#160;; en ouvrir une montre l'image entière. Le seul vrai recadrage est
 votre photo de profil, taillée en carré sur votre téléphone, là où vous mettez
 le carré.
 
-Rien d'une publication inachevée n'est écrit sur votre téléphone non plus.
-Quitter l'écran de publication demande une fois et puis c'est parti. Tout ce que
+Rien d'une publication que vous n'avez pas envoyée n'est écrit sur votre
+téléphone non plus. Quitter l'écran de publication demande une fois et puis
+c'est parti. Une publication que vous *avez* envoyée est écrite jusqu'à ce
+qu'elle parte, pour que l'application qui se ferme en plein envoi ne puisse pas
+la perdre en silence, et elle est supprimée dès qu'elle arrive. Tout ce que
 l'appareil photo a enregistré à côté de l'image est parti aussi, et pas parce
 qu'un filtre l'a retiré&#160;: la photo est décodée et réencodée, et ce qui en
 sort n'a nulle part où loger un lieu ou un numéro de série. Une chose est gardée
