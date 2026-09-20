@@ -59,6 +59,11 @@ you are a stranger to them on the same terms as anybody else. It works in one
 direction only: you may ask them. They get nothing in return, and need
 nothing, because your request is already on its way to them.
 
+Their side is told this before it happens rather than after: the dialog that
+asks them to confirm a decline says *they will not be able to ask you again*
+whenever that is true, which for a newcomer with no connections yet is exactly
+when it is.
+
 ## Finding somebody
 
 By exact handle or exact email address, and no other way. The field's label is
@@ -125,9 +130,17 @@ Their row shows your face and your name, with *expires on 17 september*
 under the name; then *you both know anna, carla*; then *accept*, *decline* and
 *more*—which holds *block* and *report*, because a stranger's request is the
 one place abuse can arrive from somebody who is on no other screen, and
-declining alone lets them ask again. Your name has the width of the row, and
-tapping your face or your name opens your card: the whole name, your handle,
-anything you wrote about yourself, and *accept*.
+declining alone lets them ask again when the rule below still lets them. Your
+name has the width of the row, and tapping your face or your name opens your
+card: the whole name, your handle, anything you wrote about yourself, and
+*accept*.
+
+*accept* is one tap and *decline* asks first. That is not about how heavy each
+one is—it is the one rule behind every confirmation in the app: something asks
+when tapping again would not undo it. Accepting has an undo, which is *remove*
+on the profile it creates. Declining has none: the request is settled and the
+key that let you see their face is destroyed in the same breath. (*block* asks
+too, and *report* is a box to type in rather than a question to get through.)
 
 ### What you see while you wait is almost nothing
 
@@ -164,6 +177,12 @@ outgoing row is simply not there any more. Cancelling removes the row from the
 other person's profile with no notification. Expiry is swept rather than only
 filtered, so a request nobody ever opened does not leave your profile
 decryptable by them for ever.
+
+Declining asks first, and the dialog says who and what: *decline Delphine
+Marchand*, then *They will not be told. Their request goes, and they can ask
+you again.* When they cannot—no one in common, and *requests from anyone*
+off—the second sentence says that instead, because that is the version of this
+tap you cannot take back by waiting.
 
 One honest limit, since it is easy to read as stronger than it is: what is
 destroyed is the copy of your profile key that was wrapped for them, and the
@@ -344,9 +363,14 @@ If somebody is being unpleasant to you, block them.
 
 From *more* on their profile, beside *block* and *report*. That is the only
 door, and the people screen has none: each row there is the way to the person,
-and what you can do about them is on the screen about them. One dialog, and
-it says what will happen rather than asking whether you are sure: *They will
-not be told. You will both stop seeing anything the other has shared.*
+and what you can do about them is on the screen about them. One dialog, titled
+with the verb and their name—*remove Delphine Marchand*—and it says what will
+happen rather than asking whether you are sure: *They will not be told. You
+will both stop seeing anything the other has shared.*
+
+Every dialog in the app that decides about one person is titled that way. It
+is the last thing between a thumb and something nothing puts back, and a
+*more* menu can be opened on the wrong row.
 
 In one transaction it destroys the connection and, with it:
 
@@ -382,8 +406,8 @@ under *more* on an incoming request—because a decline alone lets somebody ask
 again. A stranger can be blocked, and nothing ever stands in the way of
 blocking somebody.
 
-The dialog: *They will not be told. This also removes them, and they will not
-be able to ask again.*
+The dialog, titled *block Delphine Marchand*: *They will not be told. This
+also removes them, and they will not be able to ask again.*
 
 Everything a removal does, and then:
 
@@ -440,8 +464,10 @@ The people you blocked are at the foot of the people screen under *blocked*,
 each a handle and *unblock*. The name is not a link, because nothing opens
 their profile any more and a link to a not-found is worse than a word.
 
-The dialog is honest about what unblocking is and is not: *They will be able
-to find you and ask again. Nothing that was taken away comes back.*
+The dialog is titled *unblock* and their handle, and is honest about what
+unblocking is and is not: *They will be able to find you and ask again.
+Nothing that was taken away comes back.* The handle and not a name, for the
+row's reason: nothing opens their profile to read one from.
 
 There is no list of who blocked you, and there cannot be one: it would be the
 signal the 404 exists to withhold.

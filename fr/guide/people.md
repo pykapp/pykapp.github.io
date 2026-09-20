@@ -68,6 +68,11 @@ n'importe qui. Cela marche dans un seul sens&#160;: vous pouvez lui demander.
 Elle ne reçoit rien en retour, et n'a besoin de rien, parce que votre demande
 est déjà en route vers elle.
 
+De son côté, on le lui dit avant plutôt qu'après&#160;: le dialogue qui lui
+demande de confirmer un refus dit *elle ne pourra plus vous demander* chaque
+fois que c'est vrai, ce qui, pour un nouveau compte sans aucune relation, est
+exactement le cas.
+
 ## Trouver quelqu'un
 
 Par pseudo exact ou adresse de courriel exacte, et d'aucune autre façon. Le
@@ -146,9 +151,18 @@ le nom&#160;; puis *vous connaissez tous les deux anna, carla*&#160;; puis
 *accepter*, *refuser* et *options* – qui contient *bloquer* et *signaler*,
 parce que la demande d'un inconnu est le seul endroit d'où un abus peut arriver
 de quelqu'un qui n'est sur aucun autre écran, et que refuser seulement lui
-laisse la possibilité de redemander. Votre nom a toute la largeur de la ligne,
-et toucher votre visage ou votre nom ouvre votre fiche&#160;: le nom en entier,
-votre pseudo, ce que vous avez écrit sur vous, et *accepter*.
+laisse la possibilité de redemander quand la règle plus bas le permet encore.
+Votre nom a toute la largeur de la ligne, et toucher votre visage ou votre nom
+ouvre votre fiche&#160;: le nom en entier, votre pseudo, ce que vous avez écrit
+sur vous, et *accepter*.
+
+*accepter* se fait en un geste, et *refuser* demande d'abord. Ce n'est pas une
+question de gravité – c'est la seule règle derrière toutes les confirmations de
+l'application&#160;: on demande quand toucher une deuxième fois ne défait rien.
+Accepter a un retour en arrière, qui est *retirer* sur le profil ainsi créé.
+Refuser n'en a aucun&#160;: la demande est réglée et la clé qui vous laissait
+voir son visage est détruite dans le même mouvement. (*bloquer* demande aussi,
+et *signaler* est une zone où l'on écrit plutôt qu'une question à franchir.)
 
 ### Ce que vous voyez pendant que vous attendez est presque rien
 
@@ -188,6 +202,13 @@ rien&#160;: sa ligne sortante n'est simplement plus là. Annuler retire la ligne
 du profil de l'autre personne sans aucune notification. L'expiration est
 balayée plutôt que seulement filtrée, pour qu'une demande que personne n'a
 jamais ouverte ne laisse pas votre profil déchiffrable par elle pour toujours.
+
+Refuser demande d'abord, et le dialogue dit qui et quoi&#160;: *refuser
+Delphine Marchand*, puis *Cette personne n'en sera pas informée. Sa demande
+disparaît, et elle pourra vous redemander.* Quand elle ne le pourra pas –
+personne en commun, et *demandes de tout le monde* désactivé – la deuxième
+phrase le dit à la place, parce que c'est la version de ce geste qu'attendre
+ne rattrape pas.
 
 Une limite honnête, puisqu'il est facile de la lire comme plus forte qu'elle
 n'est&#160;: ce qui est détruit, c'est la copie de votre clé de profil qui était
@@ -394,9 +415,14 @@ bloquez-le.
 Depuis *options* sur son profil, à côté de *bloquer* et *signaler*. C'est la
 seule porte, et l'écran des personnes n'en a aucune&#160;: chaque ligne y mène
 à la personne, et ce que vous pouvez faire à son sujet est sur l'écran qui lui
-est consacré. Un dialogue, et il dit ce qui va se passer plutôt que de demander si
-vous êtes sûr&#160;: *Cette personne n'en sera pas informée. Vous cesserez tous
-les deux de voir ce que l'autre a partagé.*
+est consacré. Un dialogue, titré du verbe et de son nom – *retirer Delphine
+Marchand* – et il dit ce qui va se passer plutôt que de demander si vous êtes
+sûr&#160;: *Cette personne n'en sera pas informée. Vous cesserez tous les deux
+de voir ce que l'autre a partagé.*
+
+Tous les dialogues de l'application qui décident au sujet d'une personne sont
+titrés ainsi. C'est la dernière chose entre un pouce et quelque chose que rien
+ne rend, et un menu *options* peut s'ouvrir sur la mauvaise ligne.
 
 En une transaction, cela détruit le lien et, avec lui&#160;:
 
@@ -436,8 +462,9 @@ Accessible sous *options* sur son profil, à côté de *retirer* et de
 possibilité de redemander. Un inconnu peut être bloqué, et rien ne s'oppose
 jamais à ce que vous bloquiez quelqu'un.
 
-Le dialogue&#160;: *Cette personne n'en sera pas informée. Cela la retire aussi
-de vos relations, et elle ne pourra plus vous redemander.*
+Le dialogue, titré *bloquer Delphine Marchand*&#160;: *Cette personne n'en sera
+pas informée. Cela la retire aussi de vos relations, et elle ne pourra plus
+vous demander.*
 
 Tout ce que fait un retrait, et ensuite&#160;:
 
@@ -501,9 +528,10 @@ Les gens que vous avez bloqués sont au bas de l'écran des personnes sous
 plus rien n'ouvre son profil et qu'un lien vers un «&#160;introuvable&#160;»
 est pire qu'un mot.
 
-Le dialogue est honnête sur ce qu'un déblocage est et n'est pas&#160;: *Cette
-personne pourra vous trouver et vous redemander. Rien de ce qui a été retiré ne
-revient.*
+Le dialogue est titré *débloquer* et son pseudo, et il est honnête sur ce qu'un
+déblocage est et n'est pas&#160;: *Cette personne pourra vous trouver et vous
+redemander. Rien de ce qui a été retiré ne revient.* Le pseudo et non un nom,
+pour la raison de la ligne&#160;: plus rien n'ouvre son profil pour en lire un.
 
 Il n'y a pas de liste de qui vous a bloqué, et il ne peut pas y en avoir&#160;:
 ce serait le signal que l'«&#160;introuvable&#160;» existe pour retenir.
