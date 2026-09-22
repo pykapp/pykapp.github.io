@@ -6,7 +6,7 @@ permalink: /moderation/
 *people you know* is end-to-end encrypted. This page says what that means
 for moderation, plainly, because it is not what most apps mean.
 
-**Last updated:** 13 September 2026.
+**Last updated:** 22 September 2026.
 
 ## What we cannot do
 
@@ -75,3 +75,6 @@ room: report the photograph in it, or the person.
 ## Contact
 
 If something needs a person rather than a button: pykapp+safety@proton.me
+
+The app is operated by people you know llc, 2222 N Alamo St #118, San Antonio,
+TX 78215, United States.

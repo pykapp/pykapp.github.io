@@ -11,7 +11,14 @@ permalink: /fr/conditions/
 conditions pour l'utiliser pendant la bêta fermée. Elles sont courtes exprès,
 et ce sont un contrat&#160;: utiliser l'application, c'est les accepter.
 
-**Dernière mise à jour&#160;:** 19 septembre 2026.
+**Dernière mise à jour&#160;:** 22 septembre 2026.
+
+## Qui nous sommes
+
+Cette application est exploitée par **people you know llc**, une société à
+responsabilité limitée du Texas, au 2222 N Alamo St #118, San Antonio, TX
+78215, États-Unis. C'est elle qui est partie à ces conditions&#160;:
+«&#160;nous&#160;» ci-dessous désigne cette société.
 
 ## Où ceci est proposé
 
@@ -153,7 +160,7 @@ nous ne détenons aucune clé dont nous puissions nous servir.
 
 Ces conditions sont régies par le droit de l'État du Texas, sans égard à ses
 règles de conflit de lois, et un litige relève des tribunaux étatiques ou
-fédéraux de l'État du Texas.
+fédéraux siégeant dans le comté de Bexar, au Texas.
 
 Cette clause ne peut pas retirer les protections du droit de la consommation de
 l'endroit où vous vivez, et nous n'allons pas prétendre le contraire. **Si vous

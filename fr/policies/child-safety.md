@@ -9,7 +9,7 @@ enfants, que Google Play exige de toute application de sa catégorie sociale.
 La nôtre est brève, parce que l'essentiel de ce qu'une telle norme doit
 habituellement décrire ne peut pas se produire ici, par construction.
 
-**Dernière mise à jour&#160;: 14 septembre 2026.**
+**Dernière mise à jour&#160;: 22 septembre 2026.**
 
 ## La règle
 
@@ -90,3 +90,6 @@ pykapp+safety@proton.me joint une personne capable d'expliquer comment cette
 application prévient le matériel d'abus sexuel concernant des enfants et
 comment elle s'y conforme. Ce n'est pas une file d'attente&#160;: ce sont les
 personnes qui construisent l'application qui la lisent.
+
+L'application est exploitée par people you know llc, 2222 N Alamo St #118, San
+Antonio, TX 78215, États-Unis.

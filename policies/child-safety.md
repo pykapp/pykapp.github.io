@@ -8,7 +8,7 @@ against child sexual abuse and exploitation, which Google Play requires every
 app in its social category to publish. Ours is short, because most of what
 such a standard usually has to describe cannot happen here by construction.
 
-**Last updated:** 14 September 2026.
+**Last updated:** 22 September 2026.
 
 ## The rule
 
@@ -79,3 +79,6 @@ comply with lawful requests from those authorities.
 pykapp+safety@proton.me reaches a person who can speak to how this app
 prevents child sexual abuse material and how it complies. It is not a queue
 and it is read by the people who build the app.
+
+The app is operated by people you know llc, 2222 N Alamo St #118, San Antonio,
+TX 78215, United States.

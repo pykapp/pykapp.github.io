@@ -8,12 +8,17 @@ know. This page says what we hold about you, what we cannot see, and what
 happens when you leave. It is written to be read, not skimmed; it is short
 because there is not much to say.
 
-**Last updated:** 19 September 2026. This policy covers the closed beta.
+**Last updated:** 22 September 2026. This policy covers the closed beta.
 
 ## Who is responsible, and where this applies
 
-We decide what is collected and why, which makes us responsible for it, and the
-way to reach us about anything on this page is **pykapp+privacy@proton.me**.
+*people you know* is operated by **people you know llc**, a Texas limited
+liability company, at 2222 N Alamo St #118, San Antonio, TX 78215, United
+States. We decide what is collected and why, which makes us responsible for it.
+
+The person in charge of protecting personal information is **Jean-Sébastien
+Basque-Girouard**, at that address or at **pykapp+privacy@proton.me**, which is
+also the way to reach us about anything else on this page.
 
 The app is offered in the United States and in Canada. Canadian federal privacy
 law (PIPEDA) and, for people in Québec, Québec's Law 25 apply to what we do with

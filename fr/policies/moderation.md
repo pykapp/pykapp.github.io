@@ -11,7 +11,7 @@ permalink: /fr/politique-de-moderation/
 dire pour la modération, franchement, parce que ce n'est pas ce que la plupart
 des applications entendent par là.
 
-**Dernière mise à jour&#160;:** 13 septembre 2026.
+**Dernière mise à jour&#160;:** 22 septembre 2026.
 
 ## Ce que nous ne pouvons pas faire
 
@@ -90,3 +90,6 @@ s'y trouve, ou la personne.
 ## Contact
 
 S'il faut une personne plutôt qu'un bouton&#160;: pykapp+safety@proton.me
+
+L'application est exploitée par people you know llc, 2222 N Alamo St #118, San
+Antonio, TX 78215, États-Unis.

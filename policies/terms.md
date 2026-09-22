@@ -7,7 +7,13 @@ permalink: /terms/
 using it during the closed beta. They are short on purpose, and they are a
 contract: using the app means agreeing to them.
 
-**Last updated:** 19 September 2026.
+**Last updated:** 22 September 2026.
+
+## Who we are
+
+This app is operated by **people you know llc**, a Texas limited liability
+company, at 2222 N Alamo St #118, San Antonio, TX 78215, United States. It is
+the party to these terms: *we* and *us* below mean that company.
 
 ## Where this is offered
 
@@ -132,7 +138,7 @@ we hold no key we can use.
 
 These terms are governed by the laws of the State of Texas, without regard to
 its conflict-of-laws rules, and a dispute goes to the state or federal courts
-of the State of Texas.
+located in Bexar County, Texas.
 
 That clause cannot take away the protections of the consumer law where you
 live, and we are not going to pretend otherwise. **If you are a consumer in

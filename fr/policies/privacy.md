@@ -13,14 +13,20 @@ sujet, ce que nous ne pouvons pas voir, et ce qui se passe quand vous partez.
 Elle est écrite pour être lue, pas survolée&#160;; elle est courte parce qu'il
 n'y a pas grand-chose à dire.
 
-**Dernière mise à jour&#160;:** 19 septembre 2026. Cette politique couvre la
+**Dernière mise à jour&#160;:** 22 septembre 2026. Cette politique couvre la
 bêta fermée.
 
 ## Qui est responsable, et où ceci s'applique
 
-Nous décidons ce qui est collecté et pourquoi, ce qui nous en rend
-responsables, et on nous joint, au sujet de tout ce qui est sur cette page, à
-**pykapp+privacy@proton.me**.
+*people you know* est exploitée par **people you know llc**, une société à
+responsabilité limitée du Texas, au 2222 N Alamo St #118, San Antonio, TX
+78215, États-Unis. Nous décidons ce qui est collecté et pourquoi, ce qui nous en
+rend responsables.
+
+La personne responsable de la protection des renseignements personnels est
+**Jean-Sébastien Basque-Girouard**, que l'on joint à cette adresse ou à
+**pykapp+privacy@proton.me**, qui est aussi la façon de nous joindre au sujet de
+tout ce qui est sur cette page.
 
 L'application est proposée aux États-Unis et au Canada. La loi fédérale
 canadienne sur la protection des renseignements personnels (la LPRPDE) et, pour
