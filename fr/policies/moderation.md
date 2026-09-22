@@ -38,6 +38,12 @@ lire, alors dites en mots ce qui ne va pas. Nous ne recevons jamais de copie du
 contenu, et nous ne disons jamais à la personne signalée qui l'a signalée, ni
 qu'un signalement existe.
 
+Nous savons, nous, qui l'a déposé. Comme nous ne pouvons pas vérifier un
+signalement contre la chose qu'il vise, votre parole en est la totalité, et un
+signalement que vous savez mensonger est une raison pour nous de suspendre ou
+de supprimer *votre* compte. En déposer un fait partie de ce que les
+[conditions](/fr/conditions/) vous demandent de ne pas faire.
+
 ## Ce que nous pouvons faire
 
 Tout ce que nous pouvons faire agit sur un compte, jamais sur une photo&#160;:

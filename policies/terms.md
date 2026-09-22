@@ -48,6 +48,7 @@ agreeing now to something nobody has priced.
 - You will not use the app to harass, threaten, or intimidate anybody, or to
   share intimate images of a person without their consent, or anything that
   sexualises a minor.
+- You will not report something you know to be untrue.
 - You will not try to break the encryption, enumerate handles, or interfere
   with other people's accounts.
 

@@ -30,6 +30,11 @@ That last line is the one thing about a report we can read, so please say
 what is wrong in words. We never receive a copy of the content, and we never
 tell the person reported who reported them, or that a report exists.
 
+We do know who filed it. Because we cannot check a report against the thing
+it is about, your word is the whole of it, and a report you know to be untrue
+is a reason for us to suspend or delete *your* account. Filing one is among
+the things the [terms](/terms/) ask you not to do.
+
 ## What we can do
 
 Everything we can do acts on an account, never on a photograph:

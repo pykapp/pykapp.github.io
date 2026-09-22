@@ -54,6 +54,7 @@ aujourd'hui une chose dont personne n'a fixé le prix.
 - Vous n'utiliserez pas l'application pour harceler, menacer ou intimider qui
   que ce soit, ni pour partager des images intimes d'une personne sans son
   consentement, ni quoi que ce soit qui sexualise un mineur.
+- Vous ne déposerez pas un signalement que vous savez mensonger.
 - Vous n'essaierez pas de casser le chiffrement, de recenser les pseudos, ni de
   nuire aux comptes d'autres personnes.
 
