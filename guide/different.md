@@ -254,10 +254,11 @@ from you. [Connecting with people](/how-it-works/people/).
 
 ## Search is exact, and it is rationed
 
-Type three letters and you get nothing. Search takes a whole handle or a whole
-email address, and returns at most one person. There are no near matches, no
-suggestions and no "people you may know", and the field says so under it:
-*Search finds people by their exact handle or email.*
+Type three letters and you get nothing. Search takes a whole handle, a whole
+email address or a whole phone number, and returns at most one person. There
+are no near matches, no suggestions and no "people you may know", and the field
+says so under it: *Search finds people by their exact handle, email or phone
+number.*
 
 It is also limited to 32 tries an hour, counted whether or not they find
 anybody, because a surface on which strangers can be discovered is a surface
@@ -386,9 +387,14 @@ sent it to and not by us. [Posting](/how-it-works/posting/).
 ## Six words, and nobody can give them back
 
 Your account is a key, and the key lives on your phone. A second phone signs
-in with a code sent to your email address, discovers it holds no key, and asks
+in—with a code sent to your email address or phone number, or with your
+password if that is what the account holds—discovers it holds no key, and asks
 for the six words you were shown at signup. There is no device-linking QR
 code, because there is one key per person rather than one per device.
+
+A password and the six words are not interchangeable and neither is a way to
+get the other. The password opens the account; the six words open the
+photographs. A new phone needs both.
 
 If you lose the six words and every phone that holds the key, the account is
 gone, including any way to get into it and delete it. Write to us from the
@@ -398,13 +404,19 @@ copy that is ours to hand back, which is the same sentence as "we cannot read
 them" said from the other side.
 [How the privacy works](/how-it-works/privacy/).
 
-The six words are the key, and the email address is the door. They are two
-different things to lose, and for a long while only one of them was written
-down here. A code goes to that address every time you sign in on a phone that
-is not already signed in, so an address you can no longer read is an account
-you can no longer open, whatever you wrote down at signup. That is a far more
-ordinary thing to happen than losing a piece of paper: you leave a job, you
-change provider, an old free account locks itself.
+The six words are the key, and the door is whatever the account holds: an
+email address, a phone number, or a password. They are two different things to
+lose, and for a long while only one of them was written down here. A code goes
+to that address or number every time you sign in on a phone that is not already
+signed in, so an address you can no longer read is an account you can no longer
+open, whatever you wrote down at signup. That is a far more ordinary thing to
+happen than losing a piece of paper: you leave a job, you change provider, an
+old free account locks itself.
+
+An account with only a password has the sharpest version of this: there is
+nowhere for us to send anything, so forgetting it is the account, and nobody
+can let you back in. That is the trade for our holding no address for you at
+all, and it is why you can add one later from settings the day you want to.
 
 So the address can be moved, from *settings → your email*, while you are still
 signed in. You type the new one, we send a code there, and you type it
@@ -428,10 +440,10 @@ say the same thing in fewer words.
 
 The app is Android only: there is no iPhone app, no web version and no desktop
 version, so there is nothing to sign into in a browser. It takes photographs,
-and videos of about a minute. Signing in is by email address, and codes go
-there; search no longer takes a number either, because an account cannot come
-to hold one for it to match. Invitations are issued by hand during the closed
-beta, so there is no invite link to send anybody.
+and videos of about a minute. Signing in is by a code sent to an email address
+or a phone number, or by a password on an account that holds neither.
+Invitations are issued by hand during the closed beta, so there is no invite
+link to send anybody.
 
 If something here is not what you expected, [how it works](/how-it-works/) has
 the longer version of each of these.
