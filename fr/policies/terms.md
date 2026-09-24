@@ -78,10 +78,10 @@ si nous le voulions.
 
 Nous ne pouvons pas voir votre contenu, donc nous ne pouvons ni l'examiner, ni
 le filtrer, ni promettre qu'il est quoi que ce soit de particulier. Ce que nous
-pouvons faire, c'est agir sur des comptes&#160;: si un signalement nous dit
-qu'un compte sert à nuire à quelqu'un, nous pouvons le suspendre ou le
-supprimer. La [politique de modération](/fr/politique-de-moderation/) dit
-comment.
+pouvons faire, c'est agir sur ce qu'un signalement nous dit&#160;: nous pouvons
+retirer la publication ou le commentaire qu'il vise, ou suspendre ou supprimer
+le compte qui est derrière. La [politique de
+modération](/fr/politique-de-moderation/) dit comment nous décidons.
 
 Nous pouvons arrêter le service, le changer, ou mettre fin à la bêta. Si nous
 arrêtons le service, nous donnerons au moins 30 jours de préavis et le temps

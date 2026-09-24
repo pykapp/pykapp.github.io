@@ -641,7 +641,8 @@ bords.
 [Ce que le chiffrement veut dire pour la modération](/moderation/) est une page
 à part, parce que c'est la même contrainte vue de l'autre côté&#160;: nous ne
 pouvons pas examiner ce que nous ne pouvons pas lire, donc tout ce que nous
-pouvons faire agit sur un compte et jamais sur une photo.
+faisons – retirer la publication que vise un signalement, ou agir sur le compte
+qui est derrière – est décidé sur ce que dit le signalement.
 
 Le reste de [comment ça marche](/fr/comment-ca-marche/) décrit le produit auquel
 ces choix aboutissent.

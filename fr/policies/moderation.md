@@ -11,7 +11,7 @@ permalink: /fr/politique-de-moderation/
 dire pour la modération, franchement, parce que ce n'est pas ce que la plupart
 des applications entendent par là.
 
-**Dernière mise à jour&#160;:** 22 septembre 2026.
+**Dernière mise à jour&#160;:** 24 septembre 2026.
 
 ## Ce que nous ne pouvons pas faire
 
@@ -35,8 +35,9 @@ recevons&#160;:
 
 Cette dernière ligne est la seule chose d'un signalement que nous puissions
 lire, alors dites en mots ce qui ne va pas. Nous ne recevons jamais de copie du
-contenu, et nous ne disons jamais à la personne signalée qui l'a signalée, ni
-qu'un signalement existe.
+contenu, et nous ne disons jamais à la personne signalée qui l'a signalée. Si
+nous retirons quelque chose qui est à elle, cela disparaît pour elle comme pour
+tout le monde, et l'application ne dit pas pourquoi.
 
 Nous savons, nous, qui l'a déposé. Comme nous ne pouvons pas vérifier un
 signalement contre la chose qu'il vise, votre parole en est la totalité, et un
@@ -46,9 +47,15 @@ de supprimer *votre* compte. En déposer un fait partie de ce que les
 
 ## Ce que nous pouvons faire
 
-Tout ce que nous pouvons faire agit sur un compte, jamais sur une photo&#160;:
+Nous ne pouvons toujours pas voir ce que vise un signalement, donc tout ce que
+nous faisons est décidé sur ce que la personne qui signale a écrit. Nous
+pouvons&#160;:
 
 - **Écarter** le signalement.
+- **Retirer** la publication ou le commentaire que vise le signalement. Cela
+  part pour tout le monde, son auteur compris, comme s'il l'avait supprimé
+  lui-même, et on ne peut pas le faire revenir. Le reste du compte n'est pas
+  touché.
 - **Suspendre** le compte. Un compte suspendu peut toujours se connecter,
   regarder ce qu'il a déjà, exporter ses données et se supprimer, mais ne peut
   pas publier, commenter, réagir ni envoyer de demandes. Une suspension peut
@@ -58,9 +65,28 @@ Tout ce que nous pouvons faire agit sur un compte, jamais sur une photo&#160;:
   réactions partent pour tout le monde d'un coup, et ses relations sont
   rompues.
 
-Nous ne pouvons pas retirer une photo et laisser le compte. Nous n'avons aucune
-clé pour distinguer l'une de l'autre, et une demi-modération serait pire qu'une
-modération honnête.
+## Comment nous décidons
+
+- **Un signalement qui tient au goût ou à une brouille est écarté.** Les outils
+  ci-dessous sont les vôtres pour cela, et ils agissent tout de suite.
+- **Un seul signalement crédible de quelque chose que les
+  [conditions](/fr/conditions/) interdisent suffit pour le retirer**&#160;: une
+  photo que quelqu'un n'avait pas le droit de partager, une image intime d'une
+  personne partagée sans son consentement, ou du harcèlement.
+- **Un deuxième retrait sur le même compte en 90 jours suspend aussi ce
+  compte.** Une fois, c'est une erreur que n'importe qui peut faire. Deux fois,
+  c'est une habitude.
+- **Un signalement de menaces envers quelqu'un suspend le compte tout de
+  suite.**
+- **Tout ce qui sexualise un enfant est signalé** comme le décrivent les
+  [normes de protection des enfants](/fr/protection-des-enfants/), puis le
+  compte est supprimé.
+- **Une personne dont les signalements sont sans cesse écartés peut être
+  suspendue elle-même**, parce que déposer un signalement que l'on sait
+  mensonger est contraire aux conditions.
+
+Une suspension peut être levée si nous nous sommes trompés. Un retrait et une
+suppression ne peuvent pas être défaits.
 
 ## Ce que vous pouvez faire vous-même, tout de suite
 

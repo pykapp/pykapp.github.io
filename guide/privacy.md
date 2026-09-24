@@ -570,8 +570,8 @@ The claim above is narrower than "private", and these are its edges.
 
 [What encryption means for moderation](/moderation/) is a separate page,
 because it is the same constraint seen from the other side: we cannot review
-what we cannot read, so everything we can do acts on an account and never on a
-photograph.
+what we cannot read, so whatever we do, removing the one post a report points
+at or acting on the account behind it, is decided on what the report says.
 
 The rest of [how it works](/how-it-works/) describes the product these choices
 add up to.

@@ -69,9 +69,9 @@ not use it for anything else even if we wanted to.
 ## What we can and cannot do
 
 We cannot see your content, so we cannot review it, filter it, or promise that
-it is anything in particular. What we can do is act on accounts: if a report
-tells us an account is being used to harm somebody, we may suspend it or delete
-it. The [moderation policy](/moderation/) says how.
+it is anything in particular. What we can do is act on what a report tells us:
+we may remove the post or comment it is about, or suspend or delete the account
+behind it. The [moderation policy](/moderation/) says how we decide.
 
 We can stop the service, change it, or end the beta. If we end the service we
 will give you at least 30 days' notice and time to export your data, unless we

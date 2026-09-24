@@ -262,7 +262,8 @@ Nobody is ever told that last one. The [privacy policy](/privacy/) says the
 same for the rest of the app.
 
 Two smaller consequences. A report is about a post, a comment or a person, and
-never about an album, because we can act on an account and not on a room. And
+never about an album, because we can act on a post or an account and not on a
+room. And
 if you export your data, your own contributions are in it, because they are
 posts you made; other members' contributions are not, even though your phone
 holds a key for every one of them.

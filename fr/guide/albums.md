@@ -286,7 +286,7 @@ confidentialité](/privacy/) dit la même chose pour le reste de l'application.
 
 Deux conséquences plus petites. Un signalement porte sur une publication, un
 commentaire ou une personne, et jamais sur un album, parce que nous pouvons
-agir sur un compte et pas sur une pièce. Et si vous exportez vos données, vos
+agir sur une publication ou un compte et pas sur une pièce. Et si vous exportez vos données, vos
 propres contributions y sont, parce que ce sont des publications que vous avez
 faites&#160;; celles des autres membres n'y sont pas, même si votre téléphone
 détient une clé pour chacune d'elles.

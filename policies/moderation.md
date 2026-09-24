@@ -6,7 +6,7 @@ permalink: /moderation/
 *people you know* is end-to-end encrypted. This page says what that means
 for moderation, plainly, because it is not what most apps mean.
 
-**Last updated:** 22 September 2026.
+**Last updated:** 24 September 2026.
 
 ## What we cannot do
 
@@ -28,7 +28,8 @@ When you report a post, a comment or a person, we receive:
 
 That last line is the one thing about a report we can read, so please say
 what is wrong in words. We never receive a copy of the content, and we never
-tell the person reported who reported them, or that a report exists.
+tell the person reported who reported them. If we remove something of theirs,
+it disappears for them as it does for everyone, and the app does not say why.
 
 We do know who filed it. Because we cannot check a report against the thing
 it is about, your word is the whole of it, and a report you know to be untrue
@@ -37,9 +38,13 @@ the things the [terms](/terms/) ask you not to do.
 
 ## What we can do
 
-Everything we can do acts on an account, never on a photograph:
+We still cannot see what a report is about, so whatever we do is decided on
+what the reporter wrote. We can:
 
 - **Dismiss** the report.
+- **Remove** the post or comment the report is about. It goes for everyone, its
+  author included, as if they had deleted it themselves, and it cannot be
+  brought back. The rest of the account is untouched.
 - **Suspend** the account. A suspended account can still sign in, look at
   what it already has, export its data and delete itself, but cannot post,
   comment, react, or send requests. A suspension can be lifted.
@@ -47,9 +52,23 @@ Everything we can do acts on an account, never on a photograph:
   done themselves: their posts, comments and reactions go for everyone at
   once, and their connections are severed.
 
-We cannot take down one photograph and leave the account. We have no key to
-tell one from another, and half a moderation would be worse than an honest
-one.
+## How we decide
+
+- **A report about taste or a falling-out is dismissed.** The tools below are
+  yours for that, and they work at once.
+- **One believable report of something the [terms](/terms/) forbid is enough to
+  remove it**: a photo somebody had no right to share, an intimate image of a
+  person shared without their consent, or harassment.
+- **A second removal from the same account within 90 days suspends that
+  account as well.** Once is a mistake anybody can make. Twice is a pattern.
+- **A report of threats against somebody suspends the account at once.**
+- **Anything that sexualises a child is reported** as the [child safety
+  standards](/child-safety/) describe, and then the account is deleted.
+- **Somebody whose reports keep being dismissed may be suspended themselves**,
+  because filing a report you know to be untrue is against the terms.
+
+A suspension can be lifted if we got it wrong. A removal and a deletion cannot
+be undone.
 
 ## What you can do yourself, at once
 
