@@ -16,7 +16,7 @@ chiffrés sur votre téléphone avec des clés que nous ne voyons jamais.
 - [Normes de protection des enfants](/fr/protection-des-enfants/)
 - [Supprimer votre compte](/fr/supprimer-votre-compte/)
 
-L'application est proposée aux États-Unis et au Canada. Si vous êtes un
-consommateur au Québec, ce sont les conditions en français ci-dessus qui vous
+L'application est proposée aux États-Unis, au Canada, en Nouvelle-Zélande, à
+Singapour et au Japon. Si vous êtes un consommateur au Québec, ce sont les conditions en français ci-dessus qui vous
 lient, et c'est vers elles que l'application vous renvoie quand elle est en
 français.

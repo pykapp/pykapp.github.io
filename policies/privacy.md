@@ -8,22 +8,30 @@ know. This page says what we hold about you, what we cannot see, and what
 happens when you leave. It is written to be read, not skimmed; it is short
 because there is not much to say.
 
-**Last updated:** 22 September 2026. This policy covers the closed beta.
+**Last updated:** 24 September 2026. This policy covers the closed beta.
 
 ## Who is responsible, and where this applies
 
 *people you know* is operated by **people you know llc**, a Texas limited
 liability company, at 2222 N Alamo St #118, San Antonio, TX 78215, United
 States. We decide what is collected and why, which makes us responsible for it.
+The company is represented by its managing member, **Jean-Sébastien
+Basque-Girouard**.
 
-The person in charge of protecting personal information is **Jean-Sébastien
-Basque-Girouard**, at that address or at **pykapp+privacy@proton.me**, which is
-also the way to reach us about anything else on this page.
+The same person is in charge of protecting personal information, at that
+address or at **pykapp+privacy@proton.me**, which is also the way to reach us
+about anything else on this page.
 
-The app is offered in the United States and in Canada. Canadian federal privacy
-law (PIPEDA) and, for people in Québec, Québec's Law 25 apply to what we do with
-your information, alongside the law of the US state you live in if you live in
-one.
+The app is offered in the United States, Canada, New Zealand, Singapore and
+Japan. The privacy law of the country you live in applies to what we do with
+your information:
+
+- in the United States, the law of the state you live in;
+- in Canada, federal privacy law (PIPEDA) and, if you are in Québec, Québec's
+  Law 25;
+- in New Zealand, the Privacy Act 2020;
+- in Singapore, the Personal Data Protection Act 2012;
+- in Japan, the Act on the Protection of Personal Information.
 
 ## The one-sentence version
 
@@ -122,22 +130,55 @@ we keep as little of it as we can, and we keep our access logs for 30 days
 and no longer. Those logs record which kind of request was made and when, and
 not who made it: no address of yours, no identifier, no page you asked for.
 
+## What we use it for
+
+We use what we hold for these things and nothing else:
+
+- to make your account, sign you in, and send the one-time codes that sign-in
+  uses to your email address;
+- to deliver what you post to the people you chose, and what they post to you;
+- to send you the notifications you allowed;
+- to write to you once there is room, if we were full and you asked us to;
+- to act on reports and keep people safe, as the [moderation
+  policy](/moderation/) and the [child safety standards](/child-safety/)
+  describe;
+- to find out that something is broken, from the counts your phone sends and
+  the bug reports you choose to send;
+- to do what the law requires of us.
+
+An email address, a handle and your date of birth are what an account needs:
+without them we cannot make one. Everything else is yours to give or not.
+
 ## Where it is held, and for how long
 
-Our servers and our database are in the United States, and the encrypted files
-are in object storage run by a provider that holds ciphertext and never a key.
+Our servers, our database and the second copy of the encrypted files are in
+data centres in the United States. The encrypted files themselves are in object
+storage run by a company based in the United States, in its North American
+region; it holds ciphertext and never a key.
 
-**If you are in Canada, your information is held outside Canada**, and while it
-is there it is subject to United States law, including lawful requests by US
-authorities. We are telling you because Québec's Law 25 requires it and because
-it is the kind of thing you should be able to find out without asking. What such
-a request could reach is what this page already says we hold: the encrypted
-files and the locked keys, neither of which we can open, and the metadata. There
-is no key here that we can use, and so none that anybody can compel us to hand
-over or to use, which is the point of the whole arrangement rather than a happy
-accident. What a server made to act dishonestly from then on could do is a
-different question, and [how the privacy works](/how-it-works/privacy/) answers
-it under what this does not protect you from.
+**If you live outside the United States, your information is held outside your
+country**, and while it is there it is subject to United States law, including
+lawful requests by US authorities. We are telling you because Québec's Law 25
+and Japan's privacy law require it and because it is the kind of thing you
+should be able to find out without asking.
+
+What such a request could reach is what this page already says we hold: the
+encrypted files and the locked keys, neither of which we can open, and the
+metadata. There is no key here that we can use, and so none that anybody can
+compel us to hand over or to use, which is the point of the whole arrangement
+rather than a happy accident. What a server made to act dishonestly from then on
+could do is a different question, and [how the privacy works](/how-it-works/privacy/)
+answers it under what this does not protect you from.
+
+The United States has no single national privacy law of the kind Canada, New
+Zealand, Singapore and Japan have, and no national privacy regulator like
+theirs. Privacy there is protected by federal laws that each cover one kind of
+information, by the privacy laws some states have passed, and by the Federal
+Trade Commission, which can act against a company that breaks the promises its
+privacy policy makes. We decided how to protect your information knowing
+that, and what protects it here is therefore what this page commits us to,
+which is the same whichever country you live in, and the fact that we cannot
+read your content at all.
 
 We keep what is above for as long as your account exists, and then:
 
@@ -158,12 +199,26 @@ We keep what is above for as long as your account exists, and then:
 - after deletion we keep only the record described under *Deleting your
   account* below.
 
+## How we protect it
+
+- Your content is encrypted on your phone before it leaves, with keys we never
+  hold in a form we can use, so the most sensitive thing you give us is never
+  readable here.
+- Everything between the app and our servers travels encrypted.
+- Our database is encrypted where it is stored and cannot be reached from the
+  internet, only from our own servers.
+- Only the people who run the service can reach our servers and our database,
+  and the person named at the top of this page is responsible for how they
+  do.
+- We keep as little as the app can work with, and delete it on the schedule
+  above.
+
 ## What you can ask for
 
 - **See it.** *settings → export my data* writes your posts, captions,
   comments and the handles of your connections to your phone, decrypted there
   because we hold nothing readable to give you. If you no longer have the
-  phone, write to us and we will send what we hold within 30 days.
+  phone, write to us and we will send what we hold.
 - **Correct it.** Your handle and your display name are yours to change in the
   app. There is very little else we hold that you could correct, because we
   hold very little.
@@ -172,21 +227,27 @@ We keep what is above for as long as your account exists, and then:
   reversible.
 - **Take it elsewhere.** Ask and we will send what we hold in a structured,
   commonly used machine-readable format. The export above already is one.
-- **Complain.** Write to us first. If you are not satisfied: in Canada, the
-  Office of the Privacy Commissioner of Canada, and in Québec the Commission
-  d'accès à l'information du Québec; in the United States, your state attorney
-  general.
+- **Complain.** Write to us first. If you are not satisfied, go to the privacy
+  regulator where you live:
+  - in Canada, the Office of the Privacy Commissioner of Canada, and in Québec
+    the Commission d'accès à l'information du Québec;
+  - in New Zealand, the Office of the Privacy Commissioner;
+  - in Singapore, the Personal Data Protection Commission;
+  - in Japan, the Personal Information Protection Commission;
+  - in the United States, your state attorney general.
 
-We do not charge for any of this, we will not make you justify asking, and we
-answer within 30 days.
+To ask for any of this, write to pykapp+privacy@proton.me from the address on
+your account. We do not charge for any of it, we will not make you justify
+asking, and we answer as soon as we can and within four weeks at the latest.
 
 ## If something goes wrong
 
-If personal information we hold is lost or reaches somebody it should not, and
-there is a real risk of serious harm to you, we will tell you and the regulators
-that have to be told, promptly and in plain words: what happened, what it
-reached, and what you can do. We will keep a record of such incidents whether or
-not they reach that bar, because Québec's Law 25 requires one and because an
+If personal information we hold is lost or reaches somebody it should not, we
+will tell the regulators that have to be told, within the time each of them
+allows. If there is a real risk of serious harm to you, we will tell you too,
+promptly and in plain words: what happened, what it reached, and what you can
+do. We will keep a record of such incidents whether or not they reach that
+bar, because Québec's Law 25 requires one and because an
 incident nobody wrote down is one nobody learns from.
 
 What we cannot do is tell you that your photographs were read, because they
@@ -228,6 +289,9 @@ more than any other way of sending a photo can.
 
 ## Third parties we use
 
+- **Hosting** for our servers, our database and the second copy of the
+  encrypted files. The provider runs the machines and does not use what is on
+  them.
 - **Object storage** for the encrypted files. The provider holds ciphertext
   and never a key.
 - **Push notifications**, through Google's Firebase Cloud Messaging on
@@ -236,6 +300,11 @@ more than any other way of sending a photo can.
   post identifiers; the words you see are written by your phone.
 - **Email** to send you a one-time sign-in code. The provider sees the
   address and the code, and nothing else about you.
+
+Each of them is a company based in the United States. Each receives only what
+its part of the service needs, and uses it only to provide that part to us.
+Using the app means your information goes to them and to the United States,
+and this page is where we tell you so before you sign up.
 
 ## Deleting your account
 
@@ -279,7 +348,7 @@ handles of the people you were connected to. It is decrypted on your phone,
 because we could not produce it: we hold nothing readable to give you.
 
 If you no longer have the phone, write to pykapp+privacy@proton.me from the
-address on your account and we will send what we hold within a month: your
+address on your account and we will send what we hold within four weeks: your
 account record, the handles of your connections, and the encrypted files and
 the locked keys if you want them. We cannot send readable photographs, because
 we cannot read them.

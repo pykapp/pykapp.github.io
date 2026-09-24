@@ -13,7 +13,7 @@ sujet, ce que nous ne pouvons pas voir, et ce qui se passe quand vous partez.
 Elle est écrite pour être lue, pas survolée&#160;; elle est courte parce qu'il
 n'y a pas grand-chose à dire.
 
-**Dernière mise à jour&#160;:** 22 septembre 2026. Cette politique couvre la
+**Dernière mise à jour&#160;:** 24 septembre 2026. Cette politique couvre la
 bêta fermée.
 
 ## Qui est responsable, et où ceci s'applique
@@ -21,18 +21,26 @@ bêta fermée.
 *people you know* est exploitée par **people you know llc**, une société à
 responsabilité limitée du Texas, au 2222 N Alamo St #118, San Antonio, TX
 78215, États-Unis. Nous décidons ce qui est collecté et pourquoi, ce qui nous en
-rend responsables.
+rend responsables. La société est représentée par son membre gestionnaire,
+**Jean-Sébastien Basque-Girouard**.
 
-La personne responsable de la protection des renseignements personnels est
-**Jean-Sébastien Basque-Girouard**, que l'on joint à cette adresse ou à
-**pykapp+privacy@proton.me**, qui est aussi la façon de nous joindre au sujet de
-tout ce qui est sur cette page.
+La même personne est responsable de la protection des renseignements
+personnels, et on la joint à cette adresse ou à **pykapp+privacy@proton.me**,
+qui est aussi la façon de nous joindre au sujet de tout ce qui est sur cette
+page.
 
-L'application est proposée aux États-Unis et au Canada. La loi fédérale
-canadienne sur la protection des renseignements personnels (la LPRPDE) et, pour
-les personnes au Québec, la Loi 25 s'appliquent à ce que nous faisons de vos
-renseignements, en même temps que le droit de l'État américain où vous vivez si
-vous y vivez.
+L'application est proposée aux États-Unis, au Canada, en Nouvelle-Zélande, à
+Singapour et au Japon. Le droit de la protection des renseignements personnels
+du pays où vous vivez s'applique à ce que nous faisons de vos
+renseignements&#160;:
+
+- aux États-Unis, le droit de l'État où vous vivez&#160;;
+- au Canada, la loi fédérale sur la protection des renseignements personnels
+  (la LPRPDE) et, si vous êtes au Québec, la Loi 25&#160;;
+- en Nouvelle-Zélande, le Privacy Act 2020&#160;;
+- à Singapour, le Personal Data Protection Act 2012&#160;;
+- au Japon, la loi sur la protection des renseignements personnels (Act on the
+  Protection of Personal Information).
 
 ## La version en une phrase
 
@@ -145,25 +153,63 @@ et nous gardons nos journaux d'accès 30 jours et pas plus. Ces journaux notent
 quel genre de requête a été faite et quand, et non qui l'a faite&#160;: aucune
 adresse à vous, aucun identifiant, aucune page que vous auriez demandée.
 
+## À quoi cela nous sert
+
+Nous nous servons de ce que nous détenons pour ces choses-là et rien
+d'autre&#160;:
+
+- créer votre compte, vous connecter, et envoyer à votre adresse de courriel
+  les codes à usage unique dont la connexion se sert&#160;;
+- livrer ce que vous publiez aux gens que vous avez choisis, et vous livrer ce
+  qu'ils publient&#160;;
+- vous envoyer les notifications que vous avez autorisées&#160;;
+- vous écrire quand il y a de la place, si nous étions complets et que vous
+  nous l'avez demandé&#160;;
+- donner suite aux signalements et protéger les gens, comme le décrivent la
+  [politique de modération](/fr/politique-de-moderation/) et les [normes de
+  protection des enfants](/fr/protection-des-enfants/)&#160;;
+- apprendre que quelque chose est cassé, grâce aux comptes que votre téléphone
+  envoie et aux rapports de problème que vous choisissez d'envoyer&#160;;
+- faire ce que la loi exige de nous.
+
+Une adresse de courriel, un pseudo et votre date de naissance sont ce dont un
+compte a besoin&#160;: sans eux, nous ne pouvons pas en créer un. Tout le reste,
+vous le donnez ou non.
+
 ## Où c'est détenu, et pour combien de temps
 
-Nos serveurs et notre base de données sont aux États-Unis, et les fichiers
-chiffrés sont dans un stockage d'objets tenu par un prestataire qui détient du
-chiffré et jamais une clé.
+Nos serveurs, notre base de données et la deuxième copie des fichiers chiffrés
+sont dans des centres de données aux États-Unis. Les fichiers chiffrés
+eux-mêmes sont dans un stockage d'objets tenu par une société établie aux
+États-Unis, dans sa région nord-américaine&#160;; elle détient du chiffré et
+jamais une clé.
 
-**Si vous êtes au Canada, vos renseignements sont détenus à l'extérieur du
-Canada**, et tant qu'ils y sont ils relèvent du droit des États-Unis, y compris
-des demandes légales des autorités américaines. Nous vous le disons parce que la
-Loi 25 l'exige et parce que c'est le genre de chose que vous devriez pouvoir
-apprendre sans le demander. Ce qu'une telle demande pourrait atteindre est ce
-que cette page dit déjà que nous détenons&#160;: les fichiers chiffrés et les
-clés verrouillées, que nous ne pouvons ouvrir ni les uns ni les autres, et les
-métadonnées. Il n'y a ici aucune clé dont nous puissions nous servir, et donc
-aucune que quiconque pourrait nous contraindre à remettre ou à utiliser, ce qui
-est le but de tout l'arrangement et non un heureux hasard. Ce qu'un serveur
-forcé d'agir malhonnêtement à partir de là pourrait faire est une autre
-question, et [comment marche la confidentialité](/fr/confidentialite/) y répond
-sous ce dont cela ne vous protège pas.
+**Si vous vivez hors des États-Unis, vos renseignements sont détenus à
+l'extérieur de votre pays**, et tant qu'ils y sont ils relèvent du droit des
+États-Unis, y compris des demandes légales des autorités américaines. Nous vous
+le disons parce que la Loi 25 et le droit japonais l'exigent et parce que c'est
+le genre de chose que vous devriez pouvoir apprendre sans le demander.
+
+Ce qu'une telle demande pourrait atteindre est ce que cette page dit déjà que
+nous détenons&#160;: les fichiers chiffrés et les clés verrouillées, que nous ne
+pouvons ouvrir ni les uns ni les autres, et les métadonnées. Il n'y a ici
+aucune clé dont nous puissions nous servir, et donc aucune que quiconque
+pourrait nous contraindre à remettre ou à utiliser, ce qui est le but de tout
+l'arrangement et non un heureux hasard. Ce qu'un serveur forcé d'agir
+malhonnêtement à partir de là pourrait faire est une autre question, et
+[comment marche la confidentialité](/fr/confidentialite/) y répond sous ce dont
+cela ne vous protège pas.
+
+Les États-Unis n'ont pas de loi nationale unique sur la protection des
+renseignements personnels comme celles du Canada, de la Nouvelle-Zélande, de
+Singapour et du Japon, ni d'autorité nationale comparable aux leurs. La vie
+privée y est protégée par des lois fédérales qui couvrent chacune un genre de
+renseignement, par les lois que certains États ont adoptées, et par la Federal
+Trade Commission, qui peut agir contre une société qui ne tient pas les
+promesses de sa politique de confidentialité. Nous avons décidé comment protéger
+vos renseignements en le sachant, et ce qui les protège ici est donc ce à quoi
+cette page nous engage, qui est la même chose quel que soit le pays où vous
+vivez, et le fait que nous ne pouvons pas lire votre contenu du tout.
 
 Nous gardons ce qui précède aussi longtemps que votre compte existe,
 puis&#160;:
@@ -189,13 +235,28 @@ puis&#160;:
 - après la suppression, nous ne gardons que ce qui est décrit sous *Supprimer
   votre compte* plus bas.
 
+## Comment nous le protégeons
+
+- Votre contenu est chiffré sur votre téléphone avant de le quitter, avec des
+  clés que nous ne détenons jamais sous une forme dont nous puissions nous
+  servir, donc ce que vous nous confiez de plus sensible n'est jamais lisible
+  ici.
+- Tout ce qui circule entre l'application et nos serveurs circule chiffré.
+- Notre base de données est chiffrée là où elle est stockée et ne peut pas être
+  atteinte depuis Internet, seulement depuis nos propres serveurs.
+- Seules les personnes qui font tourner le service peuvent atteindre nos
+  serveurs et notre base de données, et la personne nommée en haut de cette
+  page répond de la façon dont elles le font.
+- Nous gardons aussi peu que ce dont l'application a besoin, et nous le
+  supprimons selon le calendrier ci-dessus.
+
 ## Ce que vous pouvez demander
 
 - **Le voir.** *paramètres → exporter mes données* écrit vos publications, vos
   légendes, vos commentaires et les pseudos de vos relations sur votre
   téléphone, déchiffrés là parce que nous ne détenons rien de lisible à vous
   donner. Si vous n'avez plus le téléphone, écrivez-nous et nous enverrons ce
-  que nous détenons sous 30 jours.
+  que nous détenons.
 - **Le corriger.** Votre pseudo et votre nom affiché sont à vous de changer
   dans l'application. Il n'y a pas grand-chose d'autre que nous détenions et
   que vous pourriez corriger, parce que nous détenons très peu.
@@ -205,21 +266,30 @@ puis&#160;:
 - **L'emporter ailleurs.** Demandez et nous enverrons ce que nous détenons dans
   un format structuré, couramment utilisé et lisible par une machine. L'export
   ci-dessus en est déjà un.
-- **Vous plaindre.** Écrivez-nous d'abord. Si cela ne vous satisfait
-  pas&#160;: au Canada, le Commissariat à la protection de la vie privée du
-  Canada, et au Québec la Commission d'accès à l'information du Québec&#160;;
-  aux États-Unis, le procureur général de votre État.
+- **Vous plaindre.** Écrivez-nous d'abord. Si cela ne vous satisfait pas,
+  adressez-vous à l'autorité de protection des renseignements personnels de
+  l'endroit où vous vivez&#160;:
+  - au Canada, le Commissariat à la protection de la vie privée du Canada, et
+    au Québec la Commission d'accès à l'information du Québec&#160;;
+  - en Nouvelle-Zélande, l'Office of the Privacy Commissioner&#160;;
+  - à Singapour, la Personal Data Protection Commission&#160;;
+  - au Japon, la Commission de protection des renseignements personnels
+    (Personal Information Protection Commission)&#160;;
+  - aux États-Unis, le procureur général de votre État.
 
-Nous ne facturons rien de tout cela, nous ne vous ferons pas justifier votre
-demande, et nous répondons sous 30 jours.
+Pour demander quoi que ce soit de cela, écrivez à pykapp+privacy@proton.me
+depuis l'adresse de votre compte. Nous ne facturons rien de tout cela, nous ne
+vous ferons pas justifier votre demande, et nous répondons dès que nous le
+pouvons et sous quatre semaines au plus tard.
 
 ## Si quelque chose tourne mal
 
 Si des renseignements personnels que nous détenons sont perdus ou parviennent à
-quelqu'un à qui ils ne devraient pas, et qu'il y a un risque réel de préjudice
-sérieux pour vous, nous vous le dirons, ainsi qu'aux autorités qui doivent
-l'être, rapidement et en mots simples&#160;: ce qui s'est passé, ce que cela a
-atteint, et ce que vous pouvez faire. Nous tiendrons un registre de ces
+quelqu'un à qui ils ne devraient pas, nous le dirons aux autorités qui doivent
+l'être, dans le délai que chacune accorde. S'il y a un risque réel de préjudice
+sérieux pour vous, nous vous le dirons aussi, rapidement et en mots
+simples&#160;: ce qui s'est passé, ce que cela a atteint, et ce que vous pouvez
+faire. Nous tiendrons un registre de ces
 incidents qu'ils atteignent ce seuil ou non, parce que la Loi 25 l'exige et
 parce qu'un incident que personne n'a noté est un incident dont personne
 n'apprend.
@@ -269,6 +339,9 @@ autre façon d'envoyer une photo.
 
 ## Les tiers que nous utilisons
 
+- **L'hébergement** de nos serveurs, de notre base de données et de la
+  deuxième copie des fichiers chiffrés. Le prestataire fait tourner les
+  machines et ne se sert pas de ce qu'elles contiennent.
 - **Le stockage d'objets** pour les fichiers chiffrés. Le prestataire détient du
   chiffré et jamais une clé.
 - **Les notifications**, par Firebase Cloud Messaging de Google sur Android et
@@ -278,6 +351,12 @@ autre façon d'envoyer une photo.
   votre téléphone.
 - **Le courriel**, pour vous envoyer un code de connexion à usage unique. Le
   prestataire voit l'adresse et le code, et rien d'autre à votre sujet.
+
+Chacun d'eux est une société établie aux États-Unis. Chacun ne reçoit que ce
+dont sa part du service a besoin, et ne s'en sert que pour nous fournir cette
+part. Utiliser l'application veut dire que vos renseignements vont chez eux et
+aux États-Unis, et cette page est l'endroit où nous vous le disons avant votre
+inscription.
 
 ## Supprimer votre compte
 
@@ -328,7 +407,8 @@ C'est déchiffré sur votre téléphone, parce que nous ne pourrions pas le
 produire&#160;: nous ne détenons rien de lisible à vous donner.
 
 Si vous n'avez plus le téléphone, écrivez à pykapp+privacy@proton.me depuis
-l'adresse du compte et nous enverrons ce que nous détenons sous un mois&#160;:
+l'adresse du compte et nous enverrons ce que nous détenons sous quatre
+semaines&#160;:
 votre fiche de compte, les pseudos de vos relations, et les fichiers chiffrés
 et les clés verrouillées si vous les voulez. Nous ne pouvons pas envoyer de
 photos lisibles, parce que nous ne pouvons pas les lire.

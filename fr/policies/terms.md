@@ -11,7 +11,7 @@ permalink: /fr/conditions/
 conditions pour l'utiliser pendant la bêta fermée. Elles sont courtes exprès,
 et ce sont un contrat&#160;: utiliser l'application, c'est les accepter.
 
-**Dernière mise à jour&#160;:** 22 septembre 2026.
+**Dernière mise à jour&#160;:** 24 septembre 2026.
 
 ## Qui nous sommes
 
@@ -22,10 +22,11 @@ responsabilité limitée du Texas, au 2222 N Alamo St #118, San Antonio, TX
 
 ## Où ceci est proposé
 
-L'application est proposée aux États-Unis et au Canada. Nous ne la proposons pas
-ailleurs, et les fiches des magasins sont limitées à ces deux pays. Si vous
-l'utilisez depuis un autre pays, c'est de votre propre initiative, et le droit
-de ce pays peut vous donner des droits que ces conditions ne décrivent pas.
+L'application est proposée aux États-Unis, au Canada, en Nouvelle-Zélande, à
+Singapour et au Japon. Nous ne la proposons pas ailleurs, et les fiches des
+magasins sont limitées à ces cinq pays. Si vous l'utilisez depuis un autre pays,
+c'est de votre propre initiative, et le droit de ce pays peut vous donner des
+droits que ces conditions ne décrivent pas.
 
 ## La langue de ces conditions
 
@@ -124,10 +125,11 @@ photos perdues, de l'accès perdu, ni de ce que quiconque fait de ce que vous
 avez partagé avec lui**, et nous ne sommes pas responsables des dommages
 indirects ou accessoires.
 
-Là où nous sommes responsables, notre responsabilité totale envers vous est
-limitée au plus élevé des deux montants suivants&#160;: ce que vous nous avez
-payé dans les douze mois précédant la demande – ce qui, pendant la bêta, est
-zéro – ou cent dollars des États-Unis.
+Là où nous sommes responsables, et sauf pour un préjudice que nous aurions
+causé intentionnellement ou par faute lourde, notre responsabilité totale envers
+vous est limitée au plus élevé des deux montants suivants&#160;: ce que vous
+nous avez payé dans les douze mois précédant la demande – ce qui, pendant la
+bêta, est zéro – ou cent dollars des États-Unis.
 
 Deux choses que cela ne fait pas, parce que la loi ne le permet pas et parce
 que prétendre le contraire rendrait le reste inapplicable. **Rien ici ne limite
@@ -137,9 +139,16 @@ rien ici ne retire un droit auquel il est impossible de renoncer et que vous
 donne le droit de la consommation de l'endroit où vous vivez. Certains États
 américains n'admettent pas l'exclusion de certaines garanties ou de certains
 dommages, et le Québec comme plusieurs provinces canadiennes donnent au
-consommateur une garantie légale qui ne peut pas être exclue du tout, donc des
-parties des deux sections ci-dessus ne s'appliquent pas à tout le monde qui les
-lit.
+consommateur une garantie légale qui ne peut pas être exclue du tout. En
+Nouvelle-Zélande, rien dans ces conditions ne limite vos droits en vertu du
+Consumer Guarantees Act 1993. À Singapour, une limite à notre responsabilité ne
+vaut que dans la mesure où elle est raisonnable au sens de l'Unfair Contract
+Terms Act. Au Japon, la loi sur les contrats de consommation (Consumer Contract
+Act) ne permet pas au premier paragraphe de cette section d'exclure notre
+responsabilité envers un consommateur&#160;; pour un consommateur au Japon, ce
+paragraphe ne s'applique donc pas, et c'est le suivant qui limite notre
+responsabilité à la place. Des parties des deux sections ci-dessus ne
+s'appliquent donc pas à tout le monde qui les lit.
 
 ## Y mettre fin
 

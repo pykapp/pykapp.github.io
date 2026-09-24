@@ -7,7 +7,7 @@ permalink: /terms/
 using it during the closed beta. They are short on purpose, and they are a
 contract: using the app means agreeing to them.
 
-**Last updated:** 22 September 2026.
+**Last updated:** 24 September 2026.
 
 ## Who we are
 
@@ -17,10 +17,11 @@ the party to these terms: *we* and *us* below mean that company.
 
 ## Where this is offered
 
-The app is offered in the United States and in Canada. We do not offer it
-elsewhere, and the store listings are limited to those two. If you use it from
-another country you do so on your own initiative, and the laws of that country
-may give you rights these terms do not describe.
+The app is offered in the United States, Canada, New Zealand, Singapore and
+Japan. We do not offer it elsewhere, and the store listings are limited to those
+five countries. If you use it from another country you do so on your own
+initiative, and the laws of that country may give you rights these terms do not
+describe.
 
 ## The language of these terms
 
@@ -108,9 +109,10 @@ the wrong place for the only copy of a photograph that matters to you.
 anything anybody does with what you shared with them**, and we are not liable
 for indirect, incidental or consequential loss.
 
-Where we are liable, our total liability to you is limited to the greater of
-the amount you paid us in the twelve months before the claim, which during the
-beta is nothing, or one hundred United States dollars.
+Where we are liable, and except for harm we caused intentionally or through
+gross negligence, our total liability to you is limited to the greater of the
+amount you paid us in the twelve months before the claim, which during the beta
+is nothing, or one hundred United States dollars.
 
 Two things this does not do, because the law does not allow it and because
 pretending otherwise would make the rest unenforceable. **Nothing here limits
@@ -119,8 +121,13 @@ for death or personal injury caused by us**, and nothing here takes away a
 right the consumer law where you live gives you that cannot be waived. Some US
 states do not allow the exclusion of certain warranties or damages, and Québec
 and several Canadian provinces give consumers a legal warranty that cannot be
-excluded at all, so parts of the two sections above do not apply to everybody
-who reads them.
+excluded at all. In New Zealand, nothing in these terms limits your rights
+under the Consumer Guarantees Act 1993. In Singapore, a limit on our liability
+holds only as far as it is reasonable under the Unfair Contract Terms Act. In
+Japan, the Consumer Contract Act does not let the first paragraph of this
+section exclude our liability to a consumer, so for a consumer in Japan that
+paragraph does not apply and the one after it limits our liability instead. So
+parts of the two sections above do not apply to everybody who reads them.
 
 ## Ending it
 
