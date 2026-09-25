@@ -160,6 +160,28 @@ become recipients multiplied by devices, and adding a device would mean either
 re-wrapping your whole history or losing it. One key per person is the right
 complexity for a closed beta with a limit of 128 connections.
 
+### A second key, against a computer that does not exist yet
+
+A copy of what we hold, taken today, could be kept until there is a quantum
+computer large enough to matter. Nobody has one, and the US standards body
+plans to retire today's methods by 2035, but a photograph of a child stays
+sensitive for longer than that. Such a computer would not break the encryption
+on the photographs themselves. It would break the step that hands each
+recipient the key: the older kind of public key can be worked back to its
+private half.
+
+So an account made with a current version of the app has two keys where it
+used to have one. The second is X-Wing, a method built to survive a quantum
+computer, joined to the older kind so that it holds as long as either does.
+Every key wrapped to such an account is in two locks, one inside the other:
+the older one inside, the new one around it, and opening it takes both of your
+private keys. A copy taken today stays closed, and a server that tried to slip
+in a new key of its own would find the older lock still in its way.
+
+Your key's short name covers both, and your recovery phrase brings both back.
+An account made before this has the older key alone; what that leaves open is
+in the last section.
+
 ## The recovery phrase
 
 Six words, drawn by a cryptographic random generator from a list of 7,776, and
@@ -540,6 +562,12 @@ The claim above is narrower than "private", and these are its edges.
 - **The first hello.** A server that was dishonest at the very first exchange
   between two people is caught only if they read their keys' short names to
   each other, above. Nothing asks them to, so most people never will.
+- **Accounts made before the second key.** An account made before the app had
+  quantum-safe keys has only the older kind, and what is sent to it is only as
+  safe as that. The phone cannot add the second key by itself, because the new
+  key has to go into the backup your six words open, and the phone does not
+  keep your six words. Anything already copied before a key is added stays as
+  it was.
 - **Who a post is sealed to.** The list of people your phone seals a post to
   comes from us, asked for again at the moment you post, and your phone keeps
   no list of its own to check it against. A dishonest server could add an

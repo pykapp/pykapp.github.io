@@ -178,6 +178,30 @@ d'appareils, et ajouter un appareil voudrait dire soit réenvelopper tout votre
 historique, soit le perdre. Une clé par personne est la bonne complexité pour
 une bêta fermée avec une limite de 128 relations.
 
+### Une deuxième clé, contre un ordinateur qui n'existe pas encore
+
+Une copie de ce que nous détenons, prise aujourd'hui, pourrait être gardée
+jusqu'à ce qu'existe un ordinateur quantique assez puissant pour compter.
+Personne n'en a, et l'organisme de normalisation des États-Unis prévoit de
+retirer les méthodes actuelles d'ici 2035, mais la photo d'un enfant reste
+sensible plus longtemps que cela. Un tel ordinateur ne casserait pas le
+chiffrement des photos elles-mêmes. Il casserait l'étape qui remet la clé à
+chaque destinataire&#160;: l'ancien type de clé publique permet de remonter à
+sa moitié privée.
+
+Un compte créé avec une version actuelle de l'application a donc deux clés là
+où il n'en avait qu'une. La deuxième est X-Wing, une méthode conçue pour
+résister à un ordinateur quantique, jointe à l'ancien type pour tenir tant que
+l'une ou l'autre tient. Chaque clé enveloppée pour un tel compte l'est sous
+deux verrous, l'un dans l'autre&#160;: l'ancien à l'intérieur, le nouveau
+autour, et il faut vos deux clés privées pour l'ouvrir. Une copie prise
+aujourd'hui reste fermée, et un serveur qui tenterait de glisser une nouvelle
+clé à lui trouverait l'ancien verrou toujours en travers de son chemin.
+
+Le nom court de votre clé couvre les deux, et votre phrase de récupération
+ramène les deux. Un compte créé avant cela n'a que l'ancienne clé&#160;; ce que
+cela laisse ouvert est dans la dernière section.
+
 ## La phrase de récupération
 
 Six mots, tirés par un générateur aléatoire cryptographique d'une liste de
@@ -607,6 +631,13 @@ bords.
   échange entre deux personnes n'est découvert que si elles se lisent les noms
   courts de leurs clés, plus haut. Rien ne le leur demande, donc la plupart ne
   le feront jamais.
+- **Les comptes créés avant la deuxième clé.** Un compte créé avant que
+  l'application ait des clés résistantes au quantique n'a que l'ancien type, et
+  ce qui lui est envoyé n'est protégé que par lui. Le téléphone ne peut pas
+  ajouter la deuxième clé tout seul, parce que la nouvelle clé doit entrer dans
+  la sauvegarde qu'ouvrent vos six mots, et que le téléphone ne garde pas vos
+  six mots. Ce qui a déjà été copié avant qu'une clé soit ajoutée reste tel
+  quel.
 - **Pour qui une publication est scellée.** La liste des personnes pour qui
   votre téléphone scelle une publication vient de nous, redemandée au moment où
   vous publiez, et votre téléphone ne tient aucune liste à lui pour la vérifier.
