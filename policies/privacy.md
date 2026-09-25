@@ -77,10 +77,10 @@ number, and when each was last saved.
 
 To deliver a photo to the right people we hold, in the clear:
 
-- your handle, and whichever of these you gave us: an email address, a phone
-  number, or neither. An account with neither is opened with a password, and
-  what we hold for it is not the password but a public key your phone made
-  from it, which we cannot turn back into the password. If we were full when
+- your handle, and your email address if you gave us one. An account without
+  one is opened with a password, and what we hold for it is not the password
+  but a public key your phone made from it, which we cannot turn back into the
+  password. If we were full when
   you tried to join and you asked to be told when there is room, we hold that
   address and when you asked, and nothing else, until we have written to it
   about a place;
@@ -261,8 +261,8 @@ Nobody, unless you share it with them. Only people you have both agreed to
 connect with can see what you post, and only the people you address a post
 to receive it. There is no public profile, no search by name, no
 suggestions, and no way for a stranger to find you unless they already know
-your exact handle, email address or phone number, and you have allowed
-requests from people with no mutual in common.
+your exact handle or email address, and you have allowed requests from
+people with no mutual in common.
 
 What you share with someone, they can keep. The app does not stop screenshots
 and cannot recall a photo from a phone that has already downloaded it, any
@@ -342,7 +342,7 @@ to ask without it:
 - albums you made are closed, and the people in them keep what they already
   had from each other;
 - every phone you were signed in on is signed out;
-- your handle, and your email address or phone number, are freed.
+- your handle and your email address are freed.
 
 Eight days later the encrypted files are removed from storage. Those eight
 days are not an undo: the keys were destroyed at the tap and nothing in the

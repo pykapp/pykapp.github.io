@@ -25,9 +25,9 @@ Sealed on your phone, with keys we never see:
 
 In the clear, because delivering anything at all needs it:
 
-- your handle, and whichever way in the account holds: an email address, a
-  phone number, or—for an account that gave us neither—a public key your phone
-  made from your password, which we cannot turn back into the password;
+- your handle, and whichever way in the account holds: an email address,
+  or—for an account that gave us none—a public key your phone made from your
+  password, which we cannot turn back into the password;
 - who you are connected to and when you connected, along with the add
   requests you send and receive and the blocks you place;
 - the names of your groups, and which of your groups a person is in;
@@ -232,8 +232,8 @@ older one. Both cost you a restore. Neither reads a photograph.
 
 ## Signing in on a new phone
 
-The code proves you control the address or the number it went to, and a
-password proves you know the password. Whether this phone can *be* that account
+The code proves you control the address it went to, and a password proves you
+know the password. Whether this phone can *be* that account
 is a separate question, and the key is the answer. Three things
 can happen: the key already on the phone matches the account, and you are in;
 the phone kept that account's key from an earlier sign-in, adopts it, and you

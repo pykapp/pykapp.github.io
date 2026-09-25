@@ -254,11 +254,10 @@ from you. [Connecting with people](/how-it-works/people/).
 
 ## Search is exact, and it is rationed
 
-Type three letters and you get nothing. Search takes a whole handle, a whole
-email address or a whole phone number, and returns at most one person. There
-are no near matches, no suggestions and no "people you may know", and the field
-says so under it: *Search finds people by their exact handle, email or phone
-number.*
+Type three letters and you get nothing. Search takes a whole handle or a whole
+email address, and returns at most one person. There are no near matches, no
+suggestions and no "people you may know", and the field says so under it:
+*Search finds people by their exact handle or email.*
 
 It is also limited to 32 tries an hour, counted whether or not they find
 anybody, because a surface on which strangers can be discovered is a surface
@@ -387,8 +386,8 @@ sent it to and not by us. [Posting](/how-it-works/posting/).
 ## Six words, and nobody can give them back
 
 Your account is a key, and the key lives on your phone. A second phone signs
-in—with a code sent to your email address or phone number, or with your
-password if that is what the account holds—discovers it holds no key, and asks
+in—with a code sent to your email address, or with your password if that is
+what the account holds—discovers it holds no key, and asks
 for the six words you were shown at signup. There is no device-linking QR
 code, because there is one key per person rather than one per device.
 
@@ -405,11 +404,11 @@ them" said from the other side.
 [How the privacy works](/how-it-works/privacy/).
 
 The six words are the key, and the door is whatever the account holds: an
-email address, a phone number, or a password. They are two different things to
-lose, and for a long while only one of them was written down here. A code goes
-to that address or number every time you sign in on a phone that is not already
-signed in, so an address you can no longer read is an account you can no longer
-open, whatever you wrote down at signup. That is a far more ordinary thing to
+email address or a password. They are two different things to lose, and for a
+long while only one of them was written down here. A code goes to that address
+every time you sign in on a phone that is not already signed in, so an address
+you can no longer read is an account you can no longer open, whatever you wrote
+down at signup. That is a far more ordinary thing to
 happen than losing a piece of paper: you leave a job, you change provider, an
 old free account locks itself.
 
@@ -440,9 +439,10 @@ say the same thing in fewer words.
 
 The app is Android only: there is no iPhone app, no web version and no desktop
 version, so there is nothing to sign into in a browser. It takes photographs,
-and videos of about a minute. Signing in is by a code sent to an email address
-or a phone number, or by a password on an account that holds neither.
-Invitations are issued by hand during the closed beta, so there is no invite
+and videos of about a minute. Signing in is by a code sent to an email address,
+or by a password on an account that holds none. There are no text messages, so
+search does not take a number either: an account cannot come to hold one for it
+to match. Invitations are issued by hand during the closed beta, so there is no invite
 link to send anybody.
 
 If something here is not what you expected, [how it works](/how-it-works/) has

@@ -66,10 +66,10 @@ when it is.
 
 ## Finding somebody
 
-By exact handle, exact email address or exact phone number, and no other way.
-The field's label is *handle, email or phone*, the line under it reads *Search
-finds people by their exact handle, email or phone number.*, and at most one
-person comes back. A partial handle finds nobody. So does a near miss.
+By exact handle or exact email address, and no other way. The field's label is
+*handle or email*, the line under it reads *Search finds people by their exact
+handle or email.*, and at most one person comes back. A partial handle finds
+nobody. So does a near miss.
 
 There is no directory to page through, no suggestions, no "people you may
 know", no friend-of-friend list, no ranked near-matches and no browsing of any
@@ -97,15 +97,13 @@ Being findable is what a handle is for, and it can be changed from *settings →
 your handle*. The old one is not held for you: people who knew it will not
 find you afterwards, and somebody else may take it.
 
-A sign-in code goes to an email address or a phone number, whichever the
-account holds. For the milestones between the mail adapter and the text-message
-one it could only be an address, and search lost the phone number at the same
-moment—for one reason rather than two: an account only ever came to hold a
-number by verifying one at signup, and a signup could not reach one, so the
-field was offering a key that could never match and charging a search attempt
-for the miss. Both come back together, because they were always the same rule.
+A sign-in code goes to an email address and nowhere else: the app does not
+send text messages. Search does not take a number either, and for the same
+reason. An account can only come to hold a number by having a code sent to it,
+so the field would be offering a key that can never match, and charging a
+search attempt for the miss.
 
-An account can also hold **neither**, and be opened with a password instead.
+An account can also hold **no address**, and be opened with a password instead.
 Somebody who signed up that way is findable by their handle and by nothing
 else, which is the trade they made: we hold no address for them at all.
 
