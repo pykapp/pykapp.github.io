@@ -294,10 +294,11 @@ une alerte de sécurité qu'on en fait un dialogue que les gens écartent sans
 lire. L'effacer est une décision distincte que quelqu'un a prise, pas une
 nouvelle tentative.
 
-Ce que l'alarme ne peut pas encore faire, c'est vous montrer les deux clés,
-pour que la personne à l'autre bout puisse lire la sienne à voix haute et
-trancher. Cela va avec la comparaison des clés, plus bas, et ce n'est pas
-construit.
+Ce que l'alarme ne peut pas encore faire, c'est vous montrer la clé qu'on
+vient de lui remettre, pour que la personne à l'autre bout puisse lire la
+sienne en regard et trancher. Son profil montre la clé que votre téléphone a
+notée, qui est l'ancienne, et l'alarme arrête l'application avant que vous
+puissiez y aller. Ce n'est pas construit.
 
 ### Où vivent les clés notées
 
@@ -330,11 +331,17 @@ en dehors.
 
 La première est le tout premier bonjour entre deux personnes qui n'ont jamais
 échangé de clé&#160;: un téléphone qui n'a rien noté prend ce qu'on lui donne.
-Refermer cela veut dire comparer les clés hors bande – se lire à voix haute un
-code court, ou scanner un carré – et **ce n'est pas construit**. Ce qui existe
-aujourd'hui est l'empreinte de votre propre clé dans *paramètres → votre clé*,
-24 caractères en six groupes de quatre, qui est ce que deux personnes se
-liraient une fois que cela existera.
+Refermer cela veut dire comparer les clés hors bande, et la moitié qui se lit à
+voix haute est construite. Ouvrez le profil d'une relation&#160;: sous les
+interrupteurs, *nom court de sa clé* donne 24 caractères en six groupes de
+quatre, et c'est la clé à laquelle votre téléphone verrouille ce que vous
+partagez avec cette personne. La sienne est dans *paramètres → nom court de
+votre clé*, sur son téléphone. Lisez l'une en regard de l'autre. Si elles sont
+identiques, personne n'est au milieu, premier bonjour compris. Sinon,
+quelqu'un d'autre peut lire ce que vous partagez avec cette personne. Cela
+vérifie un sens&#160;; l'autre sens, c'est elle qui lit la vôtre sur votre
+profil. Il n'y a pas encore de carré à scanner, et rien dans l'application ne
+vous demande de le faire.
 
 La seconde est la liste elle-même. Votre téléphone nous demande qui sont vos
 relations, qui est dans un groupe et qui est dans un album, et le redemande au
@@ -596,9 +603,10 @@ bords.
   ne peut pas rappeler une photo d'un téléphone qui l'a déjà téléchargée.
 - **Les captures de votre propre écran.** L'application ne bloque les captures
   nulle part, y compris l'écran qui montre vos six mots.
-- **Le premier bonjour.** Comparer les clés en personne n'est pas encore
-  construit, donc un serveur qui aurait été malhonnête au tout premier échange
-  entre deux personnes n'est pas détectable par elles aujourd'hui.
+- **Le premier bonjour.** Un serveur qui aurait été malhonnête au tout premier
+  échange entre deux personnes n'est découvert que si elles se lisent les noms
+  courts de leurs clés, plus haut. Rien ne le leur demande, donc la plupart ne
+  le feront jamais.
 - **Pour qui une publication est scellée.** La liste des personnes pour qui
   votre téléphone scelle une publication vient de nous, redemandée au moment où
   vous publiez, et votre téléphone ne tient aucune liste à lui pour la vérifier.

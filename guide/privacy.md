@@ -266,9 +266,10 @@ There is no "continue anyway" worded to be the easy path either, because
 softening a security alert is how it becomes a dialog people dismiss without
 reading. Clearing it is a separate decision somebody made, not a retry.
 
-What the alarm cannot yet do is show you the two keys, so that the person at
-the other end could read theirs out and settle it. That belongs with comparing
-keys, below, and it is not built.
+What the alarm cannot yet do is show you the key it was just handed, so that
+the person at the other end could read theirs against it and settle it. Their
+profile shows the key your phone wrote down, which is the old one, and the
+alarm stops the app before you can get there. That is not built.
 
 ### Where the written-down keys live
 
@@ -297,11 +298,15 @@ begin intercepting". Two things sit outside it.
 
 The first is the very first hello between two people who have never exchanged
 a key: a phone with nothing written down takes what it is handed. Closing that
-means comparing keys out of band—reading a short code to each other, or
-scanning a square—and **that is not built**. What exists today is the
-fingerprint of your own key in *settings → your key*, 24 characters in six
-groups of four, which is the thing two people would read to each other once
-that exists.
+means comparing keys out of band, and the half you read aloud is built. Open a
+mutual's profile: under the switches, *their key's short name* is 24
+characters in six groups of four, and it is the key your phone locks things to
+for them. Their own is in *settings → your key's short name*, on their phone.
+Read one against the other. If they match, nobody is in the middle, first
+hello included. If they do not, somebody else can read what you share with
+them. That checks one direction; the other is them reading yours off your
+profile. There is no square to scan yet, and nothing in the app asks you to do
+any of this.
 
 The second is the list itself. Your phone asks us who your mutuals are, who is
 in a group and who is in an album, and asks again at the moment you post. It
@@ -532,9 +537,9 @@ The claim above is narrower than "private", and these are its edges.
   phone that already downloaded it.
 - **Screenshots of your own screen.** The app does not block screenshots
   anywhere, including the screen that shows your six words.
-- **The first hello.** Comparing keys in person is not built yet, so a server
-  that was dishonest at the very first exchange between two people is not
-  currently detectable by them.
+- **The first hello.** A server that was dishonest at the very first exchange
+  between two people is caught only if they read their keys' short names to
+  each other, above. Nothing asks them to, so most people never will.
 - **Who a post is sealed to.** The list of people your phone seals a post to
   comes from us, asked for again at the moment you post, and your phone keeps
   no list of its own to check it against. A dishonest server could add an
