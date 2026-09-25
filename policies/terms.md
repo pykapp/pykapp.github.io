@@ -7,7 +7,7 @@ permalink: /terms/
 using it during the closed beta. They are short on purpose, and they are a
 contract: using the app means agreeing to them.
 
-**Last updated:** 24 September 2026.
+**Last updated:** 25 September 2026.
 
 ## Who we are
 
@@ -85,6 +85,21 @@ the app and put the date at the top of this page before it takes effect.
 Carrying on using the app after that is how you accept it. If you would rather
 not, delete your account; that is always available and always free.
 
+## If the company is sold
+
+If somebody else comes to own people you know llc, or the service is sold or
+merged into another company, bankruptcy included, these terms and the privacy
+policy stay as they are. Whoever runs the service afterwards takes on every
+promise in them, in our place. To change them it must follow the same rules we
+do: tell you in the app before a change takes effect, and never apply a looser
+privacy rule to information it already holds unless you agree. We will not hand
+the service to anybody who will not take them on.
+
+We will tell you in the app before it happens, and you can export your data
+and delete your account before then if you would rather not stay. If nobody
+will take the service over on those terms, we end it instead, with the 30
+days' notice and the time to export described above.
+
 ## Your responsibilities
 
 Keep your recovery phrase somewhere safe. It is the only way to get your
@@ -159,8 +174,8 @@ your own law and this clause disagree, your own law wins.
 If any part of these terms is unenforceable, the rest stands. Our not enforcing
 something is not our giving it up. These terms, with the privacy and moderation
 policies, are the whole agreement between us about the app. You may not
-transfer your account or these terms to somebody else; we may transfer them to
-a company that takes over the service, on notice to you.
+transfer your account or these terms to somebody else; we may transfer them
+only to whoever takes over the service, as *If the company is sold* describes.
 
 ## Contact
 

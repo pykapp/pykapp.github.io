@@ -8,7 +8,7 @@ know. This page says what we hold about you, what we cannot see, and what
 happens when you leave. It is written to be read, not skimmed; it is short
 because there is not much to say.
 
-**Last updated:** 24 September 2026. This policy covers the closed beta.
+**Last updated:** 25 September 2026. This policy covers the closed beta.
 
 ## Who is responsible, and where this applies
 
@@ -306,6 +306,29 @@ its part of the service needs, and uses it only to provide that part to us.
 Using the app means your information goes to them and to the United States,
 and this page is where we tell you so before you sign up.
 
+## If the company is sold
+
+If somebody else comes to own people you know llc, or the service is sold or
+merged into another company, bankruptcy included, what we hold goes with the
+service to whoever runs it next, and this page goes with it unchanged.
+
+- The new owner can read no more than we can. What passes is what this page
+  already lists: encrypted files and locked keys we cannot open, and the
+  metadata. There is no key here that we can use, and so none that a buyer can
+  use either.
+- The new owner takes on every promise on this page, in our place. It may use
+  what we hold only to run this service, for the purposes listed above, and
+  every line under *What we do not do* binds it as it binds us. It can change
+  this page only as *Changes* below allows.
+- What we hold is never sold apart from the service, and never to anybody who
+  will not take this page on. If nobody will take the service over on those
+  terms, we close it the way the [terms](/terms/) describe, with 30 days'
+  notice and time to export, and then delete what we hold.
+- A company that is only thinking of buying us may be told how the service
+  works and how many people use it, and nothing about any one of you.
+- We will tell you in the app before it happens. You can export your data and
+  delete your account before then if you would rather not go with it.
+
 ## Deleting your account
 
 *settings → delete my account*. Deleting is immediate and it is not
@@ -360,7 +383,10 @@ birth once, at signup, compare it, and keep only the fact that you passed.
 
 ## Changes
 
-If this policy changes we will say so in the app and here, with the date.
+If this policy changes we will say so in the app and here, with the date,
+before the change takes effect. A change never lets anybody use what we
+already hold in a way this page did not allow when we collected it, unless you
+agree to that.
 
 ## Contact
 

@@ -13,7 +13,7 @@ sujet, ce que nous ne pouvons pas voir, et ce qui se passe quand vous partez.
 Elle est écrite pour être lue, pas survolée&#160;; elle est courte parce qu'il
 n'y a pas grand-chose à dire.
 
-**Dernière mise à jour&#160;:** 24 septembre 2026. Cette politique couvre la
+**Dernière mise à jour&#160;:** 25 septembre 2026. Cette politique couvre la
 bêta fermée.
 
 ## Qui est responsable, et où ceci s'applique
@@ -358,6 +358,35 @@ part. Utiliser l'application veut dire que vos renseignements vont chez eux et
 aux États-Unis, et cette page est l'endroit où nous vous le disons avant votre
 inscription.
 
+## Si la société est vendue
+
+Si quelqu'un d'autre devient propriétaire de people you know llc, ou si le
+service est vendu ou fusionné avec une autre société, y compris dans une
+faillite, ce que nous détenons suit le service chez quiconque l'exploite
+ensuite, et cette page le suit sans changement.
+
+- Le nouveau propriétaire ne peut rien lire de plus que nous. Ce qui passe,
+  c'est ce que cette page énumère déjà&#160;: des fichiers chiffrés et des clés
+  verrouillées que nous ne pouvons pas ouvrir, et les métadonnées. Il n'y a ici
+  aucune clé dont nous puissions nous servir, et donc aucune dont un acheteur
+  puisse se servir non plus.
+- Le nouveau propriétaire reprend chacune des promesses de cette page, à notre
+  place. Il ne peut se servir de ce que nous détenons que pour faire
+  fonctionner ce service, aux fins énumérées plus haut, et chaque ligne de
+  *Ce que nous ne faisons pas* le lie comme elle nous lie. Il ne peut modifier
+  cette page que comme le permet *Changements* plus bas.
+- Ce que nous détenons n'est jamais vendu séparément du service, ni à
+  quiconque refuse de reprendre cette page. Si personne n'est prêt à reprendre
+  le service à ces conditions, nous le fermons comme le décrivent les
+  [conditions](/fr/conditions/), avec 30 jours de préavis et le temps
+  d'exporter, puis nous supprimons ce que nous détenons.
+- Une société qui envisage seulement de nous acheter peut apprendre comment le
+  service fonctionne et combien de gens l'utilisent, et rien sur aucun d'entre
+  vous en particulier.
+- Nous vous le dirons dans l'application avant que cela se produise. Vous
+  pourrez exporter vos données et supprimer votre compte avant, si vous
+  préférez ne pas suivre.
+
 ## Supprimer votre compte
 
 *paramètres → supprimer mon compte*. La suppression est immédiate et elle n'est
@@ -422,7 +451,10 @@ ne gardons que le fait que vous avez passé.
 ## Changements
 
 Si cette politique change, nous le dirons dans l'application et ici, avec la
-date.
+date, avant que le changement prenne effet. Un changement ne permet jamais à
+quiconque de se servir de ce que nous détenons déjà d'une façon que cette page
+ne permettait pas quand nous l'avons recueilli, à moins que vous n'y
+consentiez.
 
 ## Contact
 

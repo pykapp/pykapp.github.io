@@ -11,7 +11,7 @@ permalink: /fr/conditions/
 conditions pour l'utiliser pendant la bêta fermée. Elles sont courtes exprès,
 et ce sont un contrat&#160;: utiliser l'application, c'est les accepter.
 
-**Dernière mise à jour&#160;:** 24 septembre 2026.
+**Dernière mise à jour&#160;:** 25 septembre 2026.
 
 ## Qui nous sommes
 
@@ -96,6 +96,24 @@ vous acceptez, ce que cela coûte, ou ce que nous pouvons faire de votre compte
 avant qu'il prenne effet. Continuer à utiliser l'application ensuite est la
 façon de l'accepter. Si vous préférez ne pas, supprimez votre compte&#160;;
 c'est toujours possible et toujours gratuit.
+
+## Si la société est vendue
+
+Si quelqu'un d'autre devient propriétaire de people you know llc, ou si le
+service est vendu ou fusionné avec une autre société, y compris dans une
+faillite, ces conditions et la politique de confidentialité restent telles
+qu'elles sont. Quiconque exploite ensuite le service reprend chacune des
+promesses qu'elles contiennent, à notre place. Pour les modifier, il doit
+suivre les mêmes règles que nous&#160;: vous le dire dans l'application avant
+qu'un changement prenne effet, et ne jamais appliquer une règle de
+confidentialité plus souple aux renseignements qu'il détient déjà sans votre
+accord. Nous ne remettrons le service à personne qui ne s'y engage pas.
+
+Nous vous le dirons dans l'application avant que cela se produise, et vous
+pourrez exporter vos données et supprimer votre compte avant, si vous préférez
+ne pas rester. Si personne n'est prêt à reprendre le service à ces conditions,
+nous y mettons fin à la place, avec les 30 jours de préavis et le temps
+d'exporter décrits plus haut.
 
 ## Ce dont vous répondez
 
@@ -185,8 +203,9 @@ Si une partie de ces conditions est inapplicable, le reste demeure. Le fait de
 ne pas faire valoir quelque chose n'y fait pas renoncer. Ces conditions, avec
 les politiques de confidentialité et de modération, forment l'intégralité de
 l'accord entre nous au sujet de l'application. Vous ne pouvez pas transférer
-votre compte ni ces conditions à quelqu'un d'autre&#160;; nous pouvons les
-transférer à une société qui reprendrait le service, en vous en informant.
+votre compte ni ces conditions à quelqu'un d'autre&#160;; nous ne pouvons les
+transférer qu'à qui reprend le service, comme le décrit
+*Si la société est vendue*.
 
 ## Contact
 
